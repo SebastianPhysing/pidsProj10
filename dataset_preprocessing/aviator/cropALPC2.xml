@@ -1,0 +1,512 @@
+<Events>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Guid="{9e814aad-3204-11d2-9a82-006008a86939}" />
+		<EventID>0</EventID>
+		<Version>2</Version>
+		<Level>0</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x0</Keywords>
+		<TimeCreated SystemTime="2023-10-20T02:20:14.625768500+01:59" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="2448" ThreadID="8664" ProcessorID="0" KernelTime="60" UserTime="30" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="BufferSize">    8192</Data>
+		<Data Name="Version">83951626</Data>
+		<Data Name="ProviderVersion">   19045</Data>
+		<Data Name="NumberOfProcessors">       1</Data>
+		<Data Name="EndTime">133422840397922423</Data>
+		<Data Name="TimerResolution">  156250</Data>
+		<Data Name="MaxFileSize">   10000</Data>
+		<Data Name="LogFileMode">0x2000080</Data>
+		<Data Name="BuffersWritten">   26837</Data>
+		<Data Name="StartBuffers">       1</Data>
+		<Data Name="PointerSize">       8</Data>
+		<Data Name="EventsLost">       0</Data>
+		<Data Name="CPUSpeed">    3600</Data>
+		<Data Name="LoggerName">0x2</Data>
+		<Data Name="LogFileName">0x7</Data>
+		<Data Name="BootTime">133421470555000000</Data>
+		<Data Name="PerfFreq">10000000</Data>
+		<Data Name="StartTime">133422348146257685</Data>
+		<Data Name="ReservedFlags">0x1</Data>
+		<Data Name="BuffersLost">       0</Data>
+		<Data Name="SessionNameString">NT Kernel Logger</Data>
+		<Data Name="LogFileNameString">D:\Provenance\alpc_20_10_2023_2_20_13.01_DESKTOP-G3MEF76_normal_operation.etl</Data>
+	</EventData>
+	<RenderingInfo Culture="en-US">
+		<Opcode>Header</Opcode>
+		<Provider>MSNT_SystemTrace</Provider>
+		<EventName xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">EventTrace</EventName>
+	</RenderingInfo>
+	<ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+		<EventGuid>{68fdd900-4a3e-11d1-84f4-0000f80464e3}</EventGuid>
+	</ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Guid="{9e814aad-3204-11d2-9a82-006008a86939}" />
+		<EventID>0</EventID>
+		<Version>2</Version>
+		<Level>0</Level>
+		<Task>0</Task>
+		<Opcode>5</Opcode>
+		<Keywords>0x0</Keywords>
+		<TimeCreated SystemTime="2023-10-20T02:20:14.625768500+01:59" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="2448" ThreadID="8664" ProcessorID="0" KernelTime="60" UserTime="30" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="GroupMask1">0x0</Data>
+		<Data Name="GroupMask2">0x0</Data>
+		<Data Name="GroupMask3">0x0</Data>
+		<Data Name="GroupMask4">0x0</Data>
+		<Data Name="GroupMask5">0x0</Data>
+		<Data Name="GroupMask6">0x0</Data>
+		<Data Name="GroupMask7">0x0</Data>
+		<Data Name="GroupMask8">0x0</Data>
+		<Data Name="KernelEventVersion">0x50</Data>
+	</EventData>
+	<RenderingInfo Culture="en-US">
+		<Opcode>Extension</Opcode>
+		<Provider>MSNT_SystemTrace</Provider>
+		<EventName xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">EventTrace</EventName>
+	</RenderingInfo>
+	<ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+		<EventGuid>{68fdd900-4a3e-11d1-84f4-0000f80464e3}</EventGuid>
+	</ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Guid="{9e814aad-3204-11d2-9a82-006008a86939}" />
+		<EventID>0</EventID>
+		<Version>2</Version>
+		<Level>0</Level>
+		<Task>0</Task>
+		<Opcode>80</Opcode>
+		<Keywords>0x0</Keywords>
+		<TimeCreated SystemTime="2023-10-20T02:20:14.625768500+01:59" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="2448" ThreadID="8664" ProcessorID="0" KernelTime="60" UserTime="30" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="EventVersion">0</Data>
+		<Data Name="Reserved">0</Data>
+		<Data Name="PartitionType">       0</Data>
+		<Data Name="QpcOffsetFromRoot">0</Data>
+		<Data Name="PartitionId">{00000000-0000-0000-0000-000000000000}</Data>
+		<Data Name="ParentId">{00000000-0000-0000-0000-000000000000}</Data>
+	</EventData>
+	<RenderingInfo Culture="en-US">
+		<Opcode>PartitionInfoExtension</Opcode>
+		<Provider>MSNT_SystemTrace</Provider>
+		<EventName xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">EventTrace</EventName>
+	</RenderingInfo>
+	<ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+		<EventGuid>{68fdd900-4a3e-11d1-84f4-0000f80464e3}</EventGuid>
+	</ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Guid="{9e814aad-3204-11d2-9a82-006008a86939}" />
+		<EventID>0</EventID>
+		<Version>2</Version>
+		<Level>0</Level>
+		<Task>0</Task>
+		<Opcode>32</Opcode>
+		<Keywords>0x0</Keywords>
+		<TimeCreated SystemTime="2023-10-20T02:20:14.626450500+01:59" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="4294967295" ThreadID="4294967295" ProcessorID="0" KernelTime="0" UserTime="0" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="GroupMask1">0x0</Data>
+		<Data Name="GroupMask2">0x0</Data>
+		<Data Name="GroupMask3">0x0</Data>
+		<Data Name="GroupMask4">0x0</Data>
+		<Data Name="GroupMask5">0x0</Data>
+		<Data Name="GroupMask6">0x0</Data>
+		<Data Name="GroupMask7">0x0</Data>
+		<Data Name="GroupMask8">0x0</Data>
+		<Data Name="KernelEventVersion">0x50</Data>
+	</EventData>
+	<RenderingInfo Culture="en-US">
+		<Opcode>EndExtension</Opcode>
+		<Provider>MSNT_SystemTrace</Provider>
+		<EventName xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">EventTrace</EventName>
+	</RenderingInfo>
+	<ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+		<EventGuid>{68fdd900-4a3e-11d1-84f4-0000f80464e3}</EventGuid>
+	</ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Guid="{9e814aad-3204-11d2-9a82-006008a86939}" />
+		<EventID>0</EventID>
+		<Version>2</Version>
+		<Level>0</Level>
+		<Task>0</Task>
+		<Opcode>5</Opcode>
+		<Keywords>0x0</Keywords>
+		<TimeCreated SystemTime="2023-10-20T02:20:14.626482200+01:59" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="4294967295" ThreadID="4294967295" ProcessorID="0" KernelTime="0" UserTime="0" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="GroupMask1">0x100000</Data>
+		<Data Name="GroupMask2">0x0</Data>
+		<Data Name="GroupMask3">0x0</Data>
+		<Data Name="GroupMask4">0x0</Data>
+		<Data Name="GroupMask5">0x0</Data>
+		<Data Name="GroupMask6">0x0</Data>
+		<Data Name="GroupMask7">0x0</Data>
+		<Data Name="GroupMask8">0x0</Data>
+		<Data Name="KernelEventVersion">0x50</Data>
+	</EventData>
+	<RenderingInfo Culture="en-US">
+		<Opcode>Extension</Opcode>
+		<Provider>MSNT_SystemTrace</Provider>
+		<EventName xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">EventTrace</EventName>
+	</RenderingInfo>
+	<ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+		<EventGuid>{68fdd900-4a3e-11d1-84f4-0000f80464e3}</EventGuid>
+	</ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Guid="{9e814aad-3204-11d2-9a82-006008a86939}" />
+		<EventID>0</EventID>
+		<Version>2</Version>
+		<Level>0</Level>
+		<Task>0</Task>
+		<Opcode>8</Opcode>
+		<Keywords>0x0</Keywords>
+		<TimeCreated SystemTime="2023-10-20T02:20:14.626482500+01:59" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="4294967295" ThreadID="4294967295" ProcessorID="0" KernelTime="0" UserTime="0" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+	</EventData>
+	<RenderingInfo Culture="en-US">
+		<Opcode>RDComplete</Opcode>
+		<Provider>MSNT_SystemTrace</Provider>
+		<EventName xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">EventTrace</EventName>
+	</RenderingInfo>
+	<ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+		<EventGuid>{68fdd900-4a3e-11d1-84f4-0000f80464e3}</EventGuid>
+	</ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Guid="{9e814aad-3204-11d2-9a82-006008a86939}" />
+		<EventID>0</EventID>
+		<Version>2</Version>
+		<Level>0</Level>
+		<Task>0</Task>
+		<Opcode>33</Opcode>
+		<Keywords>0x0</Keywords>
+		<TimeCreated SystemTime="2023-10-20T02:20:14.626658300+01:59" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="2448" ThreadID="8664" ProcessorID="0" KernelTime="60" UserTime="30" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="MessageID">    7992</Data>
+	</EventData>
+	<RenderingInfo Culture="en-US">
+		<Opcode>ALPC-Send-Message</Opcode>
+		<Provider>MSNT_SystemTrace</Provider>
+		<EventName xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">ALPC</EventName>
+	</RenderingInfo>
+	<ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+		<EventGuid>{45d8cccd-539f-4b72-a8b7-5c683142609a}</EventGuid>
+	</ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Guid="{9e814aad-3204-11d2-9a82-006008a86939}" />
+		<EventID>0</EventID>
+		<Version>2</Version>
+		<Level>0</Level>
+		<Task>0</Task>
+		<Opcode>35</Opcode>
+		<Keywords>0x0</Keywords>
+		<TimeCreated SystemTime="2023-10-20T02:20:14.626658600+01:59" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="2448" ThreadID="8664" ProcessorID="0" KernelTime="60" UserTime="30" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="MessageID">    7992</Data>
+	</EventData>
+	<RenderingInfo Culture="en-US">
+		<Opcode>ALPC-Wait-For-Reply</Opcode>
+		<Provider>MSNT_SystemTrace</Provider>
+		<EventName xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">ALPC</EventName>
+	</RenderingInfo>
+	<ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+		<EventGuid>{45d8cccd-539f-4b72-a8b7-5c683142609a}</EventGuid>
+	</ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Guid="{9e814aad-3204-11d2-9a82-006008a86939}" />
+		<EventID>0</EventID>
+		<Version>2</Version>
+		<Level>0</Level>
+		<Task>0</Task>
+		<Opcode>34</Opcode>
+		<Keywords>0x0</Keywords>
+		<TimeCreated SystemTime="2023-10-20T02:20:14.626672400+01:59" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="804" ThreadID="5412" ProcessorID="0" KernelTime="0" UserTime="30" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="MessageID">    7992</Data>
+	</EventData>
+	<RenderingInfo Culture="en-US">
+		<Opcode>ALPC-Receive-Message</Opcode>
+		<Provider>MSNT_SystemTrace</Provider>
+		<EventName xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">ALPC</EventName>
+	</RenderingInfo>
+	<ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+		<EventGuid>{45d8cccd-539f-4b72-a8b7-5c683142609a}</EventGuid>
+	</ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Guid="{9e814aad-3204-11d2-9a82-006008a86939}" />
+		<EventID>0</EventID>
+		<Version>2</Version>
+		<Level>0</Level>
+		<Task>0</Task>
+		<Opcode>33</Opcode>
+		<Keywords>0x0</Keywords>
+		<TimeCreated SystemTime="2023-10-20T02:20:14.626789100+01:59" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="804" ThreadID="5412" ProcessorID="0" KernelTime="0" UserTime="30" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="MessageID">    7992</Data>
+	</EventData>
+	<RenderingInfo Culture="en-US">
+		<Opcode>ALPC-Send-Message</Opcode>
+		<Provider>MSNT_SystemTrace</Provider>
+		<EventName xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">ALPC</EventName>
+	</RenderingInfo>
+	<ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+		<EventGuid>{45d8cccd-539f-4b72-a8b7-5c683142609a}</EventGuid>
+	</ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Guid="{9e814aad-3204-11d2-9a82-006008a86939}" />
+		<EventID>0</EventID>
+		<Version>2</Version>
+		<Level>0</Level>
+		<Task>0</Task>
+		<Opcode>37</Opcode>
+		<Keywords>0x0</Keywords>
+		<TimeCreated SystemTime="2023-10-20T02:20:14.626791200+01:59" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="2448" ThreadID="8664" ProcessorID="0" KernelTime="60" UserTime="30" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="Status">       0</Data>
+	</EventData>
+	<RenderingInfo Culture="en-US">
+		<Opcode>ALPC-Unwait</Opcode>
+		<Provider>MSNT_SystemTrace</Provider>
+		<EventName xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">ALPC</EventName>
+	</RenderingInfo>
+	<ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+		<EventGuid>{45d8cccd-539f-4b72-a8b7-5c683142609a}</EventGuid>
+	</ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Guid="{9e814aad-3204-11d2-9a82-006008a86939}" />
+		<EventID>0</EventID>
+		<Version>2</Version>
+		<Level>0</Level>
+		<Task>0</Task>
+		<Opcode>34</Opcode>
+		<Keywords>0x0</Keywords>
+		<TimeCreated SystemTime="2023-10-20T02:20:14.626791500+01:59" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="2448" ThreadID="8664" ProcessorID="0" KernelTime="60" UserTime="30" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="MessageID">    7992</Data>
+	</EventData>
+	<RenderingInfo Culture="en-US">
+		<Opcode>ALPC-Receive-Message</Opcode>
+		<Provider>MSNT_SystemTrace</Provider>
+		<EventName xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">ALPC</EventName>
+	</RenderingInfo>
+	<ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+		<EventGuid>{45d8cccd-539f-4b72-a8b7-5c683142609a}</EventGuid>
+	</ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Guid="{9e814aad-3204-11d2-9a82-006008a86939}" />
+		<EventID>0</EventID>
+		<Version>2</Version>
+		<Level>0</Level>
+		<Task>0</Task>
+		<Opcode>33</Opcode>
+		<Keywords>0x0</Keywords>
+		<TimeCreated SystemTime="2023-10-20T02:20:14.626799800+01:59" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="2448" ThreadID="8664" ProcessorID="0" KernelTime="60" UserTime="30" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="MessageID">    7992</Data>
+	</EventData>
+	<RenderingInfo Culture="en-US">
+		<Opcode>ALPC-Send-Message</Opcode>
+		<Provider>MSNT_SystemTrace</Provider>
+		<EventName xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">ALPC</EventName>
+	</RenderingInfo>
+	<ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+		<EventGuid>{45d8cccd-539f-4b72-a8b7-5c683142609a}</EventGuid>
+	</ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Guid="{9e814aad-3204-11d2-9a82-006008a86939}" />
+		<EventID>0</EventID>
+		<Version>2</Version>
+		<Level>0</Level>
+		<Task>0</Task>
+		<Opcode>35</Opcode>
+		<Keywords>0x0</Keywords>
+		<TimeCreated SystemTime="2023-10-20T02:20:14.626799900+01:59" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="2448" ThreadID="8664" ProcessorID="0" KernelTime="60" UserTime="30" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="MessageID">    7992</Data>
+	</EventData>
+	<RenderingInfo Culture="en-US">
+		<Opcode>ALPC-Wait-For-Reply</Opcode>
+		<Provider>MSNT_SystemTrace</Provider>
+		<EventName xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">ALPC</EventName>
+	</RenderingInfo>
+	<ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+		<EventGuid>{45d8cccd-539f-4b72-a8b7-5c683142609a}</EventGuid>
+	</ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Guid="{9e814aad-3204-11d2-9a82-006008a86939}" />
+		<EventID>0</EventID>
+		<Version>2</Version>
+		<Level>0</Level>
+		<Task>0</Task>
+		<Opcode>34</Opcode>
+		<Keywords>0x0</Keywords>
+		<TimeCreated SystemTime="2023-10-20T02:20:14.626804400+01:59" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="804" ThreadID="5412" ProcessorID="0" KernelTime="0" UserTime="30" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="MessageID">    7992</Data>
+	</EventData>
+	<RenderingInfo Culture="en-US">
+		<Opcode>ALPC-Receive-Message</Opcode>
+		<Provider>MSNT_SystemTrace</Provider>
+		<EventName xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">ALPC</EventName>
+	</RenderingInfo>
+	<ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+		<EventGuid>{45d8cccd-539f-4b72-a8b7-5c683142609a}</EventGuid>
+	</ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Guid="{9e814aad-3204-11d2-9a82-006008a86939}" />
+		<EventID>0</EventID>
+		<Version>2</Version>
+		<Level>0</Level>
+		<Task>0</Task>
+		<Opcode>33</Opcode>
+		<Keywords>0x0</Keywords>
+		<TimeCreated SystemTime="2023-10-20T02:20:14.626844100+01:59" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="804" ThreadID="5412" ProcessorID="0" KernelTime="0" UserTime="30" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="MessageID">    7992</Data>
+	</EventData>
+	<RenderingInfo Culture="en-US">
+		<Opcode>ALPC-Send-Message</Opcode>
+		<Provider>MSNT_SystemTrace</Provider>
+		<EventName xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">ALPC</EventName>
+	</RenderingInfo>
+	<ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+		<EventGuid>{45d8cccd-539f-4b72-a8b7-5c683142609a}</EventGuid>
+	</ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Guid="{9e814aad-3204-11d2-9a82-006008a86939}" />
+		<EventID>0</EventID>
+		<Version>2</Version>
+		<Level>0</Level>
+		<Task>0</Task>
+		<Opcode>37</Opcode>
+		<Keywords>0x0</Keywords>
+		<TimeCreated SystemTime="2023-10-20T02:20:14.626845900+01:59" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="2448" ThreadID="8664" ProcessorID="0" KernelTime="60" UserTime="30" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="Status">       0</Data>
+	</EventData>
+	<RenderingInfo Culture="en-US">
+		<Opcode>ALPC-Unwait</Opcode>
+		<Provider>MSNT_SystemTrace</Provider>
+		<EventName xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">ALPC</EventName>
+	</RenderingInfo>
+	<ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+		<EventGuid>{45d8cccd-539f-4b72-a8b7-5c683142609a}</EventGuid>
+	</ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider 

@@ -1,0 +1,962 @@
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+        <EventID>5</EventID>
+        <Version>3</Version>
+        <Level>4</Level>
+        <Task>5</Task>
+        <Opcode>0</Opcode>
+        <Keywords>0x8000000000000000</Keywords>
+        <TimeCreated SystemTime='2023-10-18T22:45:43.3299201Z'/>
+        <EventRecordID>1</EventRecordID>
+        <Correlation/>
+        <Execution ProcessID='2884' ThreadID='3952'/>
+        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+        <Computer>DESKTOP-G3MEF77.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-18'/>
+    </System>
+    <EventData>
+        <Data Name='RuleName'>-</Data>
+        <Data Name='UtcTime'>2023-10-18 22:45:43.326</Data>
+        <Data Name='ProcessGuid'>{efa7e96b-6017-6530-3006-000000000f00}</Data>
+        <Data Name='ProcessId'>3120</Data>
+        <Data Name='Image'>C:\Windows\System32\wevtutil.exe</Data>
+        <Data Name='User'>DESKTOP-G3MEF77\win10admin</Data>
+    </EventData>
+    <RenderingInfo Culture='en-US'>
+        <Level>Informationen</Level>
+        <Task>Oberfl�che</Task>
+        <Opcode>Info</Opcode>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+        <EventID>11</EventID>
+        <Version>2</Version>
+        <Level>4</Level>
+        <Task>11</Task>
+        <Opcode>0</Opcode>
+        <Keywords>0x8000000000000000</Keywords>
+        <TimeCreated SystemTime='2023-10-18T22:45:43.3312214Z'/>
+        <EventRecordID>2</EventRecordID>
+        <Correlation/>
+        <Execution ProcessID='2884' ThreadID='3952'/>
+        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+        <Computer>DESKTOP-G3MEF77.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-18'/>
+    </System>
+    <EventData>
+        <Data Name='RuleName'>-</Data>
+        <Data Name='UtcTime'>2023-10-18 22:45:43.326</Data>
+        <Data Name='ProcessGuid'>{efa7e96b-c2db-652e-eb03-000000000000}</Data>
+        <Data Name='ProcessId'>4</Data>
+        <Data Name='Image'>System</Data>
+        <Data Name='TargetFilename'>C:\Windows\System32\LogFiles\WMI\RtBackup\EtwRTSysmonDnsEtwSession.etl</Data>
+        <Data Name='CreationUtcTime'>2023-10-18 22:45:42.996</Data>
+        <Data Name='User'>NT-AUTORIT�T\SYSTEM</Data>
+    </EventData>
+    <RenderingInfo Culture='en-US'>
+        <Level>Informationen</Level>
+        <Opcode>Info</Opcode>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+        <EventID>23</EventID>
+        <Version>5</Version>
+        <Level>4</Level>
+        <Task>23</Task>
+        <Opcode>0</Opcode>
+        <Keywords>0x8000000000000000</Keywords>
+        <TimeCreated SystemTime='2023-10-18T22:45:43.3317044Z'/>
+        <EventRecordID>3</EventRecordID>
+        <Correlation/>
+        <Execution ProcessID='2884' ThreadID='3952'/>
+        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+        <Computer>DESKTOP-G3MEF77.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-18'/>
+    </System>
+    <EventData>
+        <Data Name='RuleName'>-</Data>
+        <Data Name='UtcTime'>2023-10-18 22:45:43.326</Data>
+        <Data Name='ProcessGuid'>{efa7e96b-c2db-652e-eb03-000000000000}</Data>
+        <Data Name='ProcessId'>4</Data>
+        <Data Name='User'>NT-AUTORIT�T\SYSTEM</Data>
+        <Data Name='Image'>System</Data>
+        <Data Name='TargetFilename'>C:\Windows\System32\LogFiles\WMI\RtBackup\EtwRTSysmonDnsEtwSession.etl</Data>
+        <Data Name='Hashes'>SHA1=B31791C5922694C53FA7B99015F5C6D0B224385A,MD5=D91A6A387DFBE07C235DDDB87B3F3609,SHA256=8533F0BF7BDC0CE3997990DEB3063690979F7E26349399CF00417E3D6606AB48,IMPHASH=00000000000000000000000000000000</Data>
+        <Data Name='IsExecutable'>false</Data>
+        <Data Name='Archived'>true</Data>
+    </EventData>
+    <RenderingInfo Culture='en-US'>
+        <Level>Informationen</Level>
+        <Opcode>Info</Opcode>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+        <EventID>1</EventID>
+        <Version>5</Version>
+        <Level>4</Level>
+        <Task>1</Task>
+        <Opcode>0</Opcode>
+        <Keywords>0x8000000000000000</Keywords>
+        <TimeCreated SystemTime='2023-10-18T22:45:43.3338081Z'/>
+        <EventRecordID>4</EventRecordID>
+        <Correlation/>
+        <Execution ProcessID='2884' ThreadID='3952'/>
+        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+        <Computer>DESKTOP-G3MEF77.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-18'/>
+    </System>
+    <EventData>
+        <Data Name='RuleName'>-</Data>
+        <Data Name='UtcTime'>2023-10-18 22:45:43.332</Data>
+        <Data Name='ProcessGuid'>{efa7e96b-6017-6530-3106-000000000f00}</Data>
+        <Data Name='ProcessId'>7112</Data>
+        <Data Name='Image'>C:\Windows\System32\auditpol.exe</Data>
+        <Data Name='FileVersion'>10.0.19041.3570 (WinBuild.160101.0800)</Data>
+        <Data Name='Description'>Audit Policy Program</Data>
+        <Data Name='Product'>Microsoft� Windows� Operating System</Data>
+        <Data Name='Company'>Microsoft Corporation</Data>
+        <Data Name='OriginalFileName'>AUDITPOL.EXE</Data>
+        <Data Name='CommandLine'>Auditpol  /set /subcategory:"Dateisystem" /success:enable /failure:enable</Data>
+        <Data Name='CurrentDirectory'>C:\Users\win10admin\</Data>
+        <Data Name='User'>DESKTOP-G3MEF77\win10admin</Data>
+        <Data Name='LogonGuid'>{efa7e96b-6014-6530-c5fa-990c00000000}</Data>
+        <Data Name='LogonId'>0xc99fac5</Data>
+        <Data Name='TerminalSessionId'>0</Data>
+        <Data Name='IntegrityLevel'>High</Data>
+        <Data Name='Hashes'>SHA1=5C402B4B9CD6E2A89D4564759FACA9CF57A15679,MD5=A29C76A1FD0CBF7628DAF9FFC53C4D56,SHA256=2932F777B43B6A32EF307394A3B0A942197F95F6BB6DAE3C4E68D9C44FF936B0,IMPHASH=90AC86A122E388FC7E7952289389E5B0</Data>
+        <Data Name='ParentProcessGuid'>{efa7e96b-6016-6530-2b06-000000000f00}</Data>
+        <Data Name='ParentProcessId'>5752</Data>
+        <Data Name='ParentImage'>C:\Windows\System32\cmd.exe</Data>
+        <Data Name='ParentCommandLine'>C:\WINDOWS\system32\cmd.exe  /K D:\Provenance\logging.bat  apt29_scenario1 start </Data>
+        <Data Name='ParentUser'>DESKTOP-G3MEF77\win10admin</Data>
+    </EventData>
+    <RenderingInfo Culture='en-US'>
+        <Level>Informationen</Level>
+        <Task>Ger�te</Task>
+        <Opcode>Info</Opcode>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+        <EventID>10</EventID>
+        <Version>3</Version>
+        <Level>4</Level>
+        <Task>10</Task>
+        <Opcode>0</Opcode>
+        <Keywords>0x8000000000000000</Keywords>
+        <TimeCreated SystemTime='2023-10-18T22:45:43.3339571Z'/>
+        <EventRecordID>5</EventRecordID>
+        <Correlation/>
+        <Execution ProcessID='2884' ThreadID='3952'/>
+        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+        <Computer>DESKTOP-G3MEF77.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-18'/>
+    </System>
+    <EventData>
+        <Data Name='RuleName'>-</Data>
+        <Data Name='UtcTime'>2023-10-18 22:45:43.326</Data>
+        <Data Name='SourceProcessGUID'>{efa7e96b-6016-6530-2b06-000000000f00}</Data>
+        <Data Name='SourceProcessId'>5752</Data>
+        <Data Name='SourceThreadId'>4348</Data>
+        <Data Name='SourceImage'>C:\WINDOWS\system32\cmd.exe</Data>
+        <Data Name='TargetProcessGUID'>{efa7e96b-6017-6530-3106-000000000f00}</Data>
+        <Data Name='TargetProcessId'>7112</Data>
+        <Data Name='TargetImage'>C:\WINDOWS\system32\auditpol.exe</Data>
+        <Data Name='GrantedAccess'>0x1fffff</Data>
+        <Data Name='CallTrace'>C:\WINDOWS\SYSTEM32\ntdll.dll+9e8f4|C:\WINDOWS\System32\KERNELBASE.dll+5b473|C:\WINDOWS\System32\KERNELBASE.dll+597e6|C:\WINDOWS\System32\KERNEL32.DLL+1cec4|C:\WINDOWS\system32\cmd.exe+14486|C:\WINDOWS\system32\cmd.exe+15b7f|C:\WINDOWS\system32\cmd.exe+c9bd|C:\WINDOWS\system32\cmd.exe+bea1|C:\WINDOWS\system32\cmd.exe+b8d4|C:\WINDOWS\system32\cmd.exe+bef9|C:\WINDOWS\system32\cmd.exe+bef9|C:\WINDOWS\system32\cmd.exe+bef9|C:\WINDOWS\system32\cmd.exe+bef9|C:\WINDOWS\system32\cmd.exe+bef9|C:\WINDOWS\system32\cmd.exe+b461|C:\WINDOWS\system32\cmd.exe+bef9|C:\WINDOWS\system32\cmd.exe+cffc|C:\WINDOWS\system32\cmd.exe+9826|C:\WINDOWS\system32\cmd.exe+15bf0|C:\WINDOWS\system32\cmd.exe+c9bd|C:\WINDOWS\system32\cmd.exe+bea1|C:\WINDOWS\system32\cmd.exe+139f4|C:\WINDOWS\system32\cmd.exe+18ecd|C:\WINDOWS\System32\KERNEL32.DLL+17344</Data>
+        <Data Name='SourceUser'>DESKTOP-G3MEF77\win10admin</Data>
+        <Data Name='TargetUser'>DESKTOP-G3MEF77\win10admin</Data>
+    </EventData>
+    <RenderingInfo Culture='en-US'>
+        <Level>Informationen</Level>
+        <Opcode>Info</Opcode>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+        <EventID>10</EventID>
+        <Version>3</Version>
+        <Level>4</Level>
+        <Task>10</Task>
+        <Opcode>0</Opcode>
+        <Keywords>0x8000000000000000</Keywords>
+        <TimeCreated SystemTime='2023-10-18T22:45:43.3344640Z'/>
+        <EventRecordID>6</EventRecordID>
+        <Correlation/>
+        <Execution ProcessID='2884' ThreadID='3952'/>
+        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+        <Computer>DESKTOP-G3MEF77.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-18'/>
+    </System>
+    <EventData>
+        <Data Name='RuleName'>-</Data>
+        <Data Name='UtcTime'>2023-10-18 22:45:43.326</Data>
+        <Data Name='SourceProcessGUID'>{efa7e96b-c2de-652e-0600-000000000f00}</Data>
+        <Data Name='SourceProcessId'>420</Data>
+        <Data Name='SourceThreadId'>636</Data>
+        <Data Name='SourceImage'>C:\WINDOWS\system32\csrss.exe</Data>
+        <Data Name='TargetProcessGUID'>{efa7e96b-6017-6530-3106-000000000f00}</Data>
+        <Data Name='TargetProcessId'>7112</Data>
+        <Data Name='TargetImage'>C:\WINDOWS\system32\auditpol.exe</Data>
+        <Data Name='GrantedAccess'>0x1fffff</Data>
+        <Data Name='CallTrace'>C:\WINDOWS\SYSTEM32\ntdll.dll+9d4a4|C:\WINDOWS\system32\basesrv.DLL+326f|C:\WINDOWS\SYSTEM32\CSRSRV.dll+6490|C:\WINDOWS\SYSTEM32\ntdll.dll+526bf</Data>
+        <Data Name='SourceUser'>NT-AUTORIT�T\SYSTEM</Data>
+        <Data Name='TargetUser'>DESKTOP-G3MEF77\win10admin</Data>
+    </EventData>
+    <RenderingInfo Culture='en-US'>
+        <Level>Informationen</Level>
+        <Opcode>Info</Opcode>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+        <EventID>7</EventID>
+        <Version>3</Version>
+        <Level>4</Level>
+        <Task>7</Task>
+        <Opcode>0</Opcode>
+        <Keywords>0x8000000000000000</Keywords>
+        <TimeCreated SystemTime='2023-10-18T22:45:43.3398448Z'/>
+        <EventRecordID>7</EventRecordID>
+        <Correlation/>
+        <Execution ProcessID='2884' ThreadID='3964'/>
+        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+        <Computer>DESKTOP-G3MEF77.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-18'/>
+    </System>
+    <EventData>
+        <Data Name='RuleName'>-</Data>
+        <Data Name='UtcTime'>2023-10-18 22:45:43.326</Data>
+        <Data Name='ProcessGuid'>{efa7e96b-6017-6530-3106-000000000f00}</Data>
+        <Data Name='ProcessId'>7112</Data>
+        <Data Name='Image'>C:\Windows\System32\auditpol.exe</Data>
+        <Data Name='ImageLoaded'>C:\Windows\System32\auditpol.exe</Data>
+        <Data Name='FileVersion'>10.0.19041.3570 (WinBuild.160101.0800)</Data>
+        <Data Name='Description'>Audit Policy Program</Data>
+        <Data Name='Product'>Microsoft� Windows� Operating System</Data>
+        <Data Name='Company'>Microsoft Corporation</Data>
+        <Data Name='OriginalFileName'>AUDITPOL.EXE</Data>
+        <Data Name='Hashes'>SHA1=5C402B4B9CD6E2A89D4564759FACA9CF57A15679,MD5=A29C76A1FD0CBF7628DAF9FFC53C4D56,SHA256=2932F777B43B6A32EF307394A3B0A942197F95F6BB6DAE3C4E68D9C44FF936B0,IMPHASH=90AC86A122E388FC7E7952289389E5B0</Data>
+        <Data Name='Signed'>true</Data>
+        <Data Name='Signature'>Microsoft Windows</Data>
+        <Data Name='SignatureStatus'>Valid</Data>
+        <Data Name='User'>DESKTOP-G3MEF77\win10admin</Data>
+    </EventData>
+    <RenderingInfo Culture='en-US'>
+        <Level>Informationen</Level>
+        <Task>Netzwerk:</Task>
+        <Opcode>Info</Opcode>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+        <EventID>7</EventID>
+        <Version>3</Version>
+        <Level>4</Level>
+        <Task>7</Task>
+        <Opcode>0</Opcode>
+        <Keywords>0x8000000000000000</Keywords>
+        <TimeCreated SystemTime='2023-10-18T22:45:43.3404047Z'/>
+        <EventRecordID>8</EventRecordID>
+        <Correlation/>
+        <Execution ProcessID='2884' ThreadID='3952'/>
+        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+        <Computer>DESKTOP-G3MEF77.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-18'/>
+    </System>
+    <EventData>
+        <Data Name='RuleName'>-</Data>
+        <Data Name='UtcTime'>2023-10-18 22:45:43.326</Data>
+        <Data Name='ProcessGuid'>{efa7e96b-6017-6530-3106-000000000f00}</Data>
+        <Data Name='ProcessId'>7112</Data>
+        <Data Name='Image'>C:\Windows\System32\auditpol.exe</Data>
+        <Data Name='ImageLoaded'>C:\Windows\System32\ntdll.dll</Data>
+        <Data Name='FileVersion'>10.0.19041.3570 (WinBuild.160101.0800)</Data>
+        <Data Name='Description'>NT Layer DLL</Data>
+        <Data Name='Product'>Microsoft� Windows� Operating System</Data>
+        <Data Name='Company'>Microsoft Corporation</Data>
+        <Data Name='OriginalFileName'>ntdll.dll</Data>
+        <Data Name='Hashes'>SHA1=2D776F46B09656ECAF89F46E316A6985CA466308,MD5=E062D88599E71B0256648DDDA4A8A63F,SHA256=2C8154698C5D5162EC9751C8E6BBA462D47F2293CED6BE5763579AF34334ADA3,IMPHASH=00000000000000000000000000000000</Data>
+        <Data Name='Signed'>true</Data>
+        <Data Name='Signature'>Microsoft Windows</Data>
+        <Data Name='SignatureStatus'>Valid</Data>
+        <Data Name='User'>DESKTOP-G3MEF77\win10admin</Data>
+    </EventData>
+    <RenderingInfo Culture='en-US'>
+        <Level>Informationen</Level>
+        <Task>Netzwerk:</Task>
+        <Opcode>Info</Opcode>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+        <EventID>7</EventID>
+        <Version>3</Version>
+        <Level>4</Level>
+        <Task>7</Task>
+        <Opcode>0</Opcode>
+        <Keywords>0x8000000000000000</Keywords>
+        <TimeCreated SystemTime='2023-10-18T22:45:43.3409671Z'/>
+        <EventRecordID>9</EventRecordID>
+        <Correlation/>
+        <Execution ProcessID='2884' ThreadID='3952'/>
+        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+        <Computer>DESKTOP-G3MEF77.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-18'/>
+    </System>
+    <EventData>
+        <Data Name='RuleName'>-</Data>
+        <Data Name='UtcTime'>2023-10-18 22:45:43.340</Data>
+        <Data Name='ProcessGuid'>{efa7e96b-6017-6530-3106-000000000f00}</Data>
+        <Data Name='ProcessId'>7112</Data>
+        <Data Name='Image'>C:\Windows\System32\auditpol.exe</Data>
+        <Data Name='ImageLoaded'>C:\Windows\System32\kernel32.dll</Data>
+        <Data Name='FileVersion'>10.0.19041.3570 (WinBuild.160101.0800)</Data>
+        <Data Name='Description'>Windows NT BASE API Client DLL</Data>
+        <Data Name='Product'>Microsoft� Windows� Operating System</Data>
+        <Data Name='Company'>Microsoft Corporation</Data>
+        <Data Name='OriginalFileName'>kernel32</Data>
+        <Data Name='Hashes'>SHA1=140B7FE03E7BB7E5DB4A7904FF65BA41177CF5C4,MD5=ED26ADB6C3FEADEC07F90A7EA8A0A4D1,SHA256=8CA11526D288016BFEE3B6263A051AC7F7E0DD0DD2234A33CFB83FF87289AAFD,IMPHASH=F138C4A566A700DE3E7E024EE6C4D479</Data>
+        <Data Name='Signed'>true</Data>
+        <Data Name='Signature'>Microsoft Windows</Data>
+        <Data Name='SignatureStatus'>Valid</Data>
+        <Data Name='User'>DESKTOP-G3MEF77\win10admin</Data>
+    </EventData>
+    <RenderingInfo Culture='en-US'>
+        <Level>Informationen</Level>
+        <Task>Netzwerk:</Task>
+        <Opcode>Info</Opcode>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+        <EventID>7</EventID>
+        <Version>3</Version>
+        <Level>4</Level>
+        <Task>7</Task>
+        <Opcode>0</Opcode>
+        <Keywords>0x8000000000000000</Keywords>
+        <TimeCreated SystemTime='2023-10-18T22:45:43.3412508Z'/>
+        <EventRecordID>10</EventRecordID>
+        <Correlation/>
+        <Execution ProcessID='2884' ThreadID='3952'/>
+        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+        <Computer>DESKTOP-G3MEF77.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-18'/>
+    </System>
+    <EventData>
+        <Data Name='RuleName'>-</Data>
+        <Data Name='UtcTime'>2023-10-18 22:45:43.340</Data>
+        <Data Name='ProcessGuid'>{efa7e96b-6017-6530-3106-000000000f00}</Data>
+        <Data Name='ProcessId'>7112</Data>
+        <Data Name='Image'>C:\Windows\System32\auditpol.exe</Data>
+        <Data Name='ImageLoaded'>C:\Windows\System32\KernelBase.dll</Data>
+        <Data Name='FileVersion'>10.0.19041.3570 (WinBuild.160101.0800)</Data>
+        <Data Name='Description'>Windows NT BASE API Client DLL</Data>
+        <Data Name='Product'>Microsoft� Windows� Operating System</Data>
+        <Data Name='Company'>Microsoft Corporation</Data>
+        <Data Name='OriginalFileName'>Kernelbase.dll</Data>
+        <Data Name='Hashes'>SHA1=45FBB765D0C5108533B91C08E139702B738D399A,MD5=B4F90C828F974BD8355B766D948D79B9,SHA256=C659CC2B99410B52BB9E711958DAABA31B372862B6158B1DF91FD5EF1301791F,IMPHASH=0B3D9CDD2A78F1035F845B59D17F0420</Data>
+        <Data Name='Signed'>true</Data>
+        <Data Name='Signature'>Microsoft Windows</Data>
+        <Data Name='SignatureStatus'>Valid</Data>
+        <Data Name='User'>DESKTOP-G3MEF77\win10admin</Data>
+    </EventData>
+    <RenderingInfo Culture='en-US'>
+        <Level>Informationen</Level>
+        <Task>Netzwerk:</Task>
+        <Opcode>Info</Opcode>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+        <EventID>10</EventID>
+        <Version>3</Version>
+        <Level>4</Level>
+        <Task>10</Task>
+        <Opcode>0</Opcode>
+        <Keywords>0x8000000000000000</Keywords>
+        <TimeCreated SystemTime='2023-10-18T22:45:43.3417329Z'/>
+        <EventRecordID>11</EventRecordID>
+        <Correlation/>
+        <Execution ProcessID='2884' ThreadID='3952'/>
+        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+        <Computer>DESKTOP-G3MEF77.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-18'/>
+    </System>
+    <EventData>
+        <Data Name='RuleName'>-</Data>
+        <Data Name='UtcTime'>2023-10-18 22:45:43.340</Data>
+        <Data Name='SourceProcessGUID'>{efa7e96b-6016-6530-2c06-000000000f00}</Data>
+        <Data Name='SourceProcessId'>1804</Data>
+        <Data Name='SourceThreadId'>5920</Data>
+        <Data Name='SourceImage'>C:\WINDOWS\system32\conhost.exe</Data>
+        <Data Name='TargetProcessGUID'>{efa7e96b-6017-6530-3106-000000000f00}</Data>
+        <Data Name='TargetProcessId'>7112</Data>
+        <Data Name='TargetImage'>C:\WINDOWS\system32\auditpol.exe</Data>
+        <Data Name='GrantedAccess'>0x1fffff</Data>
+        <Data Name='CallTrace'>C:\WINDOWS\SYSTEM32\ntdll.dll+9d4a4|C:\WINDOWS\System32\KERNELBASE.dll+308ee|C:\WINDOWS\system32\conhost.exe+13a99|C:\WINDOWS\system32\conhost.exe+13be1|C:\WINDOWS\system32\conhost.exe+13d67|C:\WINDOWS\system32\conhost.exe+1114c|C:\WINDOWS\System32\KERNEL32.DLL+17344|C:\WINDOWS\SYSTEM32\ntdll.dll+526b1</Data>
+        <Data Name='SourceUser'>DESKTOP-G3MEF77\win10admin</Data>
+        <Data Name='TargetUser'>DESKTOP-G3MEF77\win10admin</Data>
+    </EventData>
+    <RenderingInfo Culture='en-US'>
+        <Level>Informationen</Level>
+        <Opcode>Info</Opcode>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+        <EventID>7</EventID>
+        <Version>3</Version>
+        <Level>4</Level>
+        <Task>7</Task>
+        <Opcode>0</Opcode>
+        <Keywords>0x8000000000000000</Keywords>
+        <TimeCreated SystemTime='2023-10-18T22:45:43.3468672Z'/>
+        <EventRecordID>12</EventRecordID>
+        <Correlation/>
+        <Execution ProcessID='2884' ThreadID='3952'/>
+        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+        <Computer>DESKTOP-G3MEF77.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-18'/>
+    </System>
+    <EventData>
+        <Data Name='RuleName'>-</Data>
+        <Data Name='UtcTime'>2023-10-18 22:45:43.340</Data>
+        <Data Name='ProcessGuid'>{efa7e96b-6017-6530-3106-000000000f00}</Data>
+        <Data Name='ProcessId'>7112</Data>
+        <Data Name='Image'>C:\Windows\System32\auditpol.exe</Data>
+        <Data Name='ImageLoaded'>C:\Windows\System32\msvcrt.dll</Data>
+        <Data Name='FileVersion'>7.0.19041.3570 (WinBuild.160101.0800)</Data>
+        <Data Name='Description'>Windows NT CRT DLL</Data>
+        <Data Name='Product'>Microsoft� Windows� Operating System</Data>
+        <Data Name='Company'>Microsoft Corporation</Data>
+        <Data Name='OriginalFileName'>msvcrt.dll</Data>
+        <Data Name='Hashes'>SHA1=4536913AC471261EAD61A3B85DDBA5C2AD0A678F,MD5=A8C0017363B8C4E41262155A363A13A6,SHA256=252F2CFFDAF79E20B387C729652D96B820AEB1DE11020D2D7411E39185F3564F,IMPHASH=1273683626EBBA703979F188A1E64237</Data>
+        <Data Name='Signed'>true</Data>
+        <Data Name='Signature'>Microsoft Windows</Data>
+        <Data Name='SignatureStatus'>Valid</Data>
+        <Data Name='User'>DESKTOP-G3MEF77\win10admin</Data>
+    </EventData>
+    <RenderingInfo Culture='en-US'>
+        <Level>Informationen</Level>
+        <Task>Netzwerk:</Task>
+        <Opcode>Info</Opcode>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+        <EventID>7</EventID>
+        <Version>3</Version>
+        <Level>4</Level>
+        <Task>7</Task>
+        <Opcode>0</Opcode>
+        <Keywords>0x8000000000000000</Keywords>
+        <TimeCreated SystemTime='2023-10-18T22:45:43.3469759Z'/>
+        <EventRecordID>13</EventRecordID>
+        <Correlation/>
+        <Execution ProcessID='2884' ThreadID='3952'/>
+        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+        <Computer>DESKTOP-G3MEF77.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-18'/>
+    </System>
+    <EventData>
+        <Data Name='RuleName'>-</Data>
+        <Data Name='UtcTime'>2023-10-18 22:45:43.340</Data>
+        <Data Name='ProcessGuid'>{efa7e96b-6017-6530-3106-000000000f00}</Data>
+        <Data Name='ProcessId'>7112</Data>
+        <Data Name='Image'>C:\Windows\System32\auditpol.exe</Data>
+        <Data Name='ImageLoaded'>C:\Windows\System32\advapi32.dll</Data>
+        <Data Name='FileVersion'>10.0.19041.3570 (WinBuild.160101.0800)</Data>
+        <Data Name='Description'>Advanced Windows 32 Base API</Data>
+        <Data Name='Product'>Microsoft� Windows� Operating System</Data>
+        <Data Name='Company'>Microsoft Corporation</Data>
+        <Data Name='OriginalFileName'>advapi32.dll</Data>
+        <Data Name='Hashes'>SHA1=8D1FA950FF67E47EDDD4C1F72A9A9DF88E8E133A,MD5=DAB0B1659EA45C332551F9B0CFC32AAC,SHA256=A149CE3D76B08A7A3DA9206AE95647899AFA6AB4466B1924D902B757C7DC244E,IMPHASH=06386997D444E0E8F791C29BE0E7A843</Data>
+        <Data Name='Signed'>true</Data>
+        <Data Name='Signature'>Microsoft Windows</Data>
+        <Data Name='SignatureStatus'>Valid</Data>
+        <Data Name='User'>DESKTOP-G3MEF77\win10admin</Data>
+    </EventData>
+    <RenderingInfo Culture='en-US'>
+        <Level>Informationen</Level>
+        <Task>Netzwerk:</Task>
+        <Opcode>Info</Opcode>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+        <EventID>7</EventID>
+        <Version>3</Version>
+        <Level>4</Level>
+        <Task>7</Task>
+        <Opcode>0</Opcode>
+        <Keywords>0x8000000000000000</Keywords>
+        <TimeCreated SystemTime='2023-10-18T22:45:43.3470590Z'/>
+        <EventRecordID>14</EventRecordID>
+        <Correlation/>
+        <Execution ProcessID='2884' ThreadID='3952'/>
+        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+        <Computer>DESKTOP-G3MEF77.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-18'/>
+    </System>
+    <EventData>
+        <Data Name='RuleName'>-</Data>
+        <Data Name='UtcTime'>2023-10-18 22:45:43.340</Data>
+        <Data Name='ProcessGuid'>{efa7e96b-6017-6530-3106-000000000f00}</Data>
+        <Data Name='ProcessId'>7112</Data>
+        <Data Name='Image'>C:\Windows\System32\auditpol.exe</Data>
+        <Data Name='ImageLoaded'>C:\Windows\System32\sechost.dll</Data>
+        <Data Name='FileVersion'>10.0.19041.3570 (WinBuild.160101.0800)</Data>
+        <Data Name='Description'>Host for SCM/SDDL/LSA Lookup APIs</Data>
+        <Data Name='Product'>Microsoft� Windows� Operating System</Data>
+        <Data Name='Company'>Microsoft Corporation</Data>
+        <Data Name='OriginalFileName'>sechost.dll</Data>
+        <Data Name='Hashes'>SHA1=42173CFC9ECF28F27474DCA27D57F69AB8E44B49,MD5=C60D0AA90D339087E1F67320D3AF3EDD,SHA256=74D801776597416B9F680DD3635CE43B1406394130446392DC7B8E012FE9A5CB,IMPHASH=CE4BD072766253F6A267D0284CA82002</Data>
+        <Data Name='Signed'>true</Data>
+        <Data Name='Signature'>Microsoft Windows</Data>
+        <Data Name='SignatureStatus'>Valid</Data>
+        <Data Name='User'>DESKTOP-G3MEF77\win10admin</Data>
+    </EventData>
+    <RenderingInfo Culture='en-US'>
+        <Level>Informationen</Level>
+        <Task>Netzwerk:</Task>
+        <Opcode>Info</Opcode>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+        <EventID>7</EventID>
+        <Version>3</Version>
+        <Level>4</Level>
+        <Task>7</Task>
+        <Opcode>0</Opcode>
+        <Keywords>0x8000000000000000</Keywords>
+        <TimeCreated SystemTime='2023-10-18T22:45:43.3471379Z'/>
+        <EventRecordID>15</EventRecordID>
+        <Correlation/>
+        <Execution ProcessID='2884' ThreadID='3952'/>
+        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+        <Computer>DESKTOP-G3MEF77.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-18'/>
+    </System>
+    <EventData>
+        <Data Name='RuleName'>-</Data>
+        <Data Name='UtcTime'>2023-10-18 22:45:43.340</Data>
+        <Data Name='ProcessGuid'>{efa7e96b-6017-6530-3106-000000000f00}</Data>
+        <Data Name='ProcessId'>7112</Data>
+        <Data Name='Image'>C:\Windows\System32\auditpol.exe</Data>
+        <Data Name='ImageLoaded'>C:\Windows\System32\rpcrt4.dll</Data>
+        <Data Name='FileVersion'>10.0.19041.3570 (WinBuild.160101.0800)</Data>
+        <Data Name='Description'>Remote Procedure Call Runtime</Data>
+        <Data Name='Product'>Microsoft� Windows� Operating System</Data>
+        <Data Name='Company'>Microsoft Corporation</Data>
+        <Data Name='OriginalFileName'>rpcrt4.dll</Data>
+        <Data Name='Hashes'>SHA1=A507CC7D5CF7D3C3DF56775820BC2B7AC9535FF4,MD5=CA810A5F25F485F0DB9368BA1AB44987,SHA256=313A95E782C675285E319A6EFAAD562C9DD4F963250D11DFD873BE20B94D5D0B,IMPHASH=691FED08D927C769FAAC5041B85477B5</Data>
+        <Data Name='Signed'>true</Data>
+        <Data Name='Signature'>Microsoft Windows</Data>
+        <Data Name='SignatureStatus'>Valid</Data>
+        <Data Name='User'>DESKTOP-G3MEF77\win10admin</Data>
+    </EventData>
+    <RenderingInfo Culture='en-US'>
+        <Level>Informationen</Level>
+        <Task>Netzwerk:</Task>
+        <Opcode>Info</Opcode>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+        <EventID>7</EventID>
+        <Version>3</Version>
+        <Level>4</Level>
+        <Task>7</Task>
+        <Opcode>0</Opcode>
+        <Keywords>0x8000000000000000</Keywords>
+        <TimeCreated SystemTime='2023-10-18T22:45:43.3473399Z'/>
+        <EventRecordID>16</EventRecordID>
+        <Correlation/>
+        <Execution ProcessID='2884' ThreadID='3952'/>
+        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+        <Computer>DESKTOP-G3MEF77.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-18'/>
+    </System>
+    <EventData>
+        <Data Name='RuleName'>-</Data>
+        <Data Name='UtcTime'>2023-10-18 22:45:43.340</Data>
+        <Data Name='ProcessGuid'>{efa7e96b-6017-6530-3106-000000000f00}</Data>
+        <Data Name='ProcessId'>7112</Data>
+        <Data Name='Image'>C:\Windows\System32\auditpol.exe</Data>
+        <Data Name='ImageLoaded'>C:\Windows\System32\ntmarta.dll</Data>
+        <Data Name='FileVersion'>10.0.19041.3570 (WinBuild.160101.0800)</Data>
+        <Data Name='Description'>Windows NT MARTA provider</Data>
+        <Data Name='Product'>Microsoft� Windows� Operating System</Data>
+        <Data Name='Company'>Microsoft Corporation</Data>
+        <Data Name='OriginalFileName'>ntmarta.dll</Data>
+        <Data Name='Hashes'>SHA1=01937A6EB012575400E2B066C0691C8B22AA9DEF,MD5=4E8FD20E2A96E15D065092BA7BD6D22C,SHA256=0A7D90D0C89C2AE860BF0166E51C3244DA47B68EC85DB5D773F7639F785CAF16,IMPHASH=2A82B57D7A2D3136D8E6670296793FB3</Data>
+        <Data Name='Signed'>true</Data>
+        <Data Name='Signature'>Microsoft Windows</Data>
+        <Data Name='SignatureStatus'>Valid</Data>
+        <Data Name='User'>DESKTOP-G3MEF77\win10admin</Data>
+    </EventData>
+    <RenderingInfo Culture='en-US'>
+        <Level>Informationen</Level>
+        <Task>Netzwerk:</Task>
+        <Opcode>Info</Opcode>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+        <EventID>7</EventID>
+        <Version>3</Version>
+        <Level>4</Level>
+        <Task>7</Task>
+        <Opcode>0</Opcode>
+        <Keywords>0x8000000000000000</Keywords>
+        <TimeCreated SystemTime='2023-10-18T22:45:43.3474279Z'/>
+        <EventRecordID>17</EventRecordID>
+        <Correlation/>
+        <Execution ProcessID='2884' ThreadID='3952'/>
+        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+        <Computer>DESKTOP-G3MEF77.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-18'/>
+    </System>
+    <EventData>
+        <Data Name='RuleName'>-</Data>
+        <Data Name='UtcTime'>2023-10-18 22:45:43.340</Data>
+        <Data Name='ProcessGuid'>{efa7e96b-6017-6530-3106-000000000f00}</Data>
+        <Data Name='ProcessId'>7112</Data>
+        <Data Name='Image'>C:\Windows\System32\auditpol.exe</Data>
+        <Data Name='ImageLoaded'>C:\Windows\System32\ucrtbase.dll</Data>
+        <Data Name='FileVersion'>10.0.19041.3570 (WinBuild.160101.0800)</Data>
+        <Data Name='Description'>Microsoft� C Runtime Library</Data>
+        <Data Name='Product'>Microsoft� Windows� Operating System</Data>
+        <Data Name='Company'>Microsoft Corporation</Data>
+        <Data Name='OriginalFileName'>ucrtbase.dll</Data>
+        <Data Name='Hashes'>SHA1=D99919D236475EA4B3F63AA035577334E2B50372,MD5=69B307D27AE7C40392481D67A4F9BA50,SHA256=A7B514013B5786BDFB345C220A0A3E2AC3E5DE4AF21EACFA48A9FBB4E1370A02,IMPHASH=405CDE0FC80C30DCC3D783173DBD4143</Data>
+        <Data Name='Signed'>true</Data>
+        <Data Name='Signature'>Microsoft Windows</Data>
+        <Data Name='SignatureStatus'>Valid</Data>
+        <Data Name='User'>DESKTOP-G3MEF77\win10admin</Data>
+    </EventData>
+    <RenderingInfo Culture='en-US'>
+        <Level>Informationen</Level>
+        <Task>Netzwerk:</Task>
+        <Opcode>Info</Opcode>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+        <EventID>7</EventID>
+        <Version>3</Version>
+        <Level>4</Level>
+        <Task>7</Task>
+        <Opcode>0</Opcode>
+        <Keywords>0x8000000000000000</Keywords>
+        <TimeCreated SystemTime='2023-10-18T22:45:43.3526991Z'/>
+        <EventRecordID>18</EventRecordID>
+        <Correlation/>
+        <Execution ProcessID='2884' ThreadID='3964'/>
+        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+        <Computer>DESKTOP-G3MEF77.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-18'/>
+    </System>
+    <EventData>
+        <Data Name='RuleName'>-</Data>
+        <Data Name='UtcTime'>2023-10-18 22:45:43.340</Data>
+        <Data Name='ProcessGuid'>{efa7e96b-6017-6530-3106-000000000f00}</Data>
+        <Data Name='ProcessId'>7112</Data>
+        <Data Name='Image'>C:\Windows\System32\auditpol.exe</Data>
+        <Data Name='ImageLoaded'>C:\Windows\System32\auditpolcore.dll</Data>
+        <Data Name='FileVersion'>10.0.19041.3570 (WinBuild.160101.0800)</Data>
+        <Data Name='Description'>Audit Policy Program</Data>
+        <Data Name='Product'>Microsoft� Windows� Operating System</Data>
+        <Data Name='Company'>Microsoft Corporation</Data>
+        <Data Name='OriginalFileName'>AUDITPOLCORE.DLL</Data>
+        <Data Name='Hashes'>SHA1=E1AF267C40D726AB9FF367D40CD4071E50FFB0C5,MD5=D5A775A409274C81F2712C592D28A4DC,SHA256=D6BFD85DAFD3DD1F4F52EF70422E42B86B159DFFEC4E1081C1EE722DA9CF7836,IMPHASH=2FDC0CDB8D1D84F9113B3BD8B0360829</Data>
+        <Data Name='Signed'>true</Data>
+        <Data Name='Signature'>Microsoft Windows</Data>
+        <Data Name='SignatureStatus'>Valid</Data>
+        <Data Name='User'>DESKTOP-G3MEF77\win10admin</Data>
+    </EventData>
+    <RenderingInfo Culture='en-US'>
+        <Level>Informationen</Level>
+        <Task>Netzwerk:</Task>
+        <Opcode>Info</Opcode>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+        <EventID>10</EventID>
+        <Version>3</Version>
+        <Level>4</Level>
+        <Task>10</Task>
+        <Opcode>0</Opcode>
+        <Keywords>0x8000000000000000</Keywords>
+        <TimeCreated SystemTime='2023-10-18T22:45:43.3553300Z'/>
+        <EventRecordID>19</EventRecordID>
+        <Correlation/>
+        <Execution ProcessID='2884' ThreadID='3952'/>
+        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+        <Computer>DESKTOP-G3MEF77.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-18'/>
+    </System>
+    <EventData>
+        <Data Name='RuleName'>-</Data>
+        <Data Name='UtcTime'>2023-10-18 22:45:43.340</Data>
+        <Data Name='SourceProcessGUID'>{efa7e96b-c2de-652e-0c00-000000000f00}</Data>
+        <Data Name='SourceProcessId'>600</Data>
+        <Data Name='SourceThreadId'>7620</Data>
+        <Data Name='SourceImage'>C:\WINDOWS\system32\lsass.exe</Data>
+        <Data Name='TargetProcessGUID'>{efa7e96b-6017-6530-3106-000000000f00}</Data>
+        <Data Name='TargetProcessId'>7112</Data>
+        <Data Name='TargetImage'>C:\WINDOWS\system32\auditpol.exe</Data>
+        <Data Name='GrantedAccess'>0x1000</Data>
+        <Data Name='CallTrace'>C:\WINDOWS\SYSTEM32\ntdll.dll+9d4a4|C:\WINDOWS\System32\KERNELBASE.dll+308ee|C:\WINDOWS\system32\lsasrv.dll+f5c65|C:\WINDOWS\system32\lsasrv.dll+776ed|C:\WINDOWS\System32\RPCRT4.dll+7b4b3|C:\WINDOWS\System32\RPCRT4.dll+de77b|C:\WINDOWS\System32\RPCRT4.dll+5be7c|C:\WINDOWS\System32\RPCRT4.dll+59188|C:\WINDOWS\System32\RPCRT4.dll+3a3a6|C:\WINDOWS\System32\RPCRT4.dll+39cf8|C:\WINDOWS\System32\RPCRT4.dll+474bf|C:\WINDOWS\System32\RPCRT4.dll+468c8|C:\WINDOWS\System32\RPCRT4.dll+45eb1|C:\WINDOWS\System32\RPCRT4.dll+4591e|C:\WINDOWS\System32\RPCRT4.dll+4a032|C:\WINDOWS\SYSTEM32\ntdll.dll+20330|C:\WINDOWS\SYSTEM32\ntdll.dll+52f86|C:\WINDOWS\System32\KERNEL32.DLL+17344|C:\WINDOWS\SYSTEM32\ntdll.dll+526b1</Data>
+        <Data Name='SourceUser'>NT-AUTORIT�T\SYSTEM</Data>
+        <Data Name='TargetUser'>DESKTOP-G3MEF77\win10admin</Data>
+    </EventData>
+    <RenderingInfo Culture='en-US'>
+        <Level>Informationen</Level>
+        <Opcode>Info</Opcode>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+        <EventID>13</EventID>
+        <Version>2</Version>
+        <Level>4</Level>
+        <Task>13</Task>
+        <Opcode>0</Opcode>
+        <Keywords>0x8000000000000000</Keywords>
+        <TimeCreated SystemTime='2023-10-18T22:45:43.3556593Z'/>
+        <EventRecordID>20</EventRecordID>
+        <Correlation/>
+        <Execution ProcessID='2884' ThreadID='3952'/>
+        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+        <Computer>DESKTOP-G3MEF77.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-18'/>
+    </System>
+    <EventData>
+        <Data Name='RuleName'>-</Data>
+        <Data Name='EventType'>SetValue</Data>
+        <Data Name='UtcTime'>2023-10-18 22:45:43.340</Data>
+        <Data Name='ProcessGuid'>{efa7e96b-c2de-652e-0c00-000000000f00}</Data>
+        <Data Name='ProcessId'>600</Data>
+        <Data Name='Image'>C:\WINDOWS\system32\lsass.exe</Data>
+        <Data Name='TargetObject'>HKLM\SECURITY\RXACT\Log</Data>
+        <Data Name='Details'>Binary Data</Data>
+        <Data Name='User'>NT-AUTORIT�T\SYSTEM</Data>
+    </EventData>
+    <RenderingInfo Culture='en-US'>
+        <Level>Informationen</Level>
+        <Opcode>Info</Opcode>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+        <EventID>12</EventID>
+        <Version>2</Version>
+        <Level>4</Level>
+        <Task>12</Task>
+        <Opcode>0</Opcode>
+        <Keywords>0x8000000000000000</Keywords>
+        <TimeCreated SystemTime='2023-10-18T22:45:43.3565431Z'/>
+        <EventRecordID>21</EventRecordID>
+        <Correlation/>
+        <Execution ProcessID='2884' ThreadID='3952'/>
+        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+        <Computer>DESKTOP-G3MEF77.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-18'/>
+    </System>
+    <EventData>
+        <Data Name='RuleName'>-</Data>
+        <Data Name='EventType'>CreateKey</Data>
+        <Data Name='UtcTime'>2023-10-18 22:45:43.340</Data>
+        <Data Name='ProcessGuid'>{efa7e96b-c2e0-652e-1e00-000000000f00}</Data>
+        <Data Name='ProcessId'>1236</Data>
+        <Data Name='Image'>C:\WINDOWS\system32\svchost.exe</Data>
+        <Data Name='TargetObject'>HKLM\System\CurrentControlSet\Services\Tcpip\Parameters</Data>
+        <Data Name='User'>NT-AUTORIT�T\Netzwerkdienst</Data>
+    </EventData>
+    <RenderingInfo Culture='en-US'>
+        <Level>Informationen</Level>
+        <Opcode>Info</Opcode>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+        <EventID>11</EventID>
+        <Version>2</Version>
+        <Level>4</Level>
+        <Task>11</Task>
+        <Opcode>0</Opcode>
+        <Keywords>0x8000000000000000</Keywords>
+        <TimeCreated SystemTime='2023-10-18T22:45:43.3582149Z'/>
+        <EventRecordID>22</EventRecordID>
+        <Correlation/>
+        <Execution ProcessID='2884' ThreadID='3952'/>
+        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+        <Computer>DESKTOP-G3MEF77.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-18'/>
+    </System>
+    <EventData>
+        <Data Name='RuleName'>-</Data>
+        <Data Name='UtcTime'>2023-10-18 22:45:43.356</Data>
+        <Data Name='ProcessGuid'>{efa7e96b-c2db-652e-eb03-000000000000}</Data>
+        <Data Name='ProcessId'>4</Data>
+        <Data Name='Image'>System</Data>
+        <Data Name='TargetFilename'>C:\Windows\System32\LogFiles\WMI\RtBackup\EtwRTSysmonDnsEtwSession.etl</Data>
+        <Data Name='CreationUtcTime'>2023-10-18 22:45:42.996</Data>
+        <Data Name='User'>NT-AUTORIT�T\SYSTEM</Data>
+    </EventData>
+    <RenderingInfo Culture='en-US'>
+        <Level>Informationen</Level>
+        <Opcode>Info</Opcode>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+        <EventID>12</EventID>
+        <Version>2</Version>
+        <Level>4</Level>
+        <Task>12</Task>
+        <Opcode>0</Opcode>
+        <Keywords>0x8000000000000000</Keywords>
+        <TimeCreated SystemTime='2023-10-18T22:45:43.3593286Z'/>
+        <EventRecordID>23</EventRecordID>
+        <Correlation/>
+        <Execution ProcessID='2884' ThreadID='3952'/>
+        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+        <Computer>DESKTOP-G3MEF77.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-18'/>
+    </System>
+    <EventData>
+        <Data Name='RuleName'>-</Data>
+        <Data Name='EventType'>CreateKey</Data>
+        <Data Name='UtcTime'>2023-10-18 22:45:43.356</Data>
+        <Data Name='ProcessGuid'>{efa7e96b-c2de-652e-0c00-000000000f00}</Data>
+        <Data Name='ProcessId'>600</Data>
+        <Data Name='Image'>C:\WINDOWS\system32\lsass.exe</Data>
+        <Data Name='TargetObject'>HKLM\SECURITY\Policy\PolAdtEv</Data>
+        <Data Name='User'>NT-AUTORIT�T\SYSTEM</Data>
+    </EventData>
+    <RenderingInfo Culture='en-US'>
+        <Level>Informationen</Level>
+        <Opcode>Info</Opcode>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+        <EventID>13</EventID>
+        <Version>2</Version>
+        <Level>4</Level>
+        <Task>13</Task>
+        <Opcode>0</Opcode>
+        <Keywords>0x8000000000000000</Keywords>
+        <TimeCreated SystemTime='2023-10-18T22:45:43.3593441Z'/>
+        <EventRecordID>24</EventRecordID>
+        <Correlation/>
+        <Execution ProcessID='2884' ThreadID='3952'/>
+        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+        <Computer>DESKTOP-G3MEF77.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-18'/>
+    </System>
+    <EventData>
+        <Data Name='RuleName'>-</Data>
+        <Data Name='EventType'>SetValue</Data>
+        <Data Name='UtcTime'>2023-10-18 22:45:43.356</Data>
+        <Data Name='ProcessGuid'>{efa7e96b-c2de-652e-0c00-000000000f00}</Data>
+        <Data Name='ProcessId'>600</Data>
+        <Data Name='Image'>C:\WINDOWS\system32\lsass.exe</Data>
+        <Data Name='TargetObject'>HKLM\SECURITY\Policy\PolAdtEv\(Default)</Data>
+        <Data Name='Details'>Binary Data</Data>
+        <Data Name='User'>NT-AUTORIT�T\SYSTEM</Data>
+    </EventData>
+    <RenderingInfo Culture='en-US'>
+        <Level>Informationen</Level>
+        <Opcode>Info</Opcode>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+        <EventID>12</EventID>
+        <Version>2</Version>
+        <Level>4</Level>
+        <Task>12</Task>
+        <Opcode>0</Opcode>
+        <Keywords>0x8000000000000000</Keywords>
+        <TimeCreated SystemTime='2023-10-18T22:45:43.3593579Z'/>
+        <EventRecordID>25</EventRecordID>
+        <Correlation/>
+        <Execution ProcessID='2884' ThreadID='3952'/>
+        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+        <Computer>DESKTOP-G3MEF77.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-18'/>
+    </System>
+    <EventData>
+        <Data Name='RuleName'>-</Data>
+        <Data Name='EventType'>DeleteValue</Data>
+        <Data Name='UtcTime'>2023-10-18 22:45:43.356</Data>
+        <Data Name='ProcessGuid'>{efa7e96b-c2de-652e-0c00-000000000f00}</Data>
+        <Data Name='ProcessId'>600</Data>
+        <Data Name='Image'>C:\WINDOWS\system32\lsass.exe</Data>
+        <Data Name='TargetObject'>HKLM\SECURITY\RXACT\Log</Data>
+        <Data Name='User'>NT-AUTORIT�T\SYSTEM</Data>
+    </EventData>
+    <RenderingInfo Culture='en-US'>
+        <Level>Informationen</Level>
+        <Opcode>Info</Opcode>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/>
+        <EventID>10</EventID>
+        <Version>3</Version>
+        <Level>4</Level>
+        <Task>10</Task>
+        <Opcode>0</Opcode>
+        <Keywords>0x8000000000000000</Keywords>
+        <TimeCreated SystemTime='2023-10-18T22:45:43.3593844Z'/>
+        <EventRecordID>26</EventRecordID>
+        <Correlation/>
+        <Execution ProcessID='2884' ThreadID='3952'/>
+        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+        <Computer>DESKTOP-G3MEF77.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-18'/>
+    </System>
+    <EventData>
+        <Data Name='RuleName'>-</Data>
+        <Data Name='UtcTime'>2023-10-18 22:45:43.356</Data>
+        <Data Name='SourceProcessGUID'>{efa7e96b-c2de-652e-0c00-000000000f00}</Data>
+        <Data Name='SourceProcessId'>600</Data>
+        <Data Name='SourceThreadId'>7620</Data>
+        <Data Name='SourceI

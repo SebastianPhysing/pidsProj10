@@ -1,0 +1,522 @@
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-PowerShell' Guid='{a0c1853b-5c40-4b15-8766-3cf1c58f985a}'/>
+        <EventID>40961</EventID>
+        <Version>1</Version>
+        <Level>4</Level>
+        <Task>4</Task>
+        <Opcode>1</Opcode>
+        <Keywords>0x0</Keywords>
+        <TimeCreated SystemTime='2023-10-20T00:20:47.6779950Z'/>
+        <EventRecordID>1</EventRecordID>
+        <Correlation ActivityID='{ddde9119-021e-0000-3956-e1dd1e02da01}'/>
+        <Execution ProcessID='1880' ThreadID='8328'/>
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+        <Computer>DESKTOP-G3MEF76.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-21-2482111414-2299741978-448616740-1120'/>
+    </System>
+    <EventData></EventData>
+    <RenderingInfo Culture='en-US'>
+        <Message>PowerShell console is starting up</Message>
+        <Level>Information</Level>
+        <Task>PowerShell Console Startup</Task>
+        <Opcode>Start</Opcode>
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-PowerShell' Guid='{a0c1853b-5c40-4b15-8766-3cf1c58f985a}'/>
+        <EventID>53504</EventID>
+        <Version>1</Version>
+        <Level>4</Level>
+        <Task>111</Task>
+        <Opcode>10</Opcode>
+        <Keywords>0x0</Keywords>
+        <TimeCreated SystemTime='2023-10-20T00:20:48.6164164Z'/>
+        <EventRecordID>2</EventRecordID>
+        <Correlation ActivityID='{ddde9119-021e-0000-3956-e1dd1e02da01}'/>
+        <Execution ProcessID='1880' ThreadID='9480'/>
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+        <Computer>DESKTOP-G3MEF76.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-21-2482111414-2299741978-448616740-1120'/>
+    </System>
+    <EventData>
+        <Data Name='param1'>1880</Data>
+        <Data Name='param2'>DefaultAppDomain</Data>
+    </EventData>
+    <RenderingInfo Culture='en-US'>
+        <Message>Windows PowerShell has started an IPC listening thread on process: 1880 in AppDomain: DefaultAppDomain.</Message>
+        <Level>Information</Level>
+        <Task>PowerShell Named Pipe IPC</Task>
+        <Opcode>Open (async)</Opcode>
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-PowerShell' Guid='{a0c1853b-5c40-4b15-8766-3cf1c58f985a}'/>
+        <EventID>40961</EventID>
+        <Version>1</Version>
+        <Level>4</Level>
+        <Task>4</Task>
+        <Opcode>1</Opcode>
+        <Keywords>0x0</Keywords>
+        <TimeCreated SystemTime='2023-10-20T01:37:26.0144685Z'/>
+        <EventRecordID>3</EventRecordID>
+        <Correlation ActivityID='{ddde9119-021e-0000-4383-e1dd1e02da01}'/>
+        <Execution ProcessID='9936' ThreadID='8500'/>
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+        <Computer>DESKTOP-G3MEF76.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-18'/>
+    </System>
+    <EventData></EventData>
+    <RenderingInfo Culture='en-US'>
+        <Message>PowerShell console is starting up</Message>
+        <Level>Information</Level>
+        <Task>PowerShell Console Startup</Task>
+        <Opcode>Start</Opcode>
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-PowerShell' Guid='{a0c1853b-5c40-4b15-8766-3cf1c58f985a}'/>
+        <EventID>53504</EventID>
+        <Version>1</Version>
+        <Level>4</Level>
+        <Task>111</Task>
+        <Opcode>10</Opcode>
+        <Keywords>0x0</Keywords>
+        <TimeCreated SystemTime='2023-10-20T01:37:26.9354245Z'/>
+        <EventRecordID>4</EventRecordID>
+        <Correlation ActivityID='{ddde9119-021e-0000-4383-e1dd1e02da01}'/>
+        <Execution ProcessID='9936' ThreadID='8220'/>
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+        <Computer>DESKTOP-G3MEF76.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-18'/>
+    </System>
+    <EventData>
+        <Data Name='param1'>9936</Data>
+        <Data Name='param2'>DefaultAppDomain</Data>
+    </EventData>
+    <RenderingInfo Culture='en-US'>
+        <Message>Windows PowerShell has started an IPC listening thread on process: 9936 in AppDomain: DefaultAppDomain.</Message>
+        <Level>Information</Level>
+        <Task>PowerShell Named Pipe IPC</Task>
+        <Opcode>Open (async)</Opcode>
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-PowerShell' Guid='{a0c1853b-5c40-4b15-8766-3cf1c58f985a}'/>
+        <EventID>40962</EventID>
+        <Version>1</Version>
+        <Level>4</Level>
+        <Task>4</Task>
+        <Opcode>2</Opcode>
+        <Keywords>0x0</Keywords>
+        <TimeCreated SystemTime='2023-10-20T01:37:27.4881588Z'/>
+        <EventRecordID>5</EventRecordID>
+        <Correlation ActivityID='{ddde9119-021e-0000-4383-e1dd1e02da01}'/>
+        <Execution ProcessID='9936' ThreadID='8500'/>
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+        <Computer>DESKTOP-G3MEF76.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-18'/>
+    </System>
+    <EventData></EventData>
+    <RenderingInfo Culture='en-US'>
+        <Message>PowerShell console is ready for user input</Message>
+        <Level>Information</Level>
+        <Task>PowerShell Console Startup</Task>
+        <Opcode>Stop</Opcode>
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-PowerShell' Guid='{a0c1853b-5c40-4b15-8766-3cf1c58f985a}'/>
+        <EventID>4104</EventID>
+        <Version>1</Version>
+        <Level>5</Level>
+        <Task>2</Task>
+        <Opcode>15</Opcode>
+        <Keywords>0x0</Keywords>
+        <TimeCreated SystemTime='2023-10-20T01:37:27.7075228Z'/>
+        <EventRecordID>6</EventRecordID>
+        <Correlation ActivityID='{ddde9119-021e-0000-4583-e1dd1e02da01}'/>
+        <Execution ProcessID='9936' ThreadID='9604'/>
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+        <Computer>DESKTOP-G3MEF76.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-18'/>
+    </System>
+    <EventData>
+        <Data Name='MessageNumber'>1</Data>
+        <Data Name='MessageTotal'>1</Data>
+        <Data Name='ScriptBlockText'>Write-Host 'Final result: 1';</Data>
+        <Data Name='ScriptBlockId'>50f182c7-1686-44dc-b716-228c1d40b081</Data>
+        <Data Name='Path'></Data>
+    </EventData>
+    <RenderingInfo Culture='en-US'>
+        <Message>Creating Scriptblock text (1 of 1):&#13;&#10;Write-Host 'Final result: 1';&#13;&#10;&#13;&#10;ScriptBlock ID: 50f182c7-1686-44dc-b716-228c1d40b081&#13;&#10;Path: </Message>
+        <Level>Verbose</Level>
+        <Task>Execute a Remote Command</Task>
+        <Opcode>On create calls</Opcode>
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-PowerShell' Guid='{a0c1853b-5c40-4b15-8766-3cf1c58f985a}'/>
+        <EventID>4104</EventID>
+        <Version>1</Version>
+        <Level>5</Level>
+        <Task>2</Task>
+        <Opcode>15</Opcode>
+        <Keywords>0x0</Keywords>
+        <TimeCreated SystemTime='2023-10-20T01:37:28.1366551Z'/>
+        <EventRecordID>7</EventRecordID>
+        <Correlation ActivityID='{ddde9119-021e-0000-4883-e1dd1e02da01}'/>
+        <Execution ProcessID='9936' ThreadID='9604'/>
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+        <Computer>DESKTOP-G3MEF76.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-18'/>
+    </System>
+    <EventData>
+        <Data Name='MessageNumber'>1</Data>
+        <Data Name='MessageTotal'>1</Data>
+        <Data Name='ScriptBlockText'>$global:?</Data>
+        <Data Name='ScriptBlockId'>f7abeaa8-aee2-46d2-b02b-41bfca6167f1</Data>
+        <Data Name='Path'></Data>
+    </EventData>
+    <RenderingInfo Culture='en-US'>
+        <Message>Creating Scriptblock text (1 of 1):&#13;&#10;$global:?&#13;&#10;&#13;&#10;ScriptBlock ID: f7abeaa8-aee2-46d2-b02b-41bfca6167f1&#13;&#10;Path: </Message>
+        <Level>Verbose</Level>
+        <Task>Execute a Remote Command</Task>
+        <Opcode>On create calls</Opcode>
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-PowerShell' Guid='{a0c1853b-5c40-4b15-8766-3cf1c58f985a}'/>
+        <EventID>40961</EventID>
+        <Version>1</Version>
+        <Level>4</Level>
+        <Task>4</Task>
+        <Opcode>1</Opcode>
+        <Keywords>0x0</Keywords>
+        <TimeCreated SystemTime='2023-10-20T01:37:29.0712125Z'/>
+        <EventRecordID>8</EventRecordID>
+        <Correlation ActivityID='{ddde9119-021e-0000-bd83-e1dd1e02da01}'/>
+        <Execution ProcessID='7660' ThreadID='6888'/>
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+        <Computer>DESKTOP-G3MEF76.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-18'/>
+    </System>
+    <EventData></EventData>
+    <RenderingInfo Culture='en-US'>
+        <Message>PowerShell console is starting up</Message>
+        <Level>Information</Level>
+        <Task>PowerShell Console Startup</Task>
+        <Opcode>Start</Opcode>
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-PowerShell' Guid='{a0c1853b-5c40-4b15-8766-3cf1c58f985a}'/>
+        <EventID>53504</EventID>
+        <Version>1</Version>
+        <Level>4</Level>
+        <Task>111</Task>
+        <Opcode>10</Opcode>
+        <Keywords>0x0</Keywords>
+        <TimeCreated SystemTime='2023-10-20T01:37:29.3132194Z'/>
+        <EventRecordID>9</EventRecordID>
+        <Correlation ActivityID='{ddde9119-021e-0000-bd83-e1dd1e02da01}'/>
+        <Execution ProcessID='7660' ThreadID='4320'/>
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+        <Computer>DESKTOP-G3MEF76.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-18'/>
+    </System>
+    <EventData>
+        <Data Name='param1'>7660</Data>
+        <Data Name='param2'>DefaultAppDomain</Data>
+    </EventData>
+    <RenderingInfo Culture='en-US'>
+        <Message>Windows PowerShell has started an IPC listening thread on process: 7660 in AppDomain: DefaultAppDomain.</Message>
+        <Level>Information</Level>
+        <Task>PowerShell Named Pipe IPC</Task>
+        <Opcode>Open (async)</Opcode>
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-PowerShell' Guid='{a0c1853b-5c40-4b15-8766-3cf1c58f985a}'/>
+        <EventID>40962</EventID>
+        <Version>1</Version>
+        <Level>4</Level>
+        <Task>4</Task>
+        <Opcode>2</Opcode>
+        <Keywords>0x0</Keywords>
+        <TimeCreated SystemTime='2023-10-20T01:37:29.8769291Z'/>
+        <EventRecordID>10</EventRecordID>
+        <Correlation ActivityID='{ddde9119-021e-0000-bd83-e1dd1e02da01}'/>
+        <Execution ProcessID='7660' ThreadID='6888'/>
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+        <Computer>DESKTOP-G3MEF76.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-18'/>
+    </System>
+    <EventData></EventData>
+    <RenderingInfo Culture='en-US'>
+        <Message>PowerShell console is ready for user input</Message>
+        <Level>Information</Level>
+        <Task>PowerShell Console Startup</Task>
+        <Opcode>Stop</Opcode>
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-PowerShell' Guid='{a0c1853b-5c40-4b15-8766-3cf1c58f985a}'/>
+        <EventID>4104</EventID>
+        <Version>1</Version>
+        <Level>5</Level>
+        <Task>2</Task>
+        <Opcode>15</Opcode>
+        <Keywords>0x0</Keywords>
+        <TimeCreated SystemTime='2023-10-20T01:37:30.1762816Z'/>
+        <EventRecordID>11</EventRecordID>
+        <Correlation ActivityID='{ddde9119-021e-0000-bf83-e1dd1e02da01}'/>
+        <Execution ProcessID='7660' ThreadID='9412'/>
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+        <Computer>DESKTOP-G3MEF76.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-18'/>
+    </System>
+    <EventData>
+        <Data Name='MessageNumber'>1</Data>
+        <Data Name='MessageTotal'>1</Data>
+        <Data Name='ScriptBlockText'>$Res = 0; $Infs = Get-Item -Path ($env:WinDir + '\inf\*.inf'); foreach ($Inf in $Infs) { $Data = Get-Content $Inf.FullName; if ($Data -match '\[defaultinstall.nt(amd64|arm|arm64|x86)\]') { $Res = 1; break; } } Write-Host 'Final result:', $Res;</Data>
+        <Data Name='ScriptBlockId'>03ad497f-2082-4f26-a91f-4663ba69fa6b</Data>
+        <Data Name='Path'></Data>
+    </EventData>
+    <RenderingInfo Culture='en-US'>
+        <Message>Creating Scriptblock text (1 of 1):&#13;&#10;$Res = 0; $Infs = Get-Item -Path ($env:WinDir + '\inf\*.inf'); foreach ($Inf in $Infs) { $Data = Get-Content $Inf.FullName; if ($Data -match '\[defaultinstall.nt(amd64|arm|arm64|x86)\]') { $Res = 1; break; } } Write-Host 'Final result:', $Res;&#13;&#10;&#13;&#10;ScriptBlock ID: 03ad497f-2082-4f26-a91f-4663ba69fa6b&#13;&#10;Path: </Message>
+        <Level>Verbose</Level>
+        <Task>Execute a Remote Command</Task>
+        <Opcode>On create calls</Opcode>
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-PowerShell' Guid='{a0c1853b-5c40-4b15-8766-3cf1c58f985a}'/>
+        <EventID>4104</EventID>
+        <Version>1</Version>
+        <Level>5</Level>
+        <Task>2</Task>
+        <Opcode>15</Opcode>
+        <Keywords>0x0</Keywords>
+        <TimeCreated SystemTime='2023-10-20T01:37:33.5317959Z'/>
+        <EventRecordID>12</EventRecordID>
+        <Correlation ActivityID='{ddde9119-021e-0000-7186-e1dd1e02da01}'/>
+        <Execution ProcessID='7660' ThreadID='9412'/>
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+        <Computer>DESKTOP-G3MEF76.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-18'/>
+    </System>
+    <EventData>
+        <Data Name='MessageNumber'>1</Data>
+        <Data Name='MessageTotal'>1</Data>
+        <Data Name='ScriptBlockText'>$global:?</Data>
+        <Data Name='ScriptBlockId'>b9e2cfba-05dc-4472-ad95-0e01065892f9</Data>
+        <Data Name='Path'></Data>
+    </EventData>
+    <RenderingInfo Culture='en-US'>
+        <Message>Creating Scriptblock text (1 of 1):&#13;&#10;$global:?&#13;&#10;&#13;&#10;ScriptBlock ID: b9e2cfba-05dc-4472-ad95-0e01065892f9&#13;&#10;Path: </Message>
+        <Level>Verbose</Level>
+        <Task>Execute a Remote Command</Task>
+        <Opcode>On create calls</Opcode>
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-PowerShell' Guid='{a0c1853b-5c40-4b15-8766-3cf1c58f985a}'/>
+        <EventID>40961</EventID>
+        <Version>1</Version>
+        <Level>4</Level>
+        <Task>4</Task>
+        <Opcode>1</Opcode>
+        <Keywords>0x0</Keywords>
+        <TimeCreated SystemTime='2023-10-20T14:10:53.6816386Z'/>
+        <EventRecordID>13</EventRecordID>
+        <Correlation ActivityID='{d245cad1-035d-0000-8b5d-46d25d03da01}'/>
+        <Execution ProcessID='8276' ThreadID='8320'/>
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+        <Computer>DESKTOP-G3MEF76.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-21-2482111414-2299741978-448616740-1120'/>
+    </System>
+    <EventData></EventData>
+    <RenderingInfo Culture='en-US'>
+        <Message>PowerShell console is starting up</Message>
+        <Level>Information</Level>
+        <Task>PowerShell Console Startup</Task>
+        <Opcode>Start</Opcode>
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-PowerShell' Guid='{a0c1853b-5c40-4b15-8766-3cf1c58f985a}'/>
+        <EventID>53504</EventID>
+        <Version>1</Version>
+        <Level>4</Level>
+        <Task>111</Task>
+        <Opcode>10</Opcode>
+        <Keywords>0x0</Keywords>
+        <TimeCreated SystemTime='2023-10-20T14:10:54.5610737Z'/>
+        <EventRecordID>14</EventRecordID>
+        <Correlation ActivityID='{d245cad1-035d-0000-8b5d-46d25d03da01}'/>
+        <Execution ProcessID='8276' ThreadID='9172'/>
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+        <Computer>DESKTOP-G3MEF76.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-21-2482111414-2299741978-448616740-1120'/>
+    </System>
+    <EventData>
+        <Data Name='param1'>8276</Data>
+        <Data Name='param2'>DefaultAppDomain</Data>
+    </EventData>
+    <RenderingInfo Culture='en-US'>
+        <Message>Windows PowerShell has started an IPC listening thread on process: 8276 in AppDomain: DefaultAppDomain.</Message>
+        <Level>Information</Level>
+        <Task>PowerShell Named Pipe IPC</Task>
+        <Opcode>Open (async)</Opcode>
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-PowerShell' Guid='{a0c1853b-5c40-4b15-8766-3cf1c58f985a}'/>
+        <EventID>40962</EventID>
+        <Version>1</Version>
+        <Level>4</Level>
+        <Task>4</Task>
+        <Opcode>2</Opcode>
+        <Keywords>0x0</Keywords>
+        <TimeCreated SystemTime='2023-10-20T14:10:55.6973670Z'/>
+        <EventRecordID>15</EventRecordID>
+        <Correlation ActivityID='{d245cad1-035d-0000-8b5d-46d25d03da01}'/>
+        <Execution ProcessID='8276' ThreadID='8320'/>
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+        <Computer>DESKTOP-G3MEF76.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-21-2482111414-2299741978-448616740-1120'/>
+    </System>
+    <EventData></EventData>
+    <RenderingInfo Culture='en-US'>
+        <Message>PowerShell console is ready for user input</Message>
+        <Level>Information</Level>
+        <Task>PowerShell Console Startup</Task>
+        <Opcode>Stop</Opcode>
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-PowerShell' Guid='{a0c1853b-5c40-4b15-8766-3cf1c58f985a}'/>
+        <EventID>4104</EventID>
+        <Version>1</Version>
+        <Level>5</Level>
+        <Task>2</Task>
+        <Opcode>15</Opcode>
+        <Keywords>0x0</Keywords>
+        <TimeCreated SystemTime='2023-10-20T14:10:55.7364482Z'/>
+        <EventRecordID>16</EventRecordID>
+        <Correlation ActivityID='{d245cad1-035d-0000-995d-46d25d03da01}'/>
+        <Execution ProcessID='8276' ThreadID='8972'/>
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+        <Computer>DESKTOP-G3MEF76.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-21-2482111414-2299741978-448616740-1120'/>
+    </System>
+    <EventData>
+        <Data Name='MessageNumber'>1</Data>
+        <Data Name='MessageTotal'>1</Data>
+        <Data Name='ScriptBlockText'>prompt</Data>
+        <Data Name='ScriptBlockId'>a29962c9-c9c1-40ee-b5da-d269d1fc258f</Data>
+        <Data Name='Path'></Data>
+    </EventData>
+    <RenderingInfo Culture='en-US'>
+        <Message>Creating Scriptblock text (1 of 1):&#13;&#10;prompt&#13;&#10;&#13;&#10;ScriptBlock ID: a29962c9-c9c1-40ee-b5da-d269d1fc258f&#13;&#10;Path: </Message>
+        <Level>Verbose</Level>
+        <Task>Execute a Remote Command</Task>
+        <Opcode>On create calls</Opcode>
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-PowerShell' Guid='{a0c1853b-5c40-4b15-8766-3cf1c58f985a}'/>
+        <EventID>4104</EventID>
+        <Version>1</Version>
+        <Level>5</Level>
+        <Task>2</Task>
+        <Opcode>15</Opcode>
+        <Keywords>0x0</Keywords>
+        <TimeCreated SystemTime='2023-10-20T14:11:21.8085408Z'/>
+        <EventRecordID>17</EventRecordID>
+        <Correlation ActivityID='{d245cad1-035d-0000-195e-46d25d03da01}'/>
+        <Execution ProcessID='8276' ThreadID='8972'/>
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+        <Computer>DESKTOP-G3MEF76.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-21-2482111414-2299741978-448616740-1120'/>
+    </System>
+    <EventData>
+        <Data Name='MessageNumber'>1</Data>
+        <Data Name='MessageTotal'>1</Data>
+        <Data Name='ScriptBlockText'>procexp</Data>
+        <Data Name='ScriptBlockId'>ad51d023-2ac6-4add-9b21-5235a78e71bb</Data>
+        <Data Name='Path'></Data>
+    </EventData>
+    <RenderingInfo Culture='en-US'>
+        <Message>Creating Scriptblock text (1 of 1):&#13;&#10;procexp&#13;&#10;&#13;&#10;ScriptBlock ID: ad51d023-2ac6-4add-9b21-5235a78e71bb&#13;&#10;Path: </Message>
+        <Level>Verbose</Level>
+        <Task>Execute a Remote Command</Task>
+        <Opcode>On create calls</Opcode>
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    </RenderingInfo>
+</Event>
+<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+    <System>
+        <Provider Name='Microsoft-Windows-PowerShell' Guid='{a0c1853b-5c40-4b15-8766-3cf1c58f985a}'/>
+        <EventID>4104</EventID>
+        <Version>1</Version>
+        <Level>5</Level>
+        <Task>2</Task>
+        <Opcode>15</Opcode>
+        <Keywords>0x0</Keywords>
+        <TimeCreated SystemTime='2023-10-20T14:11:22.0025334Z'/>
+        <EventRecordID>18</EventRecordID>
+        <Correlation ActivityID='{d245cad1-035d-0000-1c5e-46d25d03da01}'/>
+        <Execution ProcessID='8276' ThreadID='8972'/>
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+        <Computer>DESKTOP-G3MEF76.corp.emulationtarget.com</Computer>
+        <Security UserID='S-1-5-21-2482111414-2299741978-448616740-1120'/>
+    </System>
+    <EventData>
+        <Data Name='MessageNumber'>1</Data>
+        <Data Name='MessageTotal'>1</Data>
+        <Data Name='ScriptBlockText'>prompt</Data>
+        <Data Name='ScriptBlockId'>b77eabb7-84c2-4f87-81a4-b9bf293accf0</Data>
+        <Data Name='Path'></Data>
+    </EventData>
+    <RenderingInfo Culture='en-US'>
+        <Message>Creating Scriptblock text (1 of 1):&#13;&#10;prompt&#13;&#10;&#13;&#10;ScriptBlock ID: b77eabb7-84c2-4f87-81a4-b9bf293accf0&#13;&#10;Path: </Message>
+        <Level>Verbose</Level>
+        <Task>Execute a Remote Command</Task>
+        <Opcode>On create calls</Opcode>
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+    </RenderingInfo>
+</Event>
