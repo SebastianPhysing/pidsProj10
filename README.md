@@ -1,8 +1,10 @@
 ## Pending
-> - set up working environment with Weights & Biases, run pipeline with native datasets
-> - apply scheme for data properties for new datasets (Aviator, CyLab, Dedale)
-> - create github repo for code sharing  
-**Next meeting: --**
+> - create Weights & Biases Workspace
+> - try create python venv with Pyenv
+> - try installing all listed dependencies (not in env) and python libaries
+> - structure github according to standard blueprint
+> - write experiment protocolls
+**Next meeting: Thursday, 5pm**
 
 ## Slides
 > - [1: first encounter with PIDS(Maker) and new datasets ](https://docs.google.com/presentation/d/1mdIcs6seVYDooCjOEeilckL3XJZXD6XOr4lvxKtAwak/edit?usp=sharing)

@@ -1,0 +1,59 @@
+# This files helps setting up Python Enviroment with Pyenv.
+# It is based on the enviroment.yaml with a few changes (mentioned below).
+# Before installing the following dependencies via
+#  pip install -r requirements.txt
+# make sure to install pyenv and created an venv (see setupHPC/README.md)
+# ---------------------------------------------------------------------------
+# --- Extra-Index-URLs / Find-Links (aus dem pip:-Block der yml) -------------
+--extra-index-url https://download.pytorch.org/whl/cu117
+-f https://data.pyg.org/whl/torch-1.13.0+cu117.html
+
+
+psycopg2-binary # [change] use of binary 
+tqdm
+
+
+torch==1.13.1+cu117
+torchvision==0.14.1+cu117
+torchaudio==0.13.1
+
+
+torch_geometric==2.5.3
+pyg_lib==0.2.0
+torch_scatter==2.1.1
+torch_sparse==0.6.17
+torch_cluster==1.6.1
+torch_spline_conv==1.2.2
+
+
+numpy==1.26.4
+scipy==1.10.1
+scikit-learn==1.2.0
+pandas==2.2.2
+matplotlib==3.8.4
+networkx==2.8.7
+gensim==4.3.1
+nltk==3.8.1
+
+
+igraph==0.11.5
+graphviz==0.20.1
+cairocffi==1.7.0
+xxhash==3.2.0
+chardet==5.2.0
+yacs==0.1.8
+pytz==2024.1
+psutil
+wget==3.2
+gdown==5.2.0
+
+
+wandb==0.26.1 # [change] version upgraded, since old one does not account for new Weights & Biases API Key (length)
+
+
+pytest==8.3.5
+pytest-cov==6.1.1
+pre-commit==4.2.0
+setuptools==61.0
+mkdocs-material==9.6.12
+mkdocs-glightbox==0.4.0
