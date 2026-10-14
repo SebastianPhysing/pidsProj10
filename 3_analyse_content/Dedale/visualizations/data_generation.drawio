@@ -1,0 +1,132 @@
+<mxfile host="65bd71144e" scale="2.5" border="20">
+    <diagram id="VC2Swp-tPGuAxJq3Yy_2" name="Page-1">
+        <mxGraphModel dx="2103" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="434" value="&lt;div&gt;&lt;b style=&quot;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Roboto&quot; face=&quot;Roboto&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Log Server&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Roboto&quot; face=&quot;Roboto&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;(orange zone router 2)&lt;/font&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="330" width="560" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="432" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Roboto&quot; face=&quot;Roboto&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Instances&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="365" y="115" width="390" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="423" value="WinLogBeat&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;*&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Roboto&quot; face=&quot;Roboto&quot;&gt;(contains Sysmon)&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;25.3 GB, 2662 Downloads&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="375" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="424" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Roboto&quot; face=&quot;Roboto&quot; style=&quot;font-size: 23px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(77, 77, 77), rgb(127, 142, 255));&quot;&gt;Dedale&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(77, 77, 77), rgb(127, 142, 255));&quot;&gt; -&lt;/font&gt;&lt;/b&gt;&lt;font style=&quot;color: rgb(78, 95, 255);&quot;&gt; for PIDSMaker&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#3333FF;fontStyle=0" parent="1" vertex="1">
+                    <mxGeometry x="-30" y="40" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="427" value="&lt;font style=&quot;font-size: 10px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Roboto&quot; face=&quot;Roboto&quot;&gt;Each file contains the logs of all computers for 4 weeks&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="324.5" y="435" width="310" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="433" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#7F8EFF;" parent="1" target="423" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="479.5" y="260" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="438" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#7F8EFF;strokeWidth=2;" parent="1" target="437" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="479.5" y="260" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="435" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#7F8EFF;strokeColor=#7F8EFF;strokeWidth=2;" parent="1" source="428" target="429" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="436" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#7F8EFF;strokeWidth=2;" parent="1" source="428" target="430" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="439" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#7F8EFF;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="428" target="437" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="520" y="360.0000000000001" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="428" value="&lt;div&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Roboto&quot; face=&quot;Roboto&quot; style=&quot;font-size: 8px; color: rgb(255, 255, 255);&quot;&gt;5&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;color: rgb(255, 255, 255);&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Roboto&quot; face=&quot;Roboto&quot;&gt;Linux&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 255, 255);&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Roboto&quot; face=&quot;Roboto&quot;&gt;Servers&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#4D4D4D;fillColor=#4D4D4D;" parent="1" vertex="1">
+                    <mxGeometry x="616" y="160" width="59" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="429" value="Auditbeat&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;*&lt;/font&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); font-size: 6px; background-color: transparent;&quot;&gt;10.1 GB, 60 Downloads&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="590" y="375" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="430" value="Syslog&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); font-size: 6px; background-color: transparent;&quot;&gt;119.7 MB, 46 Downloads&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="375" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="431" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Internal &amp;amp; External&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="616" y="130" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="437" value="Packetbeat&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;*&lt;/font&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); font-size: 6px; background-color: transparent;&quot;&gt;26.3 GB, 33 Downloads&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="375" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="440" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Roboto&quot; face=&quot;Roboto&quot;&gt;&lt;b&gt;Network Logs&lt;/b&gt;&lt;/font&gt;&lt;div&gt;PCAP, CICFlowMeter, Zeek&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" parent="1" vertex="1">
+                    <mxGeometry x="29.5" y="360" width="201" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="456" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#7F8EFF;" parent="1" source="442" target="440" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="442" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Roboto&quot; face=&quot;Roboto&quot;&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Infrastructure Rescousse&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="-10" y="90" width="280" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="452" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="443" target="454" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="177.99999999999955" y="125" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="443" value="&lt;div&gt;&lt;font style=&quot;color: rgb(255, 255, 255);&quot;&gt;orange zone&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=zigzag-line;gradientColor=#4D4D4D;fillColor=#4D4D4D;" parent="1" vertex="1">
+                    <mxGeometry x="102.75" y="150" width="59" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="446" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;shape=link;" parent="1" source="444" target="443" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="447" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;shape=link;" parent="1" source="444" target="445" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="449" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;shape=link;" parent="1" source="444" target="448" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="444" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Roboto&quot; face=&quot;Roboto&quot;&gt;Router 1&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="107" y="200" width="50.5" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="445" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;font style=&quot;color: rgb(255, 255, 255);&quot; face=&quot;Roboto&quot;&gt;red zone&lt;/font&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=zigzag-line;gradientColor=#4D4D4D;fillColor=#4D4D4D;" parent="1" vertex="1">
+                    <mxGeometry x="39.5" y="205" width="59" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="455" value="" style="edgeStyle=none;html=1;entryX=0.502;entryY=0.055;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="448" target="453" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="448" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;font style=&quot;color: rgb(255, 255, 255);&quot; face=&quot;Roboto&quot;&gt;green zone&lt;/font&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=zigzag-line;gradientColor=#4D4D4D;fillColor=#4D4D4D;" parent="1" vertex="1">
+                    <mxGeometry x="102.75" y="260" width="59" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="453" value="&lt;font style=&quot;font-size: 9px;&quot; face=&quot;Roboto&quot;&gt;Internal, Servers&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="94.63" y="310" width="75.25" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="454" value="&lt;font style=&quot;font-size: 9px;&quot; face=&quot;Roboto&quot;&gt;DMZ&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="94.63" y="120" width="75.25" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="461" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;dashed=1;strokeColor=#4D4D4D;" parent="1" target="432" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="272" y="195" as="sourcePoint"/>
+                        <mxPoint x="340" y="160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="462" value="&lt;font style=&quot;color: rgb(255, 0, 0); font-size: 8px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Roboto&quot; face=&quot;Roboto&quot;&gt;* Tool by Elasticsearch&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="730" y="470" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="463" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Internal&amp;nbsp;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="449" y="130" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="464" value="&lt;div&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Roboto&quot; face=&quot;Roboto&quot; style=&quot;font-size: 8px; color: rgb(255, 255, 255);&quot;&gt;30&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;color: rgb(255, 255, 255);&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Roboto&quot; face=&quot;Roboto&quot;&gt;Windows&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 255, 255);&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Roboto&quot; face=&quot;Roboto&quot;&gt;Clients&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#4D4D4D;fillColor=#4D4D4D;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="160" width="59" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="468" style="edgeStyle=none;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="465" target="464">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="465" value="&lt;font face=&quot;Roboto&quot; style=&quot;font-size: 8px;&quot;&gt;Labels: Client1 &amp;amp; Client2&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="374" y="215" width="66" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="467" style="edgeStyle=none;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="466" target="428">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="466" value="&lt;font face=&quot;Roboto&quot; style=&quot;font-size: 8px;&quot;&gt;Labels: Internalserver&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="215" width="66" height="45" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

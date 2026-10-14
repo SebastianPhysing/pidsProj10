@@ -1,0 +1,4956 @@
+{
+  "host": "internalserver",
+  "files_done": 672,
+  "empty_files": 0,
+  "total_events": 654311935,
+  "all_events_all_hosts": 893710913,
+  "broken_lines": 0,
+  "unique_hosts": [
+    "dmzserver",
+    "extcompanyclient",
+    "internalserver",
+    "vpnserver",
+    "webserver"
+  ],
+  "hosts": [
+    {
+      "host": "internalserver",
+      "count": 654311935,
+      "percent": 73.2129
+    },
+    {
+      "host": "extcompanyclient",
+      "count": 178181202,
+      "percent": 19.9372
+    },
+    {
+      "host": "dmzserver",
+      "count": 47481489,
+      "percent": 5.3128
+    },
+    {
+      "host": "webserver",
+      "count": 12451296,
+      "percent": 1.3932
+    },
+    {
+      "host": "vpnserver",
+      "count": 1284991,
+      "percent": 0.1438
+    }
+  ],
+  "key_fields": [
+    "event.module",
+    "event.action"
+  ],
+  "candidate_key_fields": [
+    {
+      "field": "auditd.summary.actor.primary",
+      "distinct_values": 2,
+      "percent_of_events": 100.0,
+      "values": [
+        "root",
+        "unset"
+      ]
+    },
+    {
+      "field": "auditd.result",
+      "distinct_values": 3,
+      "percent_of_events": 100.0,
+      "values": [
+        "fail",
+        "success",
+        "unknown"
+      ]
+    },
+    {
+      "field": "event.outcome",
+      "distinct_values": 3,
+      "percent_of_events": 100.0,
+      "values": [
+        "failure",
+        "success",
+        "unknown"
+      ]
+    },
+    {
+      "field": "user.saved.id",
+      "distinct_values": 3,
+      "percent_of_events": 99.99,
+      "values": [
+        "0",
+        "108",
+        "6"
+      ]
+    },
+    {
+      "field": "user.saved.name",
+      "distinct_values": 3,
+      "percent_of_events": 99.99,
+      "values": [
+        "man",
+        "root",
+        "sshd"
+      ]
+    },
+    {
+      "field": "user.effective.name",
+      "distinct_values": 4,
+      "percent_of_events": 99.94,
+      "values": [
+        "man",
+        "nobody",
+        "root",
+        "sshd"
+      ]
+    },
+    {
+      "field": "user.filesystem.name",
+      "distinct_values": 4,
+      "percent_of_events": 99.94,
+      "values": [
+        "man",
+        "nobody",
+        "root",
+        "sshd"
+      ]
+    },
+    {
+      "field": "user.group.id",
+      "distinct_values": 4,
+      "percent_of_events": 99.99,
+      "values": [
+        "0",
+        "108",
+        "12",
+        "65534"
+      ]
+    },
+    {
+      "field": "user.group.name",
+      "distinct_values": 4,
+      "percent_of_events": 99.99,
+      "values": [
+        "man",
+        "nogroup",
+        "root",
+        "syslog"
+      ]
+    },
+    {
+      "field": "user.name",
+      "distinct_values": 4,
+      "percent_of_events": 99.94,
+      "values": [
+        "man",
+        "nobody",
+        "root",
+        "sshd"
+      ]
+    },
+    {
+      "field": "event.category",
+      "distinct_values": 5,
+      "percent_of_events": 100.0,
+      "values": [
+        "audit-rule",
+        "configuration",
+        "system-services",
+        "unknown",
+        "user-login"
+      ]
+    },
+    {
+      "field": "user.saved.group.id",
+      "distinct_values": 5,
+      "percent_of_events": 99.99,
+      "values": [
+        "0",
+        "107",
+        "108",
+        "12",
+        "65534"
+      ]
+    },
+    {
+      "field": "user.saved.group.name",
+      "distinct_values": 5,
+      "percent_of_events": 99.99,
+      "values": [
+        "crontab",
+        "man",
+        "nogroup",
+        "root",
+        "syslog"
+      ]
+    },
+    {
+      "field": "user.effective.group.name",
+      "distinct_values": 6,
+      "percent_of_events": 99.94,
+      "values": [
+        "crontab",
+        "man",
+        "nogroup",
+        "root",
+        "syslog",
+        "users"
+      ]
+    },
+    {
+      "field": "user.filesystem.group.name",
+      "distinct_values": 6,
+      "percent_of_events": 99.94,
+      "values": [
+        "crontab",
+        "man",
+        "nogroup",
+        "root",
+        "syslog",
+        "users"
+      ]
+    },
+    {
+      "field": "user.effective.group.id",
+      "distinct_values": 8,
+      "percent_of_events": 99.99,
+      "values": [
+        "0",
+        "100",
+        "107",
+        "108",
+        "12",
+        "3000013",
+        "3000018",
+        "65534"
+      ]
+    },
+    {
+      "field": "user.filesystem.group.id",
+      "distinct_values": 8,
+      "percent_of_events": 99.99,
+      "values": [
+        "0",
+        "100",
+        "107",
+        "108",
+        "12",
+        "3000013",
+        "3000018",
+        "65534"
+      ]
+    },
+    {
+      "field": "auditd.message_type",
+      "distinct_values": 14,
+      "percent_of_events": 100.0,
+      "values": [
+        "config_change",
+        "cred_acq",
+        "cred_disp",
+        "cred_refr",
+        "execve",
+        "mmap",
+        "path",
+        "proctitle",
+        "service_start",
+        "service_stop",
+        "syscall",
+        "user_acct",
+        "user_end",
+        "user_start"
+      ]
+    },
+    {
+      "field": "event.action",
+      "distinct_values": 21,
+      "percent_of_events": 100.0,
+      "values": [
+        "",
+        "acquired-credentials",
+        "allocated-memory",
+        "bound-socket",
+        "changed-audit-configuration",
+        "changed-file-ownership-of",
+        "changed-file-permissions-of",
+        "changed-identity-of",
+        "connected-to",
+        "deleted",
+        "disposed-credentials",
+        "ended-session",
+        "executed",
+        "killed-pid",
+        "opened-file",
+        "refreshed-credentials",
+        "renamed",
+        "started-service",
+        "started-session",
+        "stopped-service",
+        "was-authorized"
+      ]
+    },
+    {
+      "field": "tags[]",
+      "distinct_values": 27,
+      "percent_of_events": 99.99,
+      "values": [
+        "bind",
+        "chdir",
+        "chmod",
+        "chroot",
+        "close",
+        "connect",
+        "create",
+        "dup",
+        "exit",
+        "fcntl",
+        "fork",
+        "kill",
+        "load",
+        "lseek",
+        "madvise",
+        "mmap",
+        "mprotect",
+        "open",
+        "pipe",
+        "rename",
+        "session",
+        "setgid",
+        "setuid",
+        "socket",
+        "socketpair",
+        "truncate",
+        "unlink"
+      ]
+    },
+    {
+      "field": "auditd.data.syscall",
+      "distinct_values": 36,
+      "percent_of_events": 99.99,
+      "values": [
+        "bind",
+        "chdir",
+        "chmod",
+        "chroot",
+        "clone",
+        "close",
+        "connect",
+        "creat",
+        "dup",
+        "dup2",
+        "execve",
+        "exit",
+        "exit_group",
+        "fchdir",
+        "fchmod",
+        "fchown",
+        "fcntl",
+        "ftruncate",
+        "kill",
+        "lseek",
+        "madvise",
+        "mmap",
+        "mprotect",
+        "open",
+        "openat",
+        "pipe",
+        "pipe2",
+        "rename",
+        "setgid",
+        "setresgid"
+      ]
+    },
+    {
+      "field": "process.executable",
+      "distinct_values": 64,
+      "percent_of_events": 100.0,
+      "values": [
+        "/bin/bash",
+        "/bin/cat",
+        "/bin/chown",
+        "/bin/cp",
+        "/bin/dash",
+        "/bin/date",
+        "/bin/df",
+        "/bin/echo",
+        "/bin/grep",
+        "/bin/gzip",
+        "/bin/ip",
+        "/bin/kill",
+        "/bin/ls",
+        "/bin/mkdir",
+        "/bin/mv",
+        "/bin/plymouth",
+        "/bin/ps",
+        "/bin/readlink",
+        "/bin/rm",
+        "/bin/run-parts",
+        "/bin/sed",
+        "/bin/systemctl",
+        "/bin/systemd-tmpfiles",
+        "/bin/tar",
+        "/bin/touch",
+        "/bin/true",
+        "/bin/uname",
+        "/lib/systemd/system-generators/systemd-dbus1-generator",
+        "/lib/systemd/systemd",
+        "/lib/systemd/systemd-cgroups-agent"
+      ]
+    },
+    {
+      "field": "auditd.summary.actor.secondary",
+      "distinct_values": 69,
+      "percent_of_events": 100.0,
+      "values": [
+        "3000017",
+        "3000019",
+        "3000020",
+        "3000021",
+        "3000022",
+        "3000023",
+        "3000024",
+        "3000025",
+        "3000026",
+        "3000027",
+        "3000028",
+        "3000029",
+        "3000030",
+        "3000031",
+        "3000032",
+        "3000033",
+        "3000034",
+        "3000035",
+        "3000036",
+        "3000037",
+        "3000038",
+        "3000039",
+        "3000040",
+        "3000041",
+        "3000042",
+        "3000043",
+        "3000044",
+        "3000045",
+        "3000046",
+        "3000047"
+      ]
+    },
+    {
+      "field": "user.effective.id",
+      "distinct_values": 69,
+      "percent_of_events": 99.99,
+      "values": [
+        "0",
+        "108",
+        "3000017",
+        "3000019",
+        "3000020",
+        "3000021",
+        "3000022",
+        "3000023",
+        "3000024",
+        "3000025",
+        "3000026",
+        "3000027",
+        "3000028",
+        "3000029",
+        "3000030",
+        "3000031",
+        "3000032",
+        "3000033",
+        "3000034",
+        "3000035",
+        "3000036",
+        "3000037",
+        "3000038",
+        "3000039",
+        "3000040",
+        "3000041",
+        "3000042",
+        "3000043",
+        "3000044",
+        "3000045"
+      ]
+    },
+    {
+      "field": "user.filesystem.id",
+      "distinct_values": 69,
+      "percent_of_events": 99.99,
+      "values": [
+        "0",
+        "108",
+        "3000017",
+        "3000019",
+        "3000020",
+        "3000021",
+        "3000022",
+        "3000023",
+        "3000024",
+        "3000025",
+        "3000026",
+        "3000027",
+        "3000028",
+        "3000029",
+        "3000030",
+        "3000031",
+        "3000032",
+        "3000033",
+        "3000034",
+        "3000035",
+        "3000036",
+        "3000037",
+        "3000038",
+        "3000039",
+        "3000040",
+        "3000041",
+        "3000042",
+        "3000043",
+        "3000044",
+        "3000045"
+      ]
+    },
+    {
+      "field": "user.id",
+      "distinct_values": 69,
+      "percent_of_events": 100.0,
+      "values": [
+        "0",
+        "108",
+        "3000017",
+        "3000019",
+        "3000020",
+        "3000021",
+        "3000022",
+        "3000023",
+        "3000024",
+        "3000025",
+        "3000026",
+        "3000027",
+        "3000028",
+        "3000029",
+        "3000030",
+        "3000031",
+        "3000032",
+        "3000033",
+        "3000034",
+        "3000035",
+        "3000036",
+        "3000037",
+        "3000038",
+        "3000039",
+        "3000040",
+        "3000041",
+        "3000042",
+        "3000043",
+        "3000044",
+        "3000045"
+      ]
+    },
+    {
+      "field": "auditd.summary.how",
+      "distinct_values": 71,
+      "percent_of_events": 100.0,
+      "values": [
+        "/bin/bash",
+        "/bin/cat",
+        "/bin/chown",
+        "/bin/cp",
+        "/bin/dash",
+        "/bin/date",
+        "/bin/df",
+        "/bin/echo",
+        "/bin/grep",
+        "/bin/gzip",
+        "/bin/ip",
+        "/bin/kill",
+        "/bin/ls",
+        "/bin/mkdir",
+        "/bin/mv",
+        "/bin/plymouth",
+        "/bin/ps",
+        "/bin/readlink",
+        "/bin/rm",
+        "/bin/run-parts",
+        "/bin/sed",
+        "/bin/systemctl",
+        "/bin/systemd-tmpfiles",
+        "/bin/tar",
+        "/bin/touch",
+        "/bin/true",
+        "/bin/uname",
+        "/lib/systemd/system-generators/systemd-dbus1-generator",
+        "/lib/systemd/systemd",
+        "/lib/systemd/systemd-cgroups-agent"
+      ]
+    },
+    {
+      "field": "process.name",
+      "distinct_values": 94,
+      "percent_of_events": 99.99,
+      "values": [
+        "(kill)",
+        "(md.daily)",
+        "(sd-pam)",
+        "(systemd)",
+        "(tmpfiles)",
+        "00-header",
+        "10-help-text",
+        "91-release-upgr",
+        "99-esm",
+        "acpi_available",
+        "apt-compat",
+        "apt-config",
+        "apt-get",
+        "apt.systemd.dai",
+        "basename",
+        "bash",
+        "bsdmainutils",
+        "cat",
+        "check-new-relea",
+        "chown",
+        "cmp",
+        "cp",
+        "cron",
+        "crontab",
+        "cut",
+        "date",
+        "df",
+        "dirname",
+        "dpkg",
+        "du"
+      ]
+    }
+  ],
+  "event_types": [
+    {
+      "event_type": "auditd:",
+      "count": 348058375,
+      "percent": 53.1946
+    },
+    {
+      "event_type": "auditd:changed-identity-of",
+      "count": 288939607,
+      "percent": 44.1593
+    },
+    {
+      "event_type": "auditd:opened-file",
+      "count": 11952022,
+      "percent": 1.8267
+    },
+    {
+      "event_type": "auditd:allocated-memory",
+      "count": 5048210,
+      "percent": 0.7715
+    },
+    {
+      "event_type": "auditd:connected-to",
+      "count": 122402,
+      "percent": 0.0187
+    },
+    {
+      "event_type": "auditd:deleted",
+      "count": 111245,
+      "percent": 0.017
+    },
+    {
+      "event_type": "auditd:bound-socket",
+      "count": 39679,
+      "percent": 0.0061
+    },
+    {
+      "event_type": "auditd:executed",
+      "count": 18090,
+      "percent": 0.0028
+    },
+    {
+      "event_type": "auditd:killed-pid",
+      "count": 11899,
+      "percent": 0.0018
+    },
+    {
+      "event_type": "auditd:-",
+      "count": 4924,
+      "percent": 0.0008
+    },
+    {
+      "event_type": "auditd:was-authorized",
+      "count": 852,
+      "percent": 0.0001
+    },
+    {
+      "event_type": "auditd:ended-session",
+      "count": 829,
+      "percent": 0.0001
+    },
+    {
+      "event_type": "auditd:started-session",
+      "count": 828,
+      "percent": 0.0001
+    },
+    {
+      "event_type": "auditd:disposed-credentials",
+      "count": 827,
+      "percent": 0.0001
+    },
+    {
+      "event_type": "auditd:acquired-credentials",
+      "count": 818,
+      "percent": 0.0001
+    },
+    {
+      "event_type": "auditd:renamed",
+      "count": 601,
+      "percent": 0.0001
+    },
+    {
+      "event_type": "auditd:changed-file-permissions-of",
+      "count": 324,
+      "percent": 0.0
+    },
+    {
+      "event_type": "auditd:stopped-service",
+      "count": 138,
+      "percent": 0.0
+    },
+    {
+      "event_type": "auditd:started-service",
+      "count": 130,
+      "percent": 0.0
+    },
+    {
+      "event_type": "auditd:refreshed-credentials",
+      "count": 129,
+      "percent": 0.0
+    },
+    {
+      "event_type": "auditd:changed-audit-configuration",
+      "count": 4,
+      "percent": 0.0
+    },
+    {
+      "event_type": "auditd:changed-file-ownership-of",
+      "count": 2,
+      "percent": 0.0
+    }
+  ],
+  "always_present": [
+    "@timestamp",
+    "agent.ephemeral_id",
+    "agent.hostname",
+    "agent.id",
+    "agent.type",
+    "agent.version",
+    "ecs.version",
+    "event.module",
+    "host.architecture",
+    "host.containerized",
+    "host.hostname",
+    "host.id",
+    "host.name",
+    "host.os.codename",
+    "host.os.family",
+    "host.os.kernel",
+    "host.os.name",
+    "host.os.platform",
+    "host.os.version",
+    "service.type"
+  ],
+  "field_coverage": {
+    "auditd:changed-identity-of": {
+      "count": 288939607,
+      "fields": {
+        "@timestamp": 100.0,
+        "agent.ephemeral_id": 100.0,
+        "agent.hostname": 100.0,
+        "agent.id": 100.0,
+        "agent.type": 100.0,
+        "agent.version": 100.0,
+        "auditd.data.a0": 100.0,
+        "auditd.data.a1": 100.0,
+        "auditd.data.a2": 100.0,
+        "auditd.data.a3": 100.0,
+        "auditd.data.arch": 100.0,
+        "auditd.data.exit": 100.0,
+        "auditd.data.syscall": 100.0,
+        "auditd.data.tty": 100.0,
+        "auditd.message_type": 100.0,
+        "auditd.result": 100.0,
+        "auditd.sequence": 100.0,
+        "auditd.summary.actor.primary": 100.0,
+        "auditd.summary.actor.secondary": 100.0,
+        "auditd.summary.how": 100.0,
+        "auditd.summary.object.type": 100.0,
+        "ecs.version": 100.0,
+        "event.action": 100.0,
+        "event.category": 100.0,
+        "event.module": 100.0,
+        "event.outcome": 100.0,
+        "host.architecture": 100.0,
+        "host.containerized": 100.0,
+        "host.hostname": 100.0,
+        "host.id": 100.0,
+        "host.name": 100.0,
+        "host.os.codename": 100.0,
+        "host.os.family": 100.0,
+        "host.os.kernel": 100.0,
+        "host.os.name": 100.0,
+        "host.os.platform": 100.0,
+        "host.os.version": 100.0,
+        "process.executable": 100.0,
+        "process.name": 100.0,
+        "process.pid": 100.0,
+        "process.ppid": 100.0,
+        "service.type": 100.0,
+        "tags[]": 100.0,
+        "user.effective.group.id": 100.0,
+        "user.effective.id": 100.0,
+        "user.filesystem.group.id": 100.0,
+        "user.filesystem.id": 100.0,
+        "user.group.id": 100.0,
+        "user.group.name": 100.0,
+        "user.id": 100.0,
+        "user.saved.group.id": 100.0,
+        "user.saved.group.name": 100.0,
+        "user.saved.id": 100.0,
+        "user.saved.name": 100.0,
+        "user.effective.name": 99.97,
+        "user.filesystem.name": 99.97,
+        "user.name": 99.97,
+        "user.effective.group.name": 99.94,
+        "user.filesystem.group.name": 99.94,
+        "process.title": 99.73,
+        "auditd.data.items": 0.27,
+        "auditd.session": 0.0,
+        "user.audit.id": 0.0,
+        "user.audit.name": 0.0
+      }
+    },
+    "auditd:": {
+      "count": 348058375,
+      "fields": {
+        "@timestamp": 100.0,
+        "agent.ephemeral_id": 100.0,
+        "agent.hostname": 100.0,
+        "agent.id": 100.0,
+        "agent.type": 100.0,
+        "agent.version": 100.0,
+        "auditd.message_type": 100.0,
+        "auditd.result": 100.0,
+        "auditd.sequence": 100.0,
+        "ecs.version": 100.0,
+        "event.action": 100.0,
+        "event.category": 100.0,
+        "event.module": 100.0,
+        "event.outcome": 100.0,
+        "host.architecture": 100.0,
+        "host.containerized": 100.0,
+        "host.hostname": 100.0,
+        "host.id": 100.0,
+        "host.name": 100.0,
+        "host.os.codename": 100.0,
+        "host.os.family": 100.0,
+        "host.os.kernel": 100.0,
+        "host.os.name": 100.0,
+        "host.os.platform": 100.0,
+        "host.os.version": 100.0,
+        "service.type": 100.0,
+        "auditd.data.a0": 99.99,
+        "auditd.data.a1": 99.99,
+        "auditd.data.a2": 99.99,
+        "auditd.data.a3": 99.99,
+        "auditd.data.arch": 99.99,
+        "auditd.data.syscall": 99.99,
+        "auditd.data.tty": 99.99,
+        "auditd.summary.actor.primary": 99.99,
+        "auditd.summary.actor.secondary": 99.99,
+        "auditd.summary.how": 99.99,
+        "process.executable": 99.99,
+        "process.name": 99.99,
+        "process.pid": 99.99,
+        "process.ppid": 99.99,
+        "tags[]": 99.99,
+        "user.effective.group.id": 99.99,
+        "user.effective.id": 99.99,
+        "user.filesystem.group.id": 99.99,
+        "user.filesystem.id": 99.99,
+        "user.group.id": 99.99,
+        "user.group.name": 99.99,
+        "user.id": 99.99,
+        "user.saved.group.id": 99.99,
+        "user.saved.group.name": 99.99,
+        "user.saved.id": 99.99,
+        "user.saved.name": 99.99,
+        "auditd.data.exit": 99.98,
+        "user.effective.group.name": 99.95,
+        "user.filesystem.group.name": 99.95,
+        "user.effective.name": 99.91,
+        "user.filesystem.name": 99.91,
+        "user.name": 99.91,
+        "process.title": 99.8,
+        "auditd.data.items": 0.2,
+        "auditd.session": 0.16,
+        "user.audit.id": 0.15,
+        "user.audit.name": 0.15,
+        "auditd.paths[].dev": 0.04,
+        "auditd.paths[].inode": 0.04,
+        "auditd.paths[].item": 0.04,
+        "auditd.paths[].mode": 0.04,
+        "auditd.paths[].name": 0.04,
+        "auditd.paths[].nametype": 0.04,
+        "auditd.paths[].ogid": 0.04,
+        "auditd.paths[].ouid": 0.04,
+        "auditd.paths[].rdev": 0.04,
+        "auditd.data.fd0": 0.01,
+        "auditd.data.fd1": 0.01,
+        "auditd.data.item": 0.0,
+        "auditd.data.name": 0.0,
+        "auditd.data.nametype": 0.0,
+        "auditd.data.dev": 0.0,
+        "auditd.data.inode": 0.0,
+        "auditd.data.mode": 0.0,
+        "auditd.data.rdev": 0.0,
+        "user.ogid.id": 0.0,
+        "user.ogid.name": 0.0,
+        "user.ouid.id": 0.0,
+        "user.ouid.name": 0.0,
+        "auditd.data.fd": 0.0,
+        "auditd.data.flags": 0.0,
+        "auditd.data.argc": 0.0
+      }
+    },
+    "auditd:opened-file": {
+      "count": 11952022,
+      "fields": {
+        "@timestamp": 100.0,
+        "agent.ephemeral_id": 100.0,
+        "agent.hostname": 100.0,
+        "agent.id": 100.0,
+        "agent.type": 100.0,
+        "agent.version": 100.0,
+        "auditd.data.a0": 100.0,
+        "auditd.data.a1": 100.0,
+        "auditd.data.a2": 100.0,
+        "auditd.data.a3": 100.0,
+        "auditd.data.arch": 100.0,
+        "auditd.data.exit": 100.0,
+        "auditd.data.syscall": 100.0,
+        "auditd.data.tty": 100.0,
+        "auditd.message_type": 100.0,
+        "auditd.result": 100.0,
+        "auditd.sequence": 100.0,
+        "auditd.summary.actor.primary": 100.0,
+        "auditd.summary.actor.secondary": 100.0,
+        "auditd.summary.how": 100.0,
+        "auditd.summary.object.type": 100.0,
+        "ecs.version": 100.0,
+        "event.action": 100.0,
+        "event.category": 100.0,
+        "event.module": 100.0,
+        "event.outcome": 100.0,
+        "host.architecture": 100.0,
+        "host.containerized": 100.0,
+        "host.hostname": 100.0,
+        "host.id": 100.0,
+        "host.name": 100.0,
+        "host.os.codename": 100.0,
+        "host.os.family": 100.0,
+        "host.os.kernel": 100.0,
+        "host.os.name": 100.0,
+        "host.os.platform": 100.0,
+        "host.os.version": 100.0,
+        "process.executable": 100.0,
+        "process.name": 100.0,
+        "process.pid": 100.0,
+        "process.ppid": 100.0,
+        "service.type": 100.0,
+        "tags[]": 100.0,
+        "user.effective.group.id": 100.0,
+        "user.effective.id": 100.0,
+        "user.filesystem.group.id": 100.0,
+        "user.filesystem.id": 100.0,
+        "user.group.id": 100.0,
+        "user.group.name": 100.0,
+        "user.id": 100.0,
+        "user.saved.group.id": 100.0,
+        "user.saved.group.name": 100.0,
+        "user.saved.id": 100.0,
+        "user.saved.name": 100.0,
+        "user.effective.group.name": 99.94,
+        "user.filesystem.group.name": 99.94,
+        "process.title": 99.89,
+        "user.effective.name": 99.89,
+        "user.filesystem.name": 99.89,
+        "user.name": 99.89,
+        "auditd.paths[].item": 99.64,
+        "auditd.paths[].name": 99.64,
+        "auditd.paths[].nametype": 99.64,
+        "auditd.summary.object.primary": 99.64,
+        "file.path": 99.64,
+        "auditd.paths[].dev": 45.66,
+        "auditd.paths[].inode": 45.66,
+        "auditd.paths[].mode": 45.66,
+        "auditd.paths[].ogid": 45.66,
+        "auditd.paths[].ouid": 45.66,
+        "auditd.paths[].rdev": 45.66,
+        "file.device": 45.66,
+        "file.gid": 45.66,
+        "file.inode": 45.66,
+        "file.mode": 45.66,
+        "file.uid": 45.66,
+        "file.owner": 45.53,
+        "file.group": 45.53,
+        "auditd.session": 0.85,
+        "user.audit.id": 0.85,
+        "user.audit.name": 0.85,
+        "auditd.data.items": 0.06
+      }
+    },
+    "auditd:allocated-memory": {
+      "count": 5048210,
+      "fields": {
+        "@timestamp": 100.0,
+        "agent.ephemeral_id": 100.0,
+        "agent.hostname": 100.0,
+        "agent.id": 100.0,
+        "agent.type": 100.0,
+        "agent.version": 100.0,
+        "auditd.data.a0": 100.0,
+        "auditd.data.a1": 100.0,
+        "auditd.data.a2": 100.0,
+        "auditd.data.a3": 100.0,
+        "auditd.data.arch": 100.0,
+        "auditd.data.exit": 100.0,
+        "auditd.data.syscall": 100.0,
+        "auditd.data.tty": 100.0,
+        "auditd.message_type": 100.0,
+        "auditd.result": 100.0,
+        "auditd.sequence": 100.0,
+        "auditd.summary.actor.primary": 100.0,
+        "auditd.summary.actor.secondary": 100.0,
+        "auditd.summary.how": 100.0,
+        "auditd.summary.object.type": 100.0,
+        "ecs.version": 100.0,
+        "event.action": 100.0,
+        "event.category": 100.0,
+        "event.module": 100.0,
+        "event.outcome": 100.0,
+        "host.architecture": 100.0,
+        "host.containerized": 100.0,
+        "host.hostname": 100.0,
+        "host.id": 100.0,
+        "host.name": 100.0,
+        "host.os.codename": 100.0,
+        "host.os.family": 100.0,
+        "host.os.kernel": 100.0,
+        "host.os.name": 100.0,
+        "host.os.platform": 100.0,
+        "host.os.version": 100.0,
+        "process.executable": 100.0,
+        "process.name": 100.0,
+        "process.pid": 100.0,
+        "process.ppid": 100.0,
+        "service.type": 100.0,
+        "tags[]": 100.0,
+        "user.effective.group.id": 100.0,
+        "user.effective.id": 100.0,
+        "user.filesystem.group.id": 100.0,
+        "user.filesystem.id": 100.0,
+        "user.group.id": 100.0,
+        "user.group.name": 100.0,
+        "user.id": 100.0,
+        "user.saved.group.id": 100.0,
+        "user.saved.group.name": 100.0,
+        "user.saved.id": 100.0,
+        "user.saved.name": 100.0,
+        "process.title": 99.9,
+        "user.effective.group.name": 99.81,
+        "user.filesystem.group.name": 99.81,
+        "user.effective.name": 99.65,
+        "user.filesystem.name": 99.65,
+        "user.name": 99.65,
+        "auditd.data.fd": 91.77,
+        "auditd.data.flags": 91.77,
+        "auditd.session": 1.59,
+        "user.audit.id": 1.59,
+        "user.audit.name": 1.59,
+        "auditd.data.items": 0.06
+      }
+    },
+    "auditd:executed": {
+      "count": 18090,
+      "fields": {
+        "@timestamp": 100.0,
+        "agent.ephemeral_id": 100.0,
+        "agent.hostname": 100.0,
+        "agent.id": 100.0,
+        "agent.type": 100.0,
+        "agent.version": 100.0,
+        "auditd.data.a0": 100.0,
+        "auditd.data.a1": 100.0,
+        "auditd.data.a2": 100.0,
+        "auditd.data.a3": 100.0,
+        "auditd.data.arch": 100.0,
+        "auditd.data.exit": 100.0,
+        "auditd.data.syscall": 100.0,
+        "auditd.data.tty": 100.0,
+        "auditd.message_type": 100.0,
+        "auditd.result": 100.0,
+        "auditd.sequence": 100.0,
+        "auditd.summary.actor.primary": 100.0,
+        "auditd.summary.actor.secondary": 100.0,
+        "auditd.summary.how": 100.0,
+        "auditd.summary.object.type": 100.0,
+        "ecs.version": 100.0,
+        "event.action": 100.0,
+        "event.category": 100.0,
+        "event.module": 100.0,
+        "event.outcome": 100.0,
+        "host.architecture": 100.0,
+        "host.containerized": 100.0,
+        "host.hostname": 100.0,
+        "host.id": 100.0,
+        "host.name": 100.0,
+        "host.os.codename": 100.0,
+        "host.os.family": 100.0,
+        "host.os.kernel": 100.0,
+        "host.os.name": 100.0,
+        "host.os.platform": 100.0,
+        "host.os.version": 100.0,
+        "process.executable": 100.0,
+        "process.name": 100.0,
+        "process.pid": 100.0,
+        "process.ppid": 100.0,
+        "service.type": 100.0,
+        "tags[]": 100.0,
+        "user.effective.group.id": 100.0,
+        "user.effective.group.name": 100.0,
+        "user.effective.id": 100.0,
+        "user.effective.name": 100.0,
+        "user.filesystem.group.id": 100.0,
+        "user.filesystem.group.name": 100.0,
+        "user.filesystem.id": 100.0,
+        "user.filesystem.name": 100.0,
+        "user.group.id": 100.0,
+        "user.group.name": 100.0,
+        "user.id": 100.0,
+        "user.name": 100.0,
+        "user.saved.group.id": 100.0,
+        "user.saved.group.name": 100.0,
+        "user.saved.id": 100.0,
+        "user.saved.name": 100.0,
+        "auditd.paths[].item": 99.45,
+        "auditd.paths[].name": 99.45,
+        "auditd.paths[].nametype": 99.45,
+        "auditd.summary.object.primary": 99.45,
+        "file.path": 99.45,
+        "process.title": 99.35,
+        "auditd.data.argc": 93.12,
+        "process.args[]": 93.12,
+        "auditd.paths[].dev": 92.9,
+        "auditd.paths[].inode": 92.9,
+        "auditd.paths[].mode": 92.9,
+        "auditd.paths[].ogid": 92.9,
+        "auditd.paths[].ouid": 92.9,
+        "auditd.paths[].rdev": 92.9,
+        "file.device": 92.9,
+        "file.gid": 92.9,
+        "file.group": 92.9,
+        "file.inode": 92.9,
+        "file.mode": 92.9,
+        "file.owner": 92.9,
+        "file.uid": 92.9,
+        "auditd.session": 37.13,
+        "user.audit.id": 37.13,
+        "user.audit.name": 37.13,
+        "auditd.data.items": 0.33
+      }
+    },
+    "auditd:connected-to": {
+      "count": 122402,
+      "fields": {
+        "@timestamp": 100.0,
+        "agent.ephemeral_id": 100.0,
+        "agent.hostname": 100.0,
+        "agent.id": 100.0,
+        "agent.type": 100.0,
+        "agent.version": 100.0,
+        "auditd.data.a0": 100.0,
+        "auditd.data.a1": 100.0,
+        "auditd.data.a2": 100.0,
+        "auditd.data.a3": 100.0,
+        "auditd.data.arch": 100.0,
+        "auditd.data.exit": 100.0,
+        "auditd.data.syscall": 100.0,
+        "auditd.data.tty": 100.0,
+        "auditd.message_type": 100.0,
+        "auditd.result": 100.0,
+        "auditd.sequence": 100.0,
+        "auditd.summary.actor.primary": 100.0,
+        "auditd.summary.actor.secondary": 100.0,
+        "auditd.summary.how": 100.0,
+        "auditd.summary.object.type": 100.0,
+        "ecs.version": 100.0,
+        "event.action": 100.0,
+        "event.category": 100.0,
+        "event.module": 100.0,
+        "event.outcome": 100.0,
+        "host.architecture": 100.0,
+        "host.containerized": 100.0,
+        "host.hostname": 100.0,
+        "host.id": 100.0,
+        "host.name": 100.0,
+        "host.os.codename": 100.0,
+        "host.os.family": 100.0,
+        "host.os.kernel": 100.0,
+        "host.os.name": 100.0,
+        "host.os.platform": 100.0,
+        "host.os.version": 100.0,
+        "process.executable": 100.0,
+        "process.name": 100.0,
+        "process.pid": 100.0,
+        "process.ppid": 100.0,
+        "service.type": 100.0,
+        "tags[]": 100.0,
+        "user.effective.group.id": 100.0,
+        "user.effective.group.name": 100.0,
+        "user.effective.id": 100.0,
+        "user.effective.name": 100.0,
+        "user.filesystem.group.id": 100.0,
+        "user.filesystem.group.name": 100.0,
+        "user.filesystem.id": 100.0,
+        "user.filesystem.name": 100.0,
+        "user.group.id": 100.0,
+        "user.group.name": 100.0,
+        "user.id": 100.0,
+        "user.name": 100.0,
+        "user.saved.group.id": 100.0,
+        "user.saved.group.name": 100.0,
+        "user.saved.id": 100.0,
+        "user.saved.name": 100.0,
+        "auditd.data.socket.family": 99.77,
+        "network.direction": 99.77,
+        "auditd.summary.object.primary": 99.53,
+        "process.title": 99.51,
+        "auditd.data.socket.addr": 52.06,
+        "auditd.data.socket.port": 52.06,
+        "auditd.summary.object.secondary": 52.06,
+        "destination.ip": 52.06,
+        "destination.port": 52.06,
+        "auditd.data.socket.path": 47.52,
+        "destination.path": 47.47,
+        "auditd.paths[].item": 47.42,
+        "auditd.paths[].name": 47.42,
+        "auditd.paths[].nametype": 47.42,
+        "auditd.paths[].dev": 24.32,
+        "auditd.paths[].inode": 24.32,
+        "auditd.paths[].mode": 24.32,
+        "auditd.paths[].ogid": 24.32,
+        "auditd.paths[].ouid": 24.32,
+        "auditd.paths[].rdev": 24.32,
+        "auditd.session": 3.6,
+        "user.audit.id": 3.6,
+        "user.audit.name": 3.6,
+        "auditd.data.items": 0.23,
+        "auditd.data.socket.saddr": 0.2
+      }
+    },
+    "auditd:bound-socket": {
+      "count": 39679,
+      "fields": {
+        "@timestamp": 100.0,
+        "agent.ephemeral_id": 100.0,
+        "agent.hostname": 100.0,
+        "agent.id": 100.0,
+        "agent.type": 100.0,
+        "agent.version": 100.0,
+        "auditd.data.a0": 100.0,
+        "auditd.data.a1": 100.0,
+        "auditd.data.a2": 100.0,
+        "auditd.data.a3": 100.0,
+        "auditd.data.arch": 100.0,
+        "auditd.data.exit": 100.0,
+        "auditd.data.syscall": 100.0,
+        "auditd.data.tty": 100.0,
+        "auditd.message_type": 100.0,
+        "auditd.result": 100.0,
+        "auditd.sequence": 100.0,
+        "auditd.summary.actor.primary": 100.0,
+        "auditd.summary.actor.secondary": 100.0,
+        "auditd.summary.how": 100.0,
+        "auditd.summary.object.type": 100.0,
+        "ecs.version": 100.0,
+        "event.action": 100.0,
+        "event.category": 100.0,
+        "event.module": 100.0,
+        "event.outcome": 100.0,
+        "host.architecture": 100.0,
+        "host.containerized": 100.0,
+        "host.hostname": 100.0,
+        "host.id": 100.0,
+        "host.name": 100.0,
+        "host.os.codename": 100.0,
+        "host.os.family": 100.0,
+        "host.os.kernel": 100.0,
+        "host.os.name": 100.0,
+        "host.os.platform": 100.0,
+        "host.os.version": 100.0,
+        "process.executable": 100.0,
+        "process.name": 100.0,
+        "process.pid": 100.0,
+        "process.ppid": 100.0,
+        "service.type": 100.0,
+        "tags[]": 100.0,
+        "user.effective.group.id": 100.0,
+        "user.effective.group.name": 100.0,
+        "user.effective.id": 100.0,
+        "user.effective.name": 100.0,
+        "user.filesystem.group.id": 100.0,
+        "user.filesystem.group.name": 100.0,
+        "user.filesystem.id": 100.0,
+        "user.filesystem.name": 100.0,
+        "user.group.id": 100.0,
+        "user.group.name": 100.0,
+        "user.id": 100.0,
+        "user.name": 100.0,
+        "user.saved.group.id": 100.0,
+        "user.saved.group.name": 100.0,
+        "user.saved.id": 100.0,
+        "user.saved.name": 100.0,
+        "auditd.data.socket.family": 99.78,
+        "process.title": 99.62,
+        "auditd.data.socket.path": 87.95,
+        "auditd.summary.object.primary": 87.95,
+        "auditd.paths[].dev": 87.89,
+        "auditd.paths[].inode": 87.89,
+        "auditd.paths[].item": 87.89,
+        "auditd.paths[].mode": 87.89,
+        "auditd.paths[].name": 87.89,
+        "auditd.paths[].nametype": 87.89,
+        "auditd.paths[].ogid": 87.89,
+        "auditd.paths[].ouid": 87.89,
+        "auditd.paths[].rdev": 87.89,
+        "auditd.data.socket.saddr": 11.83,
+        "auditd.session": 1.5,
+        "user.audit.id": 1.5,
+        "user.audit.name": 1.5,
+        "auditd.data.items": 0.22
+      }
+    },
+    "auditd:deleted": {
+      "count": 111245,
+      "fields": {
+        "@timestamp": 100.0,
+        "agent.ephemeral_id": 100.0,
+        "agent.hostname": 100.0,
+        "agent.id": 100.0,
+        "agent.type": 100.0,
+        "agent.version": 100.0,
+        "auditd.data.a0": 100.0,
+        "auditd.data.a1": 100.0,
+        "auditd.data.a2": 100.0,
+        "auditd.data.a3": 100.0,
+        "auditd.data.arch": 100.0,
+        "auditd.data.exit": 100.0,
+        "auditd.data.syscall": 100.0,
+        "auditd.data.tty": 100.0,
+        "auditd.message_type": 100.0,
+        "auditd.result": 100.0,
+        "auditd.sequence": 100.0,
+        "auditd.summary.actor.primary": 100.0,
+        "auditd.summary.actor.secondary": 100.0,
+        "auditd.summary.how": 100.0,
+        "auditd.summary.object.type": 100.0,
+        "ecs.version": 100.0,
+        "event.action": 100.0,
+        "event.category": 100.0,
+        "event.module": 100.0,
+        "event.outcome": 100.0,
+        "host.architecture": 100.0,
+        "host.containerized": 100.0,
+        "host.hostname": 100.0,
+        "host.id": 100.0,
+        "host.name": 100.0,
+        "host.os.codename": 100.0,
+        "host.os.family": 100.0,
+        "host.os.kernel": 100.0,
+        "host.os.name": 100.0,
+        "host.os.platform": 100.0,
+        "host.os.version": 100.0,
+        "process.executable": 100.0,
+        "process.name": 100.0,
+        "process.pid": 100.0,
+        "process.ppid": 100.0,
+        "service.type": 100.0,
+        "tags[]": 100.0,
+        "user.effective.group.id": 100.0,
+        "user.effective.group.name": 100.0,
+        "user.effective.id": 100.0,
+        "user.effective.name": 100.0,
+        "user.filesystem.group.id": 100.0,
+        "user.filesystem.group.name": 100.0,
+        "user.filesystem.id": 100.0,
+        "user.filesystem.name": 100.0,
+        "user.group.id": 100.0,
+        "user.group.name": 100.0,
+        "user.id": 100.0,
+        "user.name": 100.0,
+        "user.saved.group.id": 100.0,
+        "user.saved.group.name": 100.0,
+        "user.saved.id": 100.0,
+        "user.saved.name": 100.0,
+        "auditd.paths[].dev": 99.93,
+        "auditd.paths[].inode": 99.93,
+        "auditd.paths[].item": 99.93,
+        "auditd.paths[].mode": 99.93,
+        "auditd.paths[].name": 99.93,
+        "auditd.paths[].nametype": 99.93,
+        "auditd.paths[].ogid": 99.93,
+        "auditd.paths[].ouid": 99.93,
+        "auditd.paths[].rdev": 99.93,
+        "auditd.summary.object.primary": 99.93,
+        "file.device": 99.93,
+        "file.gid": 99.93,
+        "file.group": 99.93,
+        "file.inode": 99.93,
+        "file.mode": 99.93,
+        "file.owner": 99.93,
+        "file.path": 99.93,
+        "file.uid": 99.93,
+        "process.title": 99.75,
+        "auditd.session": 0.17,
+        "user.audit.id": 0.17,
+        "user.audit.name": 0.17,
+        "auditd.data.items": 0.07
+      }
+    },
+    "auditd:-": {
+      "count": 4924,
+      "fields": {
+        "@timestamp": 100.0,
+        "agent.ephemeral_id": 100.0,
+        "agent.hostname": 100.0,
+        "agent.id": 100.0,
+        "agent.type": 100.0,
+        "agent.version": 100.0,
+        "ecs.version": 100.0,
+        "event.module": 100.0,
+        "event.original[]": 100.0,
+        "host.architecture": 100.0,
+        "host.containerized": 100.0,
+        "host.hostname": 100.0,
+        "host.id": 100.0,
+        "host.name": 100.0,
+        "host.os.codename": 100.0,
+        "host.os.family": 100.0,
+        "host.os.kernel": 100.0,
+        "host.os.name": 100.0,
+        "host.os.platform": 100.0,
+        "host.os.version": 100.0,
+        "service.type": 100.0
+      }
+    },
+    "auditd:was-authorized": {
+      "count": 852,
+      "fields": {
+        "@timestamp": 100.0,
+        "agent.ephemeral_id": 100.0,
+        "agent.hostname": 100.0,
+        "agent.id": 100.0,
+        "agent.type": 100.0,
+        "agent.version": 100.0,
+        "auditd.data.acct": 100.0,
+        "auditd.data.op": 100.0,
+        "auditd.message_type": 100.0,
+        "auditd.result": 100.0,
+        "auditd.sequence": 100.0,
+        "auditd.summary.actor.primary": 100.0,
+        "auditd.summary.actor.secondary": 100.0,
+        "auditd.summary.how": 100.0,
+        "auditd.summary.object.type": 100.0,
+        "ecs.version": 100.0,
+        "event.action": 100.0,
+        "event.category": 100.0,
+        "event.module": 100.0,
+        "event.outcome": 100.0,
+        "host.architecture": 100.0,
+        "host.containerized": 100.0,
+        "host.hostname": 100.0,
+        "host.id": 100.0,
+        "host.name": 100.0,
+        "host.os.codename": 100.0,
+        "host.os.family": 100.0,
+        "host.os.kernel": 100.0,
+        "host.os.name": 100.0,
+        "host.os.platform": 100.0,
+        "host.os.version": 100.0,
+        "process.executable": 100.0,
+        "process.pid": 100.0,
+        "service.type": 100.0,
+        "user.id": 100.0,
+        "user.name": 100.0,
+        "auditd.data.terminal": 96.6,
+        "auditd.summary.object.primary": 96.6,
+        "auditd.data.addr": 16.2,
+        "auditd.data.hostname": 16.2,
+        "auditd.summary.object.secondary": 16.2
+      }
+    },
+    "auditd:started-session": {
+      "count": 828,
+      "fields": {
+        "@timestamp": 100.0,
+        "agent.ephemeral_id": 100.0,
+        "agent.hostname": 100.0,
+        "agent.id": 100.0,
+        "agent.type": 100.0,
+        "agent.version": 100.0,
+        "auditd.data.acct": 100.0,
+        "auditd.data.op": 100.0,
+        "auditd.message_type": 100.0,
+        "auditd.result": 100.0,
+        "auditd.sequence": 100.0,
+        "auditd.summary.actor.primary": 100.0,
+        "auditd.summary.actor.secondary": 100.0,
+        "auditd.summary.how": 100.0,
+        "auditd.summary.object.type": 100.0,
+        "ecs.version": 100.0,
+        "event.action": 100.0,
+        "event.category": 100.0,
+        "event.module": 100.0,
+        "event.outcome": 100.0,
+        "host.architecture": 100.0,
+        "host.containerized": 100.0,
+        "host.hostname": 100.0,
+        "host.id": 100.0,
+        "host.name": 100.0,
+        "host.os.codename": 100.0,
+        "host.os.family": 100.0,
+        "host.os.kernel": 100.0,
+        "host.os.name": 100.0,
+        "host.os.platform": 100.0,
+        "host.os.version": 100.0,
+        "process.executable": 100.0,
+        "process.pid": 100.0,
+        "service.type": 100.0,
+        "user.id": 100.0,
+        "user.name": 100.0,
+        "auditd.data.terminal": 96.5,
+        "auditd.session": 96.5,
+        "auditd.summary.object.primary": 96.5,
+        "user.audit.id": 96.5,
+        "user.audit.name": 96.5,
+        "auditd.data.hostname": 13.77,
+        "auditd.summary.object.secondary": 13.77,
+        "network.direction": 13.77,
+        "source.ip": 13.77
+      }
+    },
+    "auditd:acquired-credentials": {
+      "count": 818,
+      "fields": {
+        "@timestamp": 100.0,
+        "agent.ephemeral_id": 100.0,
+        "agent.hostname": 100.0,
+        "agent.id": 100.0,
+        "agent.type": 100.0,
+        "agent.version": 100.0,
+        "auditd.data.acct": 100.0,
+        "auditd.data.op": 100.0,
+        "auditd.data.terminal": 100.0,
+        "auditd.message_type": 100.0,
+        "auditd.result": 100.0,
+        "auditd.sequence": 100.0,
+        "auditd.summary.actor.primary": 100.0,
+        "auditd.summary.actor.secondary": 100.0,
+        "auditd.summary.how": 100.0,
+        "auditd.summary.object.primary": 100.0,
+        "auditd.summary.object.type": 100.0,
+        "ecs.version": 100.0,
+        "event.action": 100.0,
+        "event.category": 100.0,
+        "event.module": 100.0,
+        "event.outcome": 100.0,
+        "host.architecture": 100.0,
+        "host.containerized": 100.0,
+        "host.hostname": 100.0,
+        "host.id": 100.0,
+        "host.name": 100.0,
+        "host.os.codename": 100.0,
+        "host.os.family": 100.0,
+        "host.os.kernel": 100.0,
+        "host.os.name": 100.0,
+        "host.os.platform": 100.0,
+        "host.os.version": 100.0,
+        "process.executable": 100.0,
+        "process.pid": 100.0,
+        "service.type": 100.0,
+        "user.id": 100.0,
+        "user.name": 100.0,
+        "auditd.data.addr": 16.26,
+        "auditd.data.hostname": 16.26,
+        "auditd.summary.object.secondary": 16.26
+      }
+    },
+    "auditd:ended-session": {
+      "count": 829,
+      "fields": {
+        "@timestamp": 100.0,
+        "agent.ephemeral_id": 100.0,
+        "agent.hostname": 100.0,
+        "agent.id": 100.0,
+        "agent.type": 100.0,
+        "agent.version": 100.0,
+        "auditd.data.acct": 100.0,
+        "auditd.data.op": 100.0,
+        "auditd.data.terminal": 100.0,
+        "auditd.message_type": 100.0,
+        "auditd.result": 100.0,
+        "auditd.sequence": 100.0,
+        "auditd.session": 100.0,
+        "auditd.summary.actor.primary": 100.0,
+        "auditd.summary.actor.secondary": 100.0,
+        "auditd.summary.how": 100.0,
+        "auditd.summary.object.primary": 100.0,
+        "auditd.summary.object.type": 100.0,
+        "ecs.version": 100.0,
+        "event.action": 100.0,
+        "event.category": 100.0,
+        "event.module": 100.0,
+        "event.outcome": 100.0,
+        "host.architecture": 100.0,
+        "host.containerized": 100.0,
+        "host.hostname": 100.0,
+        "host.id": 100.0,
+        "host.name": 100.0,
+        "host.os.codename": 100.0,
+        "host.os.family": 100.0,
+        "host.os.kernel": 100.0,
+        "host.os.name": 100.0,
+        "host.os.platform": 100.0,
+        "host.os.version": 100.0,
+        "process.executable": 100.0,
+        "process.pid": 100.0,
+        "service.type": 100.0,
+        "user.audit.id": 100.0,
+        "user.audit.name": 100.0,
+        "user.id": 100.0,
+        "user.name": 100.0,
+        "auditd.data.addr": 19.9,
+        "auditd.data.hostname": 19.9,
+        "auditd.summary.object.secondary": 19.9
+      }
+    },
+    "auditd:disposed-credentials": {
+      "count": 827,
+      "fields": {
+        "@timestamp": 100.0,
+        "agent.ephemeral_id": 100.0,
+        "agent.hostname": 100.0,
+        "agent.id": 100.0,
+        "agent.type": 100.0,
+        "agent.version": 100.0,
+        "auditd.data.acct": 100.0,
+        "auditd.data.op": 100.0,
+        "auditd.data.terminal": 100.0,
+        "auditd.message_type": 100.0,
+        "auditd.result": 100.0,
+        "auditd.sequence": 100.0,
+        "auditd.session": 100.0,
+        "auditd.summary.actor.primary": 100.0,
+        "auditd.summary.actor.secondary": 100.0,
+        "auditd.summary.how": 100.0,
+        "auditd.summary.object.primary": 100.0,
+        "auditd.summary.object.type": 100.0,
+        "ecs.version": 100.0,
+        "event.action": 100.0,
+        "event.category": 100.0,
+        "event.module": 100.0,
+        "event.outcome": 100.0,
+        "host.architecture": 100.0,
+        "host.containerized": 100.0,
+        "host.hostname": 100.0,
+        "host.id": 100.0,
+        "host.name": 100.0,
+        "host.os.codename": 100.0,
+        "host.os.family": 100.0,
+        "host.os.kernel": 100.0,
+        "host.os.name": 100.0,
+        "host.os.platform": 100.0,
+        "host.os.version": 100.0,
+        "process.executable": 100.0,
+        "process.pid": 100.0,
+        "service.type": 100.0,
+        "user.audit.id": 100.0,
+        "user.audit.name": 100.0,
+        "user.id": 100.0,
+        "user.name": 100.0,
+        "auditd.data.addr": 19.95,
+        "auditd.data.hostname": 19.95,
+        "auditd.summary.object.secondary": 19.95
+      }
+    },
+    "auditd:started-service": {
+      "count": 130,
+      "fields": {
+        "@timestamp": 100.0,
+        "agent.ephemeral_id": 100.0,
+        "agent.hostname": 100.0,
+        "agent.id": 100.0,
+        "agent.type": 100.0,
+        "agent.version": 100.0,
+        "auditd.data.unit": 100.0,
+        "auditd.message_type": 100.0,
+        "auditd.result": 100.0,
+        "auditd.sequence": 100.0,
+        "auditd.summary.actor.primary": 100.0,
+        "auditd.summary.actor.secondary": 100.0,
+        "auditd.summary.how": 100.0,
+        "auditd.summary.object.primary": 100.0,
+        "auditd.summary.object.type": 100.0,
+        "ecs.version": 100.0,
+        "event.action": 100.0,
+        "event.category": 100.0,
+        "event.module": 100.0,
+        "event.outcome": 100.0,
+        "host.architecture": 100.0,
+        "host.containerized": 100.0,
+        "host.hostname": 100.0,
+        "host.id": 100.0,
+        "host.name": 100.0,
+        "host.os.codename": 100.0,
+        "host.os.family": 100.0,
+        "host.os.kernel": 100.0,
+        "host.os.name": 100.0,
+        "host.os.platform": 100.0,
+        "host.os.version": 100.0,
+        "process.executable": 100.0,
+        "process.name": 100.0,
+        "process.pid": 100.0,
+        "service.type": 100.0,
+        "user.id": 100.0,
+        "user.name": 100.0
+      }
+    },
+    "auditd:stopped-service": {
+      "count": 138,
+      "fields": {
+        "@timestamp": 100.0,
+        "agent.ephemeral_id": 100.0,
+        "agent.hostname": 100.0,
+        "agent.id": 100.0,
+        "agent.type": 100.0,
+        "agent.version": 100.0,
+        "auditd.data.unit": 100.0,
+        "auditd.message_type": 100.0,
+        "auditd.result": 100.0,
+        "auditd.sequence": 100.0,
+        "auditd.summary.actor.primary": 100.0,
+        "auditd.summary.actor.secondary": 100.0,
+        "auditd.summary.how": 100.0,
+        "auditd.summary.object.primary": 100.0,
+        "auditd.summary.object.type": 100.0,
+        "ecs.version": 100.0,
+        "event.action": 100.0,
+        "event.category": 100.0,
+        "event.module": 100.0,
+        "event.outcome": 100.0,
+        "host.architecture": 100.0,
+        "host.containerized": 100.0,
+        "host.hostname": 100.0,
+        "host.id": 100.0,
+        "host.name": 100.0,
+        "host.os.codename": 100.0,
+        "host.os.family": 100.0,
+        "host.os.kernel": 100.0,
+        "host.os.name": 100.0,
+        "host.os.platform": 100.0,
+        "host.os.version": 100.0,
+        "process.executable": 100.0,
+        "process.name": 100.0,
+        "process.pid": 100.0,
+        "service.type": 100.0,
+        "user.id": 100.0,
+        "user.name": 100.0
+      }
+    },
+    "auditd:renamed": {
+      "count": 601,
+      "fields": {
+        "@timestamp": 100.0,
+        "agent.ephemeral_id": 100.0,
+        "agent.hostname": 100.0,
+        "agent.id": 100.0,
+        "agent.type": 100.0,
+        "agent.version": 100.0,
+        "auditd.data.a0": 100.0,
+        "auditd.data.a1": 100.0,
+        "auditd.data.a2": 100.0,
+        "auditd.data.a3": 100.0,
+        "auditd.data.arch": 100.0,
+        "auditd.data.exit": 100.0,
+        "auditd.data.syscall": 100.0,
+        "auditd.data.tty": 100.0,
+        "auditd.message_type": 100.0,
+        "auditd.result": 100.0,
+        "auditd.sequence": 100.0,
+        "auditd.session": 100.0,
+        "auditd.summary.actor.primary": 100.0,
+        "auditd.summary.actor.secondary": 100.0,
+        "auditd.summary.how": 100.0,
+        "auditd.summary.object.type": 100.0,
+        "ecs.version": 100.0,
+        "event.action": 100.0,
+        "event.category": 100.0,
+        "event.module": 100.0,
+        "event.outcome": 100.0,
+        "host.architecture": 100.0,
+        "host.containerized": 100.0,
+        "host.hostname": 100.0,
+        "host.id": 100.0,
+        "host.name": 100.0,
+        "host.os.codename": 100.0,
+        "host.os.family": 100.0,
+        "host.os.kernel": 100.0,
+        "host.os.name": 100.0,
+        "host.os.platform": 100.0,
+        "host.os.version": 100.0,
+        "process.executable": 100.0,
+        "process.name": 100.0,
+        "process.pid": 100.0,
+        "process.ppid": 100.0,
+        "service.type": 100.0,
+        "tags[]": 100.0,
+        "user.audit.id": 100.0,
+        "user.audit.name": 100.0,
+        "user.effective.group.id": 100.0,
+        "user.effective.group.name": 100.0,
+        "user.effective.id": 100.0,
+        "user.effective.name": 100.0,
+        "user.filesystem.group.id": 100.0,
+        "user.filesystem.group.name": 100.0,
+        "user.filesystem.id": 100.0,
+        "user.filesystem.name": 100.0,
+        "user.group.id": 100.0,
+        "user.group.name": 100.0,
+        "user.id": 100.0,
+        "user.name": 100.0,
+        "user.saved.group.id": 100.0,
+        "user.saved.group.name": 100.0,
+        "user.saved.id": 100.0,
+        "user.saved.name": 100.0,
+        "auditd.paths[].dev": 99.17,
+        "auditd.paths[].inode": 99.17,
+        "auditd.paths[].item": 99.17,
+        "auditd.paths[].mode": 99.17,
+        "auditd.paths[].name": 99.17,
+        "auditd.paths[].nametype": 99.17,
+        "auditd.paths[].ogid": 99.17,
+        "auditd.paths[].ouid": 99.17,
+        "auditd.paths[].rdev": 99.17,
+        "auditd.summary.object.primary": 99.17,
+        "file.device": 99.17,
+        "file.gid": 99.17,
+        "file.group": 99.17,
+        "file.inode": 99.17,
+        "file.mode": 99.17,
+        "file.owner": 99.17,
+        "file.path": 99.17,
+        "file.uid": 99.17,
+        "process.title": 98.84,
+        "auditd.data.items": 0.83
+      }
+    },
+    "auditd:changed-file-permissions-of": {
+      "count": 324,
+      "fields": {
+        "@timestamp": 100.0,
+        "agent.ephemeral_id": 100.0,
+        "agent.hostname": 100.0,
+        "agent.id": 100.0,
+        "agent.type": 100.0,
+        "agent.version": 100.0,
+        "auditd.data.a0": 100.0,
+        "auditd.data.a1": 100.0,
+        "auditd.data.a2": 100.0,
+        "auditd.data.a3": 100.0,
+        "auditd.data.arch": 100.0,
+        "auditd.data.exit": 100.0,
+        "auditd.data.syscall": 100.0,
+        "auditd.data.tty": 100.0,
+        "auditd.message_type": 100.0,
+        "auditd.paths[].dev": 100.0,
+        "auditd.paths[].inode": 100.0,
+        "auditd.paths[].item": 100.0,
+        "auditd.paths[].mode": 100.0,
+        "auditd.paths[].nametype": 100.0,
+        "auditd.paths[].ogid": 100.0,
+        "auditd.paths[].ouid": 100.0,
+        "auditd.paths[].rdev": 100.0,
+        "auditd.result": 100.0,
+        "auditd.sequence": 100.0,
+        "auditd.summary.actor.primary": 100.0,
+        "auditd.summary.actor.secondary": 100.0,
+        "auditd.summary.how": 100.0,
+        "auditd.summary.object.type": 100.0,
+        "ecs.version": 100.0,
+        "event.action": 100.0,
+        "event.category": 100.0,
+        "event.module": 100.0,
+        "event.outcome": 100.0,
+        "file.device": 100.0,
+        "file.gid": 100.0,
+        "file.group": 100.0,
+        "file.inode": 100.0,
+        "file.mode": 100.0,
+        "file.owner": 100.0,
+        "file.uid": 100.0,
+        "host.architecture": 100.0,
+        "host.containerized": 100.0,
+        "host.hostname": 100.0,
+        "host.id": 100.0,
+        "host.name": 100.0,
+        "host.os.codename": 100.0,
+        "host.os.family": 100.0,
+        "host.os.kernel": 100.0,
+        "host.os.name": 100.0,
+        "host.os.platform": 100.0,
+        "host.os.version": 100.0,
+        "process.executable": 100.0,
+        "process.name": 100.0,
+        "process.pid": 100.0,
+        "process.ppid": 100.0,
+        "process.title": 100.0,
+        "service.type": 100.0,
+        "tags[]": 100.0,
+        "user.effective.group.id": 100.0,
+        "user.effective.group.name": 100.0,
+        "user.effective.id": 100.0,
+        "user.effective.name": 100.0,
+        "user.filesystem.group.id": 100.0,
+        "user.filesystem.group.name": 100.0,
+        "user.filesystem.id": 100.0,
+        "user.filesystem.name": 100.0,
+        "user.group.id": 100.0,
+        "user.group.name": 100.0,
+        "user.id": 100.0,
+        "user.name": 100.0,
+        "user.saved.group.id": 100.0,
+        "user.saved.group.name": 100.0,
+        "user.saved.id": 100.0,
+        "user.saved.name": 100.0,
+        "auditd.session": 73.15,
+        "user.audit.id": 73.15,
+        "user.audit.name": 73.15,
+        "auditd.paths[].name": 66.67,
+        "auditd.summary.object.primary": 66.67,
+        "file.path": 66.67
+      }
+    },
+    "auditd:killed-pid": {
+      "count": 11899,
+      "fields": {
+        "@timestamp": 100.0,
+        "agent.ephemeral_id": 100.0,
+        "agent.hostname": 100.0,
+        "agent.id": 100.0,
+        "agent.type": 100.0,
+        "agent.version": 100.0,
+        "auditd.data.a0": 100.0,
+        "auditd.data.a1": 100.0,
+        "auditd.data.a2": 100.0,
+        "auditd.data.a3": 100.0,
+        "auditd.data.arch": 100.0,
+        "auditd.data.exit": 100.0,
+        "auditd.data.syscall": 100.0,
+        "auditd.data.tty": 100.0,
+        "auditd.message_type": 100.0,
+        "auditd.result": 100.0,
+        "auditd.sequence": 100.0,
+        "auditd.summary.actor.primary": 100.0,
+        "auditd.summary.actor.secondary": 100.0,
+        "auditd.summary.how": 100.0,
+        "auditd.summary.object.type": 100.0,
+        "ecs.version": 100.0,
+        "event.action": 100.0,
+        "event.category": 100.0,
+        "event.module": 100.0,
+        "event.outcome": 100.0,
+        "host.architecture": 100.0,
+        "host.containerized": 100.0,
+        "host.hostname": 100.0,
+        "host.id": 100.0,
+        "host.name": 100.0,
+        "host.os.codename": 100.0,
+        "host.os.family": 100.0,
+        "host.os.kernel": 100.0,
+        "host.os.name": 100.0,
+        "host.os.platform": 100.0,
+        "host.os.version": 100.0,
+        "process.executable": 100.0,
+        "process.name": 100.0,
+        "process.pid": 100.0,
+        "process.ppid": 100.0,
+        "service.type": 100.0,
+        "tags[]": 100.0,
+        "user.effective.group.id": 100.0,
+        "user.effective.id": 100.0,
+        "user.filesystem.group.id": 100.0,
+        "user.filesystem.id": 100.0,
+        "user.group.id": 100.0,
+        "user.group.name": 100.0,
+        "user.id": 100.0,
+        "user.saved.group.id": 100.0,
+        "user.saved.group.name": 100.0,
+        "user.saved.id": 100.0,
+        "user.saved.name": 100.0,
+        "auditd.data.oauid": 99.66,
+        "auditd.data.ocomm": 99.66,
+        "auditd.data.opid": 99.66,
+        "auditd.data.oses": 99.66,
+        "auditd.data.ouid": 99.66,
+        "process.title": 98.8,
+        "user.effective.group.name": 88.44,
+        "user.filesystem.group.name": 88.44,
+        "user.effective.name": 79.93,
+        "user.filesystem.name": 79.93,
+        "user.name": 79.93,
+        "auditd.data.items": 0.34,
+        "auditd.session": 0.26,
+        "user.audit.id": 0.26,
+        "user.audit.name": 0.26
+      }
+    },
+    "auditd:refreshed-credentials": {
+      "count": 129,
+      "fields": {
+        "@timestamp": 100.0,
+        "agent.ephemeral_id": 100.0,
+        "agent.hostname": 100.0,
+        "agent.id": 100.0,
+        "agent.type": 100.0,
+        "agent.version": 100.0,
+        "auditd.data.acct": 100.0,
+        "auditd.data.addr": 100.0,
+        "auditd.data.hostname": 100.0,
+        "auditd.data.op": 100.0,
+        "auditd.data.terminal": 100.0,
+        "auditd.message_type": 100.0,
+        "auditd.result": 100.0,
+        "auditd.sequence": 100.0,
+        "auditd.session": 100.0,
+        "auditd.summary.actor.primary": 100.0,
+        "auditd.summary.actor.secondary": 100.0,
+        "auditd.summary.how": 100.0,
+        "auditd.summary.object.primary": 100.0,
+        "auditd.summary.object.secondary": 100.0,
+        "auditd.summary.object.type": 100.0,
+        "ecs.version": 100.0,
+        "event.action": 100.0,
+        "event.category": 100.0,
+        "event.module": 100.0,
+        "event.outcome": 100.0,
+        "host.architecture": 100.0,
+        "host.containerized": 100.0,
+        "host.hostname": 100.0,
+        "host.id": 100.0,
+        "host.name": 100.0,
+        "host.os.codename": 100.0,
+        "host.os.family": 100.0,
+        "host.os.kernel": 100.0,
+        "host.os.name": 100.0,
+        "host.os.platform": 100.0,
+        "host.os.version": 100.0,
+        "process.executable": 100.0,
+        "process.pid": 100.0,
+        "service.type": 100.0,
+        "user.audit.id": 100.0,
+        "user.audit.name": 100.0,
+        "user.id": 100.0,
+        "user.name": 100.0
+      }
+    },
+    "auditd:changed-file-ownership-of": {
+      "count": 2,
+      "fields": {
+        "@timestamp": 100.0,
+        "agent.ephemeral_id": 100.0,
+        "agent.hostname": 100.0,
+        "agent.id": 100.0,
+        "agent.type": 100.0,
+        "agent.version": 100.0,
+        "auditd.data.a0": 100.0,
+        "auditd.data.a1": 100.0,
+        "auditd.data.a2": 100.0,
+        "auditd.data.a3": 100.0,
+        "auditd.data.arch": 100.0,
+        "auditd.data.exit": 100.0,
+        "auditd.data.syscall": 100.0,
+        "auditd.data.tty": 100.0,
+        "auditd.message_type": 100.0,
+        "auditd.paths[].dev": 100.0,
+        "auditd.paths[].inode": 100.0,
+        "auditd.paths[].item": 100.0,
+        "auditd.paths[].mode": 100.0,
+        "auditd.paths[].nametype": 100.0,
+        "auditd.paths[].ogid": 100.0,
+        "auditd.paths[].ouid": 100.0,
+        "auditd.paths[].rdev": 100.0,
+        "auditd.result": 100.0,
+        "auditd.sequence": 100.0,
+        "auditd.session": 100.0,
+        "auditd.summary.actor.primary": 100.0,
+        "auditd.summary.actor.secondary": 100.0,
+        "auditd.summary.how": 100.0,
+        "auditd.summary.object.type": 100.0,
+        "ecs.version": 100.0,
+        "event.action": 100.0,
+        "event.category": 100.0,
+        "event.module": 100.0,
+        "event.outcome": 100.0,
+        "file.device": 100.0,
+        "file.gid": 100.0,
+        "file.group": 100.0,
+        "file.inode": 100.0,
+        "file.mode": 100.0,
+        "file.owner": 100.0,
+        "file.uid": 100.0,
+        "host.architecture": 100.0,
+        "host.containerized": 100.0,
+        "host.hostname": 100.0,
+        "host.id": 100.0,
+        "host.name": 100.0,
+        "host.os.codename": 100.0,
+        "host.os.family": 100.0,
+        "host.os.kernel": 100.0,
+        "host.os.name": 100.0,
+        "host.os.platform": 100.0,
+        "host.os.version": 100.0,
+        "process.executable": 100.0,
+        "process.name": 100.0,
+        "process.pid": 100.0,
+        "process.ppid": 100.0,
+        "process.title": 100.0,
+        "service.type": 100.0,
+        "tags[]": 100.0,
+        "user.audit.id": 100.0,
+        "user.audit.name": 100.0,
+        "user.effective.group.id": 100.0,
+        "user.effective.group.name": 100.0,
+        "user.effective.id": 100.0,
+        "user.effective.name": 100.0,
+        "user.filesystem.group.id": 100.0,
+        "user.filesystem.group.name": 100.0,
+        "user.filesystem.id": 100.0,
+        "user.filesystem.name": 100.0,
+        "user.group.id": 100.0,
+        "user.group.name": 100.0,
+        "user.id": 100.0,
+        "user.name": 100.0,
+        "user.saved.group.id": 100.0,
+        "user.saved.group.name": 100.0,
+        "user.saved.id": 100.0,
+        "user.saved.name": 100.0
+      }
+    },
+    "auditd:changed-audit-configuration": {
+      "count": 4,
+      "fields": {
+        "@timestamp": 100.0,
+        "agent.ephemeral_id": 100.0,
+        "agent.hostname": 100.0,
+        "agent.id": 100.0,
+        "agent.type": 100.0,
+        "agent.version": 100.0,
+        "auditd.data.list": 100.0,
+        "auditd.data.op": 100.0,
+        "auditd.data.path": 100.0,
+        "auditd.message_type": 100.0,
+        "auditd.result": 100.0,
+        "auditd.sequence": 100.0,
+        "auditd.session": 100.0,
+        "auditd.summary.actor.primary": 100.0,
+        "auditd.summary.object.primary": 100.0,
+        "auditd.summary.object.type": 100.0,
+        "ecs.version": 100.0,
+        "event.action": 100.0,
+        "event.category": 100.0,
+        "event.module": 100.0,
+        "event.outcome": 100.0,
+        "host.architecture": 100.0,
+        "host.containerized": 100.0,
+        "host.hostname": 100.0,
+        "host.id": 100.0,
+        "host.name": 100.0,
+        "host.os.codename": 100.0,
+        "host.os.family": 100.0,
+        "host.os.kernel": 100.0,
+        "host.os.name": 100.0,
+        "host.os.platform": 100.0,
+        "host.os.version": 100.0,
+        "service.type": 100.0,
+        "tags[]": 100.0,
+        "user.audit.id": 100.0,
+        "user.audit.name": 100.0
+      }
+    }
+  },
+  "field_to_events": {
+    "@timestamp": {
+      "event_types": [
+        "auditd:",
+        "auditd:-",
+        "auditd:acquired-credentials",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-audit-configuration",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:refreshed-credentials",
+        "auditd:renamed",
+        "auditd:started-service",
+        "auditd:started-session",
+        "auditd:stopped-service",
+        "auditd:was-authorized"
+      ],
+      "total_count": 654311935,
+      "percent_of_all_events": 100.0,
+      "examples": [
+        "2024-12-23T00:00:03.144Z",
+        "2024-12-23T00:00:05.440Z",
+        "2024-12-23T00:00:07.564Z",
+        "2024-12-23T00:00:08.564Z",
+        "2024-12-23T00:00:10.380Z"
+      ]
+    },
+    "agent.ephemeral_id": {
+      "event_types": [
+        "auditd:",
+        "auditd:-",
+        "auditd:acquired-credentials",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-audit-configuration",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:refreshed-credentials",
+        "auditd:renamed",
+        "auditd:started-service",
+        "auditd:started-session",
+        "auditd:stopped-service",
+        "auditd:was-authorized"
+      ],
+      "total_count": 654311935,
+      "percent_of_all_events": 100.0,
+      "examples": [
+        "0da8a945-02be-47ab-a96c-cd3228b1c2a2"
+      ]
+    },
+    "agent.hostname": {
+      "event_types": [
+        "auditd:",
+        "auditd:-",
+        "auditd:acquired-credentials",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-audit-configuration",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:refreshed-credentials",
+        "auditd:renamed",
+        "auditd:started-service",
+        "auditd:started-session",
+        "auditd:stopped-service",
+        "auditd:was-authorized"
+      ],
+      "total_count": 654311935,
+      "percent_of_all_events": 100.0,
+      "examples": [
+        "internalserver"
+      ]
+    },
+    "agent.id": {
+      "event_types": [
+        "auditd:",
+        "auditd:-",
+        "auditd:acquired-credentials",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-audit-configuration",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:refreshed-credentials",
+        "auditd:renamed",
+        "auditd:started-service",
+        "auditd:started-session",
+        "auditd:stopped-service",
+        "auditd:was-authorized"
+      ],
+      "total_count": 654311935,
+      "percent_of_all_events": 100.0,
+      "examples": [
+        "0c6be854-cf11-4010-bd2d-db379ff1a78d"
+      ]
+    },
+    "agent.type": {
+      "event_types": [
+        "auditd:",
+        "auditd:-",
+        "auditd:acquired-credentials",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-audit-configuration",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:refreshed-credentials",
+        "auditd:renamed",
+        "auditd:started-service",
+        "auditd:started-session",
+        "auditd:stopped-service",
+        "auditd:was-authorized"
+      ],
+      "total_count": 654311935,
+      "percent_of_all_events": 100.0,
+      "examples": [
+        "auditbeat"
+      ]
+    },
+    "agent.version": {
+      "event_types": [
+        "auditd:",
+        "auditd:-",
+        "auditd:acquired-credentials",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-audit-configuration",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:refreshed-credentials",
+        "auditd:renamed",
+        "auditd:started-service",
+        "auditd:started-session",
+        "auditd:stopped-service",
+        "auditd:was-authorized"
+      ],
+      "total_count": 654311935,
+      "percent_of_all_events": 100.0,
+      "examples": [
+        "7.3.2"
+      ]
+    },
+    "auditd.data.a0": {
+      "event_types": [
+        "auditd:",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 654278796,
+      "percent_of_all_events": 99.9949,
+      "examples": [
+        "0",
+        "ffffffff",
+        "11",
+        "2c",
+        "55c248bffc70"
+      ]
+    },
+    "auditd.data.a1": {
+      "event_types": [
+        "auditd:",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 654278796,
+      "percent_of_all_events": 99.9949,
+      "examples": [
+        "0",
+        "1",
+        "2",
+        "441",
+        "7fb708f952d0"
+      ]
+    },
+    "auditd.data.a2": {
+      "event_types": [
+        "auditd:",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 654278794,
+      "percent_of_all_events": 99.9949,
+      "examples": [
+        "ffffffff",
+        "0",
+        "1",
+        "1a4",
+        "7fb6fd8ec330"
+      ]
+    },
+    "auditd.data.a3": {
+      "event_types": [
+        "auditd:",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 654278794,
+      "percent_of_all_events": 99.9949,
+      "examples": [
+        "50",
+        "0",
+        "7fb708f91270",
+        "22",
+        "802"
+      ]
+    },
+    "auditd.data.acct": {
+      "event_types": [
+        "auditd:acquired-credentials",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:refreshed-credentials",
+        "auditd:started-session",
+        "auditd:was-authorized"
+      ],
+      "total_count": 4283,
+      "percent_of_all_events": 0.0007,
+      "examples": [
+        "root"
+      ]
+    },
+    "auditd.data.addr": {
+      "event_types": [
+        "auditd:acquired-credentials",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:refreshed-credentials",
+        "auditd:was-authorized"
+      ],
+      "total_count": 730,
+      "percent_of_all_events": 0.0001,
+      "examples": [
+        "172.16.1.2"
+      ]
+    },
+    "auditd.data.arch": {
+      "event_types": [
+        "auditd:",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 654278794,
+      "percent_of_all_events": 99.9949,
+      "examples": [
+        "x86_64"
+      ]
+    },
+    "auditd.data.argc": {
+      "event_types": [
+        "auditd:",
+        "auditd:executed"
+      ],
+      "total_count": 16848,
+      "percent_of_all_events": 0.0026,
+      "examples": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "1"
+      ]
+    },
+    "auditd.data.dev": {
+      "event_types": [
+        "auditd:"
+      ],
+      "total_count": 8,
+      "percent_of_all_events": 0.0,
+      "examples": [
+        "fc:00",
+        "00:13"
+      ]
+    },
+    "auditd.data.exit": {
+      "event_types": [
+        "auditd:",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 654227726,
+      "percent_of_all_events": 99.9871,
+      "examples": [
+        "0",
+        "2",
+        "17",
+        "139840993644544",
+        "139840989220864"
+      ]
+    },
+    "auditd.data.fd": {
+      "event_types": [
+        "auditd:",
+        "auditd:allocated-memory"
+      ],
+      "total_count": 4632981,
+      "percent_of_all_events": 0.7081,
+      "examples": [
+        "3",
+        "4",
+        "5",
+        "9",
+        "8"
+      ]
+    },
+    "auditd.data.fd0": {
+      "event_types": [
+        "auditd:"
+      ],
+      "total_count": 33484,
+      "percent_of_all_events": 0.0051,
+      "examples": [
+        "3",
+        "4",
+        "7",
+        "5",
+        "15"
+      ]
+    },
+    "auditd.data.fd1": {
+      "event_types": [
+        "auditd:"
+      ],
+      "total_count": 33484,
+      "percent_of_all_events": 0.0051,
+      "examples": [
+        "4",
+        "5",
+        "8",
+        "6",
+        "16"
+      ]
+    },
+    "auditd.data.flags": {
+      "event_types": [
+        "auditd:",
+        "auditd:allocated-memory"
+      ],
+      "total_count": 4632981,
+      "percent_of_all_events": 0.7081,
+      "examples": [
+        "0x802",
+        "0x2",
+        "0x812",
+        "0x1",
+        "0x8002"
+      ]
+    },
+    "auditd.data.hostname": {
+      "event_types": [
+        "auditd:acquired-credentials",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:refreshed-credentials",
+        "auditd:started-session",
+        "auditd:was-authorized"
+      ],
+      "total_count": 844,
+      "percent_of_all_events": 0.0001,
+      "examples": [
+        "172.16.1.2"
+      ]
+    },
+    "auditd.data.inode": {
+      "event_types": [
+        "auditd:"
+      ],
+      "total_count": 8,
+      "percent_of_all_events": 0.0,
+      "examples": [
+        "397301",
+        "272775",
+        "273205",
+        "397060",
+        "523674"
+      ]
+    },
+    "auditd.data.item": {
+      "event_types": [
+        "auditd:"
+      ],
+      "total_count": 12,
+      "percent_of_all_events": 0.0,
+      "examples": [
+        "0",
+        "1"
+      ]
+    },
+    "auditd.data.items": {
+      "event_types": [
+        "auditd:",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 1468931,
+      "percent_of_all_events": 0.2245,
+      "examples": [
+        "0",
+        "1",
+        "3",
+        "2",
+        "5"
+      ]
+    },
+    "auditd.data.list": {
+      "event_types": [
+        "auditd:changed-audit-configuration"
+      ],
+      "total_count": 4,
+      "percent_of_all_events": 0.0,
+      "examples": [
+        "4"
+      ]
+    },
+    "auditd.data.mode": {
+      "event_types": [
+        "auditd:"
+      ],
+      "total_count": 8,
+      "percent_of_all_events": 0.0,
+      "examples": [
+        "0100644",
+        "040755",
+        "0100600"
+      ]
+    },
+    "auditd.data.name": {
+      "event_types": [
+        "auditd:"
+      ],
+      "total_count": 12,
+      "percent_of_all_events": 0.0,
+      "examples": [
+        "/usr/lib/x86_64-linux-gnu/ldb/modules/ldb/samba/samba_secrets.so",
+        "/usr/sbin/ldb.pyc",
+        "/var/lib/samba/private/",
+        "/usr/sbin/sambamodule.so",
+        "/root/.krb5/config"
+      ]
+    },
+    "auditd.data.nametype": {
+      "event_types": [
+        "auditd:"
+      ],
+      "total_count": 12,
+      "percent_of_all_events": 0.0,
+      "examples": [
+        "NORMAL",
+        "UNKNOWN",
+        "PARENT"
+      ]
+    },
+    "auditd.data.oauid": {
+      "event_types": [
+        "auditd:killed-pid"
+      ],
+      "total_count": 11858,
+      "percent_of_all_events": 0.0018,
+      "examples": [
+        "-1"
+      ]
+    },
+    "auditd.data.ocomm": {
+      "event_types": [
+        "auditd:killed-pid"
+      ],
+      "total_count": 11858,
+      "percent_of_all_events": 0.0018,
+      "examples": [
+        "smbd",
+        "systemd",
+        "rsyslogd",
+        "winbindd"
+      ]
+    },
+    "auditd.data.op": {
+      "event_types": [
+        "auditd:acquired-credentials",
+        "auditd:changed-audit-configuration",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:refreshed-credentials",
+        "auditd:started-session",
+        "auditd:was-authorized"
+      ],
+      "total_count": 4287,
+      "percent_of_all_events": 0.0007,
+      "examples": [
+        "PAM:accounting",
+        "PAM:session_open",
+        "PAM:setcred",
+        "PAM:session_close",
+        "updated_rules"
+      ]
+    },
+    "auditd.data.opid": {
+      "event_types": [
+        "auditd:killed-pid"
+      ],
+      "total_count": 11858,
+      "percent_of_all_events": 0.0018,
+      "examples": [
+        "9384",
+        "9448",
+        "9467",
+        "9544",
+        "9500"
+      ]
+    },
+    "auditd.data.oses": {
+      "event_types": [
+        "auditd:killed-pid"
+      ],
+      "total_count": 11858,
+      "percent_of_all_events": 0.0018,
+      "examples": [
+        "-1"
+      ]
+    },
+    "auditd.data.ouid": {
+      "event_types": [
+        "auditd:killed-pid"
+      ],
+      "total_count": 11858,
+      "percent_of_all_events": 0.0018,
+      "examples": [
+        "0",
+        "65534",
+        "3000020",
+        "3000065",
+        "3000046"
+      ]
+    },
+    "auditd.data.path": {
+      "event_types": [
+        "auditd:changed-audit-configuration"
+      ],
+      "total_count": 4,
+      "percent_of_all_events": 0.0,
+      "examples": [
+        "/var/log/btmp",
+        "/var/log/wtmp"
+      ]
+    },
+    "auditd.data.rdev": {
+      "event_types": [
+        "auditd:"
+      ],
+      "total_count": 8,
+      "percent_of_all_events": 0.0,
+      "examples": [
+        "00:00"
+      ]
+    },
+    "auditd.data.socket.addr": {
+      "event_types": [
+        "auditd:connected-to"
+      ],
+      "total_count": 63723,
+      "percent_of_all_events": 0.0097,
+      "examples": [
+        "172.16.0.1",
+        "127.0.0.1",
+        "::1",
+        "0.0.0.0",
+        "::"
+      ]
+    },
+    "auditd.data.socket.family": {
+      "event_types": [
+        "auditd:bound-socket",
+        "auditd:connected-to"
+      ],
+      "total_count": 161717,
+      "percent_of_all_events": 0.0247,
+      "examples": [
+        "unix",
+        "netlink",
+        "ipv4",
+        "ipv6",
+        "0"
+      ]
+    },
+    "auditd.data.socket.path": {
+      "event_types": [
+        "auditd:bound-socket",
+        "auditd:connected-to"
+      ],
+      "total_count": 93060,
+      "percent_of_all_events": 0.0142,
+      "examples": [
+        "/var/run/nscd/socket",
+        "/var/lib/samba/private/msg.sock/6900",
+        "/var/lib/samba/private/msg.sock/6911",
+        "/dev/log",
+        "/var/lib/samba/private/msg.sock/6969"
+      ]
+    },
+    "auditd.data.socket.port": {
+      "event_types": [
+        "auditd:connected-to"
+      ],
+      "total_count": 63723,
+      "percent_of_all_events": 0.0097,
+      "examples": [
+        "53",
+        "631",
+        "22",
+        "80"
+      ]
+    },
+    "auditd.data.socket.saddr": {
+      "event_types": [
+        "auditd:bound-socket",
+        "auditd:connected-to"
+      ],
+      "total_count": 4934,
+      "percent_of_all_events": 0.0008,
+      "examples": [
+        "100000000000000000000000",
+        "00000000000000000000000000000000",
+        "100000000000000002000000"
+      ]
+    },
+    "auditd.data.syscall": {
+      "event_types": [
+        "auditd:",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 654278794,
+      "percent_of_all_events": 99.9949,
+      "examples": [
+        "setresuid",
+        "setresgid",
+        "fcntl",
+        "dup2",
+        "close"
+      ]
+    },
+    "auditd.data.terminal": {
+      "event_types": [
+        "auditd:acquired-credentials",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:refreshed-credentials",
+        "auditd:started-session",
+        "auditd:was-authorized"
+      ],
+      "total_count": 4225,
+      "percent_of_all_events": 0.0006,
+      "examples": [
+        "cron",
+        "ssh"
+      ]
+    },
+    "auditd.data.tty": {
+      "event_types": [
+        "auditd:",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 654278794,
+      "percent_of_all_events": 99.9949,
+      "examples": [
+        "(none)"
+      ]
+    },
+    "auditd.data.unit": {
+      "event_types": [
+        "auditd:started-service",
+        "auditd:stopped-service"
+      ],
+      "total_count": 268,
+      "percent_of_all_events": 0.0,
+      "examples": [
+        "apt-daily",
+        "apt-daily-upgrade",
+        "user@0",
+        "systemd-tmpfiles-clean"
+      ]
+    },
+    "auditd.message_type": {
+      "event_types": [
+        "auditd:",
+        "auditd:acquired-credentials",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-audit-configuration",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:refreshed-credentials",
+        "auditd:renamed",
+        "auditd:started-service",
+        "auditd:started-session",
+        "auditd:stopped-service",
+        "auditd:was-authorized"
+      ],
+      "total_count": 654307011,
+      "percent_of_all_events": 99.9992,
+      "examples": [
+        "syscall",
+        "proctitle",
+        "user_acct",
+        "user_start",
+        "cred_acq"
+      ]
+    },
+    "auditd.paths[].dev": {
+      "event_types": [
+        "auditd:",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 5795342,
+      "percent_of_all_events": 0.8857,
+      "examples": [
+        "fc:00",
+        "00:06",
+        "00:13",
+        "00:04",
+        "00:19"
+      ]
+    },
+    "auditd.paths[].inode": {
+      "event_types": [
+        "auditd:",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 5795342,
+      "percent_of_all_events": 0.8857,
+      "examples": [
+        "272773",
+        "273192",
+        "669304",
+        "668856",
+        "273273"
+      ]
+    },
+    "auditd.paths[].item": {
+      "event_types": [
+        "auditd:",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 12276285,
+      "percent_of_all_events": 1.8762,
+      "examples": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "auditd.paths[].mode": {
+      "event_types": [
+        "auditd:",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 5795342,
+      "percent_of_all_events": 0.8857,
+      "examples": [
+        "040750",
+        "0100644",
+        "0100755",
+        "042775",
+        "040755"
+      ]
+    },
+    "auditd.paths[].name": {
+      "event_types": [
+        "auditd:",
+        "auditd:bound-socket",
+        "auditd:changed-file-permissions-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 12276175,
+      "percent_of_all_events": 1.8762,
+      "examples": [
+        "/var/log/samba/",
+        "/var/log/samba/log.smbd",
+        "/usr/sbin/samba_spnupdate",
+        "/usr/bin/python2.7",
+        "/lib64/ld-linux-x86-64.so.2"
+      ]
+    },
+    "auditd.paths[].nametype": {
+      "event_types": [
+        "auditd:",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 12276285,
+      "percent_of_all_events": 1.8762,
+      "examples": [
+        "PARENT",
+        "NORMAL",
+        "UNKNOWN",
+        "CREATE",
+        "DELETE"
+      ]
+    },
+    "auditd.paths[].ogid": {
+      "event_types": [
+        "auditd:",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 5795342,
+      "percent_of_all_events": 0.8857,
+      "examples": [
+        "4",
+        "0",
+        "50",
+        "42",
+        "43"
+      ]
+    },
+    "auditd.paths[].ouid": {
+      "event_types": [
+        "auditd:",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 5795342,
+      "percent_of_all_events": 0.8857,
+      "examples": [
+        "0",
+        "6",
+        "501",
+        "105",
+        "109"
+      ]
+    },
+    "auditd.paths[].rdev": {
+      "event_types": [
+        "auditd:",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 5795342,
+      "percent_of_all_events": 0.8857,
+      "examples": [
+        "00:00",
+        "01:09",
+        "01:03",
+        "01:0b",
+        "05:00"
+      ]
+    },
+    "auditd.result": {
+      "event_types": [
+        "auditd:",
+        "auditd:acquired-credentials",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-audit-configuration",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:refreshed-credentials",
+        "auditd:renamed",
+        "auditd:started-service",
+        "auditd:started-session",
+        "auditd:stopped-service",
+        "auditd:was-authorized"
+      ],
+      "total_count": 654307011,
+      "percent_of_all_events": 99.9992,
+      "examples": [
+        "success",
+        "fail",
+        "unknown"
+      ]
+    },
+    "auditd.sequence": {
+      "event_types": [
+        "auditd:",
+        "auditd:acquired-credentials",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-audit-configuration",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:refreshed-credentials",
+        "auditd:renamed",
+        "auditd:started-service",
+        "auditd:started-session",
+        "auditd:stopped-service",
+        "auditd:was-authorized"
+      ],
+      "total_count": 654307011,
+      "percent_of_all_events": 99.9992,
+      "examples": [
+        4613372,
+        4613371,
+        4613374,
+        4613381,
+        4613376
+      ]
+    },
+    "auditd.session": {
+      "event_types": [
+        "auditd:",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-audit-configuration",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:refreshed-credentials",
+        "auditd:renamed",
+        "auditd:started-session"
+      ],
+      "total_count": 748375,
+      "percent_of_all_events": 0.1144,
+      "examples": [
+        "",
+        "18",
+        "19",
+        "20",
+        "21"
+      ]
+    },
+    "auditd.summary.actor.primary": {
+      "event_types": [
+        "auditd:",
+        "auditd:acquired-credentials",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-audit-configuration",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:refreshed-credentials",
+        "auditd:renamed",
+        "auditd:started-service",
+        "auditd:started-session",
+        "auditd:stopped-service",
+        "auditd:was-authorized"
+      ],
+      "total_count": 654283349,
+      "percent_of_all_events": 99.9956,
+      "examples": [
+        "unset",
+        "root"
+      ]
+    },
+    "auditd.summary.actor.secondary": {
+      "event_types": [
+        "auditd:",
+        "auditd:acquired-credentials",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:refreshed-credentials",
+        "auditd:renamed",
+        "auditd:started-service",
+        "auditd:started-session",
+        "auditd:stopped-service",
+        "auditd:was-authorized"
+      ],
+      "total_count": 654283345,
+      "percent_of_all_events": 99.9956,
+      "examples": [
+        "root",
+        "man",
+        "3000051",
+        "nobody",
+        "3000067"
+      ]
+    },
+    "auditd.summary.how": {
+      "event_types": [
+        "auditd:",
+        "auditd:acquired-credentials",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:refreshed-credentials",
+        "auditd:renamed",
+        "auditd:started-service",
+        "auditd:started-session",
+        "auditd:stopped-service",
+        "auditd:was-authorized"
+      ],
+      "total_count": 654283345,
+      "percent_of_all_events": 99.9956,
+      "examples": [
+        "setresuid",
+        "setresgid",
+        "/usr/sbin/smbd",
+        "/usr/sbin/samba",
+        "samba_spnupdate"
+      ]
+    },
+    "auditd.summary.object.primary": {
+      "event_types": [
+        "auditd:acquired-credentials",
+        "auditd:bound-socket",
+        "auditd:changed-audit-configuration",
+        "auditd:changed-file-permissions-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:executed",
+        "auditd:opened-file",
+        "auditd:refreshed-credentials",
+        "auditd:renamed",
+        "auditd:started-service",
+        "auditd:started-session",
+        "auditd:stopped-service",
+        "auditd:was-authorized"
+      ],
+      "total_count": 12199756,
+      "percent_of_all_events": 1.8645,
+      "examples": [
+        "/var/log/samba/log.smbd",
+        "/usr/sbin/samba_spnupdate",
+        "/etc/ld.so.cache",
+        "/lib/x86_64-linux-gnu/libpthread.so.0",
+        "/usr/sbin/samba_dnsupdate"
+      ]
+    },
+    "auditd.summary.object.secondary": {
+      "event_types": [
+        "auditd:acquired-credentials",
+        "auditd:connected-to",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:refreshed-credentials",
+        "auditd:started-session",
+        "auditd:was-authorized"
+      ],
+      "total_count": 64567,
+      "percent_of_all_events": 0.0099,
+      "examples": [
+        "53",
+        "631",
+        "22",
+        "172.16.1.2",
+        "80"
+      ]
+    },
+    "auditd.summary.object.type": {
+      "event_types": [
+        "auditd:acquired-credentials",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-audit-configuration",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:refreshed-credentials",
+        "auditd:renamed",
+        "auditd:started-service",
+        "auditd:started-session",
+        "auditd:stopped-service",
+        "auditd:was-authorized"
+      ],
+      "total_count": 306248636,
+      "percent_of_all_events": 46.8047,
+      "examples": [
+        "process",
+        "file",
+        "memory",
+        "socket",
+        "user-session"
+      ]
+    },
+    "destination.ip": {
+      "event_types": [
+        "auditd:connected-to"
+      ],
+      "total_count": 63723,
+      "percent_of_all_events": 0.0097,
+      "examples": [
+        "172.16.0.1",
+        "127.0.0.1",
+        "::1",
+        "0.0.0.0",
+        "::"
+      ]
+    },
+    "destination.path": {
+      "event_types": [
+        "auditd:connected-to"
+      ],
+      "total_count": 58102,
+      "percent_of_all_events": 0.0089,
+      "examples": [
+        "/var/run/nscd/socket",
+        "/dev/log",
+        "/run/systemd/journal/stdout",
+        "/run/systemd/journal/socket",
+        "/run/systemd/private"
+      ]
+    },
+    "destination.port": {
+      "event_types": [
+        "auditd:connected-to"
+      ],
+      "total_count": 63723,
+      "percent_of_all_events": 0.0097,
+      "examples": [
+        "53",
+        "631",
+        "22",
+        "80"
+      ]
+    },
+    "ecs.version": {
+      "event_types": [
+        "auditd:",
+        "auditd:-",
+        "auditd:acquired-credentials",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-audit-configuration",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:refreshed-credentials",
+        "auditd:renamed",
+        "auditd:started-service",
+        "auditd:started-session",
+        "auditd:stopped-service",
+        "auditd:was-authorized"
+      ],
+      "total_count": 654311935,
+      "percent_of_all_events": 100.0,
+      "examples": [
+        "1.0.1"
+      ]
+    },
+    "event.action": {
+      "event_types": [
+        "auditd:",
+        "auditd:acquired-credentials",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-audit-configuration",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:refreshed-credentials",
+        "auditd:renamed",
+        "auditd:started-service",
+        "auditd:started-session",
+        "auditd:stopped-service",
+        "auditd:was-authorized"
+      ],
+      "total_count": 654307011,
+      "percent_of_all_events": 99.9992,
+      "examples": [
+        "changed-identity-of",
+        "",
+        "opened-file",
+        "allocated-memory",
+        "executed"
+      ]
+    },
+    "event.category": {
+      "event_types": [
+        "auditd:",
+        "auditd:acquired-credentials",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-audit-configuration",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:refreshed-credentials",
+        "auditd:renamed",
+        "auditd:started-service",
+        "auditd:started-session",
+        "auditd:stopped-service",
+        "auditd:was-authorized"
+      ],
+      "total_count": 654307011,
+      "percent_of_all_events": 99.9992,
+      "examples": [
+        "audit-rule",
+        "unknown",
+        "user-login",
+        "system-services",
+        "configuration"
+      ]
+    },
+    "event.module": {
+      "event_types": [
+        "auditd:",
+        "auditd:-",
+        "auditd:acquired-credentials",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-audit-configuration",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:refreshed-credentials",
+        "auditd:renamed",
+        "auditd:started-service",
+        "auditd:started-session",
+        "auditd:stopped-service",
+        "auditd:was-authorized"
+      ],
+      "total_count": 654311935,
+      "percent_of_all_events": 100.0,
+      "examples": [
+        "auditd"
+      ]
+    },
+    "event.original[]": {
+      "event_types": [
+        "auditd:-"
+      ],
+      "total_count": 4924,
+      "percent_of_all_events": 0.0008,
+      "examples": [
+        "type=MMAP msg=audit(1734912629.604:4628451): fd=5 flags=0x812",
+        "type=PROCTITLE msg=audit(1734912629.604:4628451): proctitle=2F7573722F7362696E2F73616D6261002D44",
+        "type=PATH msg=audit(1734913229.544:4640152): item=0 name=\"/usr/lib/python2.7/dist-packages/apport_python_hook.pyc\" nametype=UNKNOWN",
+        "type=PROCTITLE msg=audit(1734913229.544:4640152): proctitle=2F7573722F7362696E2F73616D6261002D44",
+        "type=PATH msg=audit(1734913229.728:4642355): item=0 name=\"/usr/lib/python2.7/dist-packages/org.py\" nametype=UNKNOWN"
+      ]
+    },
+    "event.outcome": {
+      "event_types": [
+        "auditd:",
+        "auditd:acquired-credentials",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-audit-configuration",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:refreshed-credentials",
+        "auditd:renamed",
+        "auditd:started-service",
+        "auditd:started-session",
+        "auditd:stopped-service",
+        "auditd:was-authorized"
+      ],
+      "total_count": 654307011,
+      "percent_of_all_events": 99.9992,
+      "examples": [
+        "success",
+        "failure",
+        "unknown"
+      ]
+    },
+    "file.device": {
+      "event_types": [
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 5585978,
+      "percent_of_all_events": 0.8537,
+      "examples": [
+        "00:00",
+        "01:09",
+        "01:03",
+        "01:0b",
+        "05:00"
+      ]
+    },
+    "file.gid": {
+      "event_types": [
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 5585978,
+      "percent_of_all_events": 0.8537,
+      "examples": [
+        "0",
+        "50",
+        "42",
+        "43",
+        "501"
+      ]
+    },
+    "file.group": {
+      "event_types": [
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 5570868,
+      "percent_of_all_events": 0.8514,
+      "examples": [
+        "root",
+        "staff",
+        "shadow",
+        "utmp",
+        "mlocate"
+      ]
+    },
+    "file.inode": {
+      "event_types": [
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 5585978,
+      "percent_of_all_events": 0.8537,
+      "examples": [
+        "273192",
+        "669304",
+        "523896",
+        "273263",
+        "669306"
+      ]
+    },
+    "file.mode": {
+      "event_types": [
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 5585978,
+      "percent_of_all_events": 0.8537,
+      "examples": [
+        "0644",
+        "0755",
+        "0775",
+        "0666",
+        "0600"
+      ]
+    },
+    "file.owner": {
+      "event_types": [
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 5570881,
+      "percent_of_all_events": 0.8514,
+      "examples": [
+        "root",
+        "man",
+        "_apt",
+        "ntp",
+        "nobody"
+      ]
+    },
+    "file.path": {
+      "event_types": [
+        "auditd:changed-file-permissions-of",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 12038536,
+      "percent_of_all_events": 1.8399,
+      "examples": [
+        "/var/log/samba/log.smbd",
+        "/usr/sbin/samba_spnupdate",
+        "/etc/ld.so.cache",
+        "/lib/x86_64-linux-gnu/libpthread.so.0",
+        "/usr/sbin/samba_dnsupdate"
+      ]
+    },
+    "file.uid": {
+      "event_types": [
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 5585978,
+      "percent_of_all_events": 0.8537,
+      "examples": [
+        "0",
+        "6",
+        "501",
+        "105",
+        "109"
+      ]
+    },
+    "host.architecture": {
+      "event_types": [
+        "auditd:",
+        "auditd:-",
+        "auditd:acquired-credentials",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-audit-configuration",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:refreshed-credentials",
+        "auditd:renamed",
+        "auditd:started-service",
+        "auditd:started-session",
+        "auditd:stopped-service",
+        "auditd:was-authorized"
+      ],
+      "total_count": 654311935,
+      "percent_of_all_events": 100.0,
+      "examples": [
+        "x86_64"
+      ]
+    },
+    "host.containerized": {
+      "event_types": [
+        "auditd:",
+        "auditd:-",
+        "auditd:acquired-credentials",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-audit-configuration",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:refreshed-credentials",
+        "auditd:renamed",
+        "auditd:started-service",
+        "auditd:started-session",
+        "auditd:stopped-service",
+        "auditd:was-authorized"
+      ],
+      "total_count": 654311935,
+      "percent_of_all_events": 100.0,
+      "examples": [
+        false
+      ]
+    },
+    "host.hostname": {
+      "event_types": [
+        "auditd:",
+        "auditd:-",
+        "auditd:acquired-credentials",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-audit-configuration",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:refreshed-credentials",
+        "auditd:renamed",
+        "auditd:started-service",
+        "auditd:started-session",
+        "auditd:stopped-service",
+        "auditd:was-authorized"
+      ],
+      "total_count": 654311935,
+      "percent_of_all_events": 100.0,
+      "examples": [
+        "internalserver"
+      ]
+    },
+    "host.id": {
+      "event_types": [
+        "auditd:",
+        "auditd:-",
+        "auditd:acquired-credentials",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-audit-configuration",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:refreshed-credentials",
+        "auditd:renamed",
+        "auditd:started-service",
+        "auditd:started-session",
+        "auditd:stopped-service",
+        "auditd:was-authorized"
+      ],
+      "total_count": 654311935,
+      "percent_of_all_events": 100.0,
+      "examples": [
+        "d93c0b0a349396e0918b270e6762f691"
+      ]
+    },
+    "host.name": {
+      "event_types": [
+        "auditd:",
+        "auditd:-",
+        "auditd:acquired-credentials",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-audit-configuration",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:refreshed-credentials",
+        "auditd:renamed",
+        "auditd:started-service",
+        "auditd:started-session",
+        "auditd:stopped-service",
+        "auditd:was-authorized"
+      ],
+      "total_count": 654311935,
+      "percent_of_all_events": 100.0,
+      "examples": [
+        "internalserver"
+      ]
+    },
+    "host.os.codename": {
+      "event_types": [
+        "auditd:",
+        "auditd:-",
+        "auditd:acquired-credentials",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-audit-configuration",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:refreshed-credentials",
+        "auditd:renamed",
+        "auditd:started-service",
+        "auditd:started-session",
+        "auditd:stopped-service",
+        "auditd:was-authorized"
+      ],
+      "total_count": 654311935,
+      "percent_of_all_events": 100.0,
+      "examples": [
+        "xenial"
+      ]
+    },
+    "host.os.family": {
+      "event_types": [
+        "auditd:",
+        "auditd:-",
+        "auditd:acquired-credentials",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-audit-configuration",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:refreshed-credentials",
+        "auditd:renamed",
+        "auditd:started-service",
+        "auditd:started-session",
+        "auditd:stopped-service",
+        "auditd:was-authorized"
+      ],
+      "total_count": 654311935,
+      "percent_of_all_events": 100.0,
+      "examples": [
+        "debian"
+      ]
+    },
+    "host.os.kernel": {
+      "event_types": [
+        "auditd:",
+        "auditd:-",
+        "auditd:acquired-credentials",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-audit-configuration",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:refreshed-credentials",
+        "auditd:renamed",
+        "auditd:started-service",
+        "auditd:started-session",
+        "auditd:stopped-service",
+        "auditd:was-authorized"
+      ],
+      "total_count": 654311935,
+      "percent_of_all_events": 100.0,
+      "examples": [
+        "4.4.0-142-generic"
+      ]
+    },
+    "host.os.name": {
+      "event_types": [
+        "auditd:",
+        "auditd:-",
+        "auditd:acquired-credentials",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-audit-configuration",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:refreshed-credentials",
+        "auditd:renamed",
+        "auditd:started-service",
+        "auditd:started-session",
+        "auditd:stopped-service",
+        "auditd:was-authorized"
+      ],
+      "total_count": 654311935,
+      "percent_of_all_events": 100.0,
+      "examples": [
+        "Ubuntu"
+      ]
+    },
+    "host.os.platform": {
+      "event_types": [
+        "auditd:",
+        "auditd:-",
+        "auditd:acquired-credentials",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-audit-configuration",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:refreshed-credentials",
+        "auditd:renamed",
+        "auditd:started-service",
+        "auditd:started-session",
+        "auditd:stopped-service",
+        "auditd:was-authorized"
+      ],
+      "total_count": 654311935,
+      "percent_of_all_events": 100.0,
+      "examples": [
+        "ubuntu"
+      ]
+    },
+    "host.os.version": {
+      "event_types": [
+        "auditd:",
+        "auditd:-",
+        "auditd:acquired-credentials",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-audit-configuration",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:refreshed-credentials",
+        "auditd:renamed",
+        "auditd:started-service",
+        "auditd:started-session",
+        "auditd:stopped-service",
+        "auditd:was-authorized"
+      ],
+      "total_count": 654311935,
+      "percent_of_all_events": 100.0,
+      "examples": [
+        "16.04.6 LTS (Xenial Xerus)"
+      ]
+    },
+    "network.direction": {
+      "event_types": [
+        "auditd:connected-to",
+        "auditd:started-session"
+      ],
+      "total_count": 122239,
+      "percent_of_all_events": 0.0187,
+      "examples": [
+        "outgoing",
+        "incoming"
+      ]
+    },
+    "process.args[]": {
+      "event_types": [
+        "auditd:executed"
+      ],
+      "total_count": 16846,
+      "percent_of_all_events": 0.0026,
+      "examples": [
+        "/usr/bin/python2.7",
+        "/usr/sbin/samba_spnupdate",
+        "/usr/sbin/samba_dnsupdate",
+        "/bin/sh",
+        "-c"
+      ]
+    },
+    "process.executable": {
+      "event_types": [
+        "auditd:",
+        "auditd:acquired-credentials",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:refreshed-credentials",
+        "auditd:renamed",
+        "auditd:started-service",
+        "auditd:started-session",
+        "auditd:stopped-service",
+        "auditd:was-authorized"
+      ],
+      "total_count": 654283345,
+      "percent_of_all_events": 99.9956,
+      "examples": [
+        "/usr/sbin/smbd",
+        "/usr/sbin/samba",
+        "/usr/bin/python2.7",
+        "/usr/sbin/winbindd",
+        "/usr/sbin/cron"
+      ]
+    },
+    "process.name": {
+      "event_types": [
+        "auditd:",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:renamed",
+        "auditd:started-service",
+        "auditd:stopped-service"
+      ],
+      "total_count": 654279062,
+      "percent_of_all_events": 99.995,
+      "examples": [
+        "smbd",
+        "samba",
+        "samba_spnupdate",
+        "samba_dnsupdate",
+        "winbindd"
+      ]
+    },
+    "process.pid": {
+      "event_types": [
+        "auditd:",
+        "auditd:acquired-credentials",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:refreshed-credentials",
+        "auditd:renamed",
+        "auditd:started-service",
+        "auditd:started-session",
+        "auditd:stopped-service",
+        "auditd:was-authorized"
+      ],
+      "total_count": 654283345,
+      "percent_of_all_events": 99.9956,
+      "examples": [
+        1154,
+        1184,
+        1183,
+        1169,
+        6585
+      ]
+    },
+    "process.ppid": {
+      "event_types": [
+        "auditd:",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 654278794,
+      "percent_of_all_events": 99.9949,
+      "examples": [
+        738,
+        748,
+        745,
+        800,
+        587
+      ]
+    },
+    "process.title": {
+      "event_types": [
+        "auditd:",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 652825232,
+      "percent_of_all_events": 99.7728,
+      "examples": [
+        "/usr/sbin/smbd -D --option=server role check:inhibit=yes --foreground",
+        "/usr/sbin/samba -D",
+        "/usr/sbin/winbindd -D --option=server role check:inhibit=yes --foreground",
+        "/usr/sbin/cron -f",
+        "/usr/sbin/CRON -f"
+      ]
+    },
+    "service.type": {
+      "event_types": [
+        "auditd:",
+        "auditd:-",
+        "auditd:acquired-credentials",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-audit-configuration",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:refreshed-credentials",
+        "auditd:renamed",
+        "auditd:started-service",
+        "auditd:started-session",
+        "auditd:stopped-service",
+        "auditd:was-authorized"
+      ],
+      "total_count": 654311935,
+      "percent_of_all_events": 100.0,
+      "examples": [
+        "auditd"
+      ]
+    },
+    "source.ip": {
+      "event_types": [
+        "auditd:started-session"
+      ],
+      "total_count": 114,
+      "percent_of_all_events": 0.0,
+      "examples": [
+        "172.16.1.2"
+      ]
+    },
+    "tags[]": {
+      "event_types": [
+        "auditd:",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-audit-configuration",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 654278798,
+      "percent_of_all_events": 99.9949,
+      "examples": [
+        "setuid",
+        "setgid",
+        "fcntl",
+        "dup",
+        "close"
+      ]
+    },
+    "user.audit.id": {
+      "event_types": [
+        "auditd:",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-audit-configuration",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:refreshed-credentials",
+        "auditd:renamed",
+        "auditd:started-session"
+      ],
+      "total_count": 724713,
+      "percent_of_all_events": 0.1108,
+      "examples": [
+        "0"
+      ]
+    },
+    "user.audit.name": {
+      "event_types": [
+        "auditd:",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-audit-configuration",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:refreshed-credentials",
+        "auditd:renamed",
+        "auditd:started-session"
+      ],
+      "total_count": 724713,
+      "percent_of_all_events": 0.1108,
+      "examples": [
+        "root"
+      ]
+    },
+    "user.effective.group.id": {
+      "event_types": [
+        "auditd:",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 654278794,
+      "percent_of_all_events": 99.9949,
+      "examples": [
+        "0",
+        "108",
+        "12",
+        "3000018",
+        "65534"
+      ]
+    },
+    "user.effective.group.name": {
+      "event_types": [
+        "auditd:",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 653932225,
+      "percent_of_all_events": 99.942,
+      "examples": [
+        "root",
+        "syslog",
+        "man",
+        "nogroup",
+        "users"
+      ]
+    },
+    "user.effective.id": {
+      "event_types": [
+        "auditd:",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 654278794,
+      "percent_of_all_events": 99.9949,
+      "examples": [
+        "0",
+        "6",
+        "3000051",
+        "65534",
+        "3000067"
+      ]
+    },
+    "user.effective.name": {
+      "event_types": [
+        "auditd:",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 653892074,
+      "percent_of_all_events": 99.9358,
+      "examples": [
+        "root",
+        "man",
+        "nobody",
+        "sshd"
+      ]
+    },
+    "user.filesystem.group.id": {
+      "event_types": [
+        "auditd:",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 654278794,
+      "percent_of_all_events": 99.9949,
+      "examples": [
+        "0",
+        "108",
+        "12",
+        "3000018",
+        "65534"
+      ]
+    },
+    "user.filesystem.group.name": {
+      "event_types": [
+        "auditd:",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 653932225,
+      "percent_of_all_events": 99.942,
+      "examples": [
+        "root",
+        "syslog",
+        "man",
+        "nogroup",
+        "users"
+      ]
+    },
+    "user.filesystem.id": {
+      "event_types": [
+        "auditd:",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 654278794,
+      "percent_of_all_events": 99.9949,
+      "examples": [
+        "0",
+        "6",
+        "3000051",
+        "65534",
+        "3000067"
+      ]
+    },
+    "user.filesystem.name": {
+      "event_types": [
+        "auditd:",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 653892074,
+      "percent_of_all_events": 99.9358,
+      "examples": [
+        "root",
+        "man",
+        "nobody",
+        "sshd"
+      ]
+    },
+    "user.group.id": {
+      "event_types": [
+        "auditd:",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 654278794,
+      "percent_of_all_events": 99.9949,
+      "examples": [
+        "0",
+        "12",
+        "65534",
+        "108"
+      ]
+    },
+    "user.group.name": {
+      "event_types": [
+        "auditd:",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 654278794,
+      "percent_of_all_events": 99.9949,
+      "examples": [
+        "root",
+        "man",
+        "nogroup",
+        "syslog"
+      ]
+    },
+    "user.id": {
+      "event_types": [
+        "auditd:",
+        "auditd:acquired-credentials",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:refreshed-credentials",
+        "auditd:renamed",
+        "auditd:started-service",
+        "auditd:started-session",
+        "auditd:stopped-service",
+        "auditd:was-authorized"
+      ],
+      "total_count": 654283345,
+      "percent_of_all_events": 99.9956,
+      "examples": [
+        "0",
+        "6",
+        "3000051",
+        "65534",
+        "3000067"
+      ]
+    },
+    "user.name": {
+      "event_types": [
+        "auditd:",
+        "auditd:acquired-credentials",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:disposed-credentials",
+        "auditd:ended-session",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:refreshed-credentials",
+        "auditd:renamed",
+        "auditd:started-service",
+        "auditd:started-session",
+        "auditd:stopped-service",
+        "auditd:was-authorized"
+      ],
+      "total_count": 653896625,
+      "percent_of_all_events": 99.9365,
+      "examples": [
+        "root",
+        "man",
+        "nobody",
+        "sshd"
+      ]
+    },
+    "user.ogid.id": {
+      "event_types": [
+        "auditd:"
+      ],
+      "total_count": 8,
+      "percent_of_all_events": 0.0,
+      "examples": [
+        "0"
+      ]
+    },
+    "user.ogid.name": {
+      "event_types": [
+        "auditd:"
+      ],
+      "total_count": 8,
+      "percent_of_all_events": 0.0,
+      "examples": [
+        "root"
+      ]
+    },
+    "user.ouid.id": {
+      "event_types": [
+        "auditd:"
+      ],
+      "total_count": 8,
+      "percent_of_all_events": 0.0,
+      "examples": [
+        "0"
+      ]
+    },
+    "user.ouid.name": {
+      "event_types": [
+        "auditd:"
+      ],
+      "total_count": 8,
+      "percent_of_all_events": 0.0,
+      "examples": [
+        "root"
+      ]
+    },
+    "user.saved.group.id": {
+      "event_types": [
+        "auditd:",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 654278794,
+      "percent_of_all_events": 99.9949,
+      "examples": [
+        "0",
+        "12",
+        "65534",
+        "107",
+        "108"
+      ]
+    },
+    "user.saved.group.name": {
+      "event_types": [
+        "auditd:",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 654278794,
+      "percent_of_all_events": 99.9949,
+      "examples": [
+        "root",
+        "man",
+        "nogroup",
+        "crontab",
+        "syslog"
+      ]
+    },
+    "user.saved.id": {
+      "event_types": [
+        "auditd:",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 654278794,
+      "percent_of_all_events": 99.9949,
+      "examples": [
+        "0",
+        "6",
+        "108"
+      ]
+    },
+    "user.saved.name": {
+      "event_types": [
+        "auditd:",
+        "auditd:allocated-memory",
+        "auditd:bound-socket",
+        "auditd:changed-file-ownership-of",
+        "auditd:changed-file-permissions-of",
+        "auditd:changed-identity-of",
+        "auditd:connected-to",
+        "auditd:deleted",
+        "auditd:executed",
+        "auditd:killed-pid",
+        "auditd:opened-file",
+        "auditd:renamed"
+      ],
+      "total_count": 654278794,
+      "percent_of_all_events": 99.9949,
+      "examples": [
+        "root",
+        "man",
+        "sshd"
+      ]
+    }
+  }
+}

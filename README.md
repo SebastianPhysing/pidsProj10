@@ -1,13 +1,7 @@
-## Pending
-> - create Weights & Biases Workspace
-> - try create python venv with Pyenv
-> - try installing all listed dependencies (not in env) and python libaries
-> - structure github according to standard blueprint
-> - write experiment protocolls
-**Next meeting: Thursday, 5pm**
 
-## Slides
-> - [1: first encounter with PIDS(Maker) and new datasets ](https://docs.google.com/presentation/d/1mdIcs6seVYDooCjOEeilckL3XJZXD6XOr4lvxKtAwak/edit?usp=sharing)
+
+## Presentation
+> f
 
 
 ## What this repo is about
@@ -21,7 +15,7 @@ The main task is the integration of new datasets in the PIDSMaker Framework. To 
 | **GENERAL INFORMATION** ||||
 | Data set name | AVIATOR: A MITRE Emulation Plan-Derived Living Dataset for Advanced Persistent Threat Detection and Investigation | APT Persistencee  | DEDALE: Dataset for Evaluating Detection of APT among Logs and Events |
 | Release year | 2025 | 2024 (updated 2025) | 2026 |
-| Web link | https://radar.kit.edu/radar/en/dataset/8s5b0u5yqgfs2y0d, https://ieeexplore.ieee.org/document/10826006 | https://gitlab.cylab.be/cylab/datasets/apt-persistence | https://entrepot.recherche.data.gouv.fr/dataset.xhtml?persistentId=doi:10.57745/Y5JLDG, https://dedale.inria.fr/index.html |
+| Web link | https://radar.kit.edu/radar/en/dataset/8s5b0u5yqgfs2y0d, https://ieeexplore.ieee.org/document/10826006 | https://gitlab.cylab.be/cylab/datasets/apt-persistence | https://entrepot.recherche.data.gouv.fr/dataset.xhtml?persistentId=doi:10.57745/Y5JLDG, https://dedale.inria.fr/index.html, https://link.springer.com/chapter/10.1007/978-3-032-16092-8_1 |
 | Data parser link | not provided, meanwhile the paper says there exists one | [json](https://gitlab.cylab.be/cylab/datasets/apt-persistence/-/blob/main/Scripts/Evtx_To_Json.py?ref_type=heads)| n.i.f. (no information found) |
 | **BEHAVIOR PATTERN** ||||
 | Normal behavior | yes | yes | yes |
@@ -46,8 +40,9 @@ The main task is the integration of new datasets in the PIDSMaker Framework. To 
 | Data recording duration | 2 weeks | n.i.f. | 4 weeks |
 | Data set size | 1.9 TB | 14.7GB | 2.9 TB  |
 | Count recorded host machines | 12 | n.i.f | n.i.f |
-## Usage Of Code
 
+<img title="le" alt="Alt text" src="3_analyse_content/Dedale/visualizations/dedale_infrastructure.png">
 
-
+## How this repo is structured
+You can find all steps of this work in this repo. Starting from setting up the enviroment, to running own experiments with the own parsed experiments. In each step you can find at least one README documenting all the things that are relevant such as the design process and the concrete implementations and commands. 
 

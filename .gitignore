@@ -1,3 +1,9 @@
 NotesForMyself.txt
-dataset_preprocessing/cylab
+4_parser/Dedale/internal_server_linux
+
+4_parser/Dedale/windows_clients_1_and_2/daily_winlogbeat
+4_parser/Dedale/windows_clients_1_and_2/labels_clients_1_and_2
+4_parser/Dedale/windows_clients_1_and_2/old
+3_analyse_content/Dedale/winlogbeat/daily_winlogbeat/*.bz2
+z_glimpse
 bigfiles

@@ -1,0 +1,677 @@
+   Length  DateTime             Name
+---------  -------------------  ----------------------------------------------------------------
+        0  2025-02-03 01:07:52  daily_winlogbeat/
+       14  2025-02-02 05:24:56  daily_winlogbeat/D16_H21_2025-01-07T21_winlogbeat_F382.jsonl.bz2
+       14  2025-02-02 04:14:26  daily_winlogbeat/D4_H3_2024-12-26T03_winlogbeat_F76.jsonl.bz2
+       14  2025-02-02 04:29:42  daily_winlogbeat/D7_H4_2024-12-29T04_winlogbeat_F149.jsonl.bz2
+103928879  2025-02-02 04:12:22  daily_winlogbeat/D3_H15_2024-12-25T15_winlogbeat_F64.jsonl.bz2
+       14  2025-02-02 05:49:12  daily_winlogbeat/D21_H4_2025-01-12T04_winlogbeat_F485.jsonl.bz2
+       14  2025-02-02 04:29:00  daily_winlogbeat/D5_H21_2024-12-27T21_winlogbeat_F118.jsonl.bz2
+176735814  2025-02-02 06:20:02  daily_winlogbeat/D25_H14_2025-01-16T14_winlogbeat_F591.jsonl.bz2
+174206876  2025-02-02 05:01:40  daily_winlogbeat/D12_H11_2025-01-03T11_winlogbeat_F276.jsonl.bz2
+ 80340661  2025-02-02 04:25:42  daily_winlogbeat/D5_H13_2024-12-27T13_winlogbeat_F110.jsonl.bz2
+164221816  2025-02-02 06:04:56  daily_winlogbeat/D23_H16_2025-01-14T16_winlogbeat_F545.jsonl.bz2
+       14  2025-02-02 05:07:32  daily_winlogbeat/D15_H5_2025-01-06T05_winlogbeat_F342.jsonl.bz2
+       14  2025-02-02 05:25:06  daily_winlogbeat/D17_H7_2025-01-08T07_winlogbeat_F392.jsonl.bz2
+       14  2025-02-02 04:44:52  daily_winlogbeat/D10_H1_2025-01-01T01_winlogbeat_F218.jsonl.bz2
+ 20115244  2025-02-02 04:28:58  daily_winlogbeat/D5_H18_2024-12-27T18_winlogbeat_F115.jsonl.bz2
+       14  2025-02-02 06:31:54  daily_winlogbeat/D27_H20_2025-01-18T20_winlogbeat_F645.jsonl.bz2
+       14  2025-02-02 06:32:14  daily_winlogbeat/D28_H6_2025-01-19T06_winlogbeat_F655.jsonl.bz2
+       14  2025-02-02 04:30:16  daily_winlogbeat/D8_H4_2024-12-30T04_winlogbeat_F173.jsonl.bz2
+161359499  2025-02-02 04:11:52  daily_winlogbeat/D3_H14_2024-12-25T14_winlogbeat_F63.jsonl.bz2
+156072067  2025-02-02 05:44:26  daily_winlogbeat/D19_H12_2025-01-10T12_winlogbeat_F445.jsonl.bz2
+       14  2025-02-02 03:58:32  daily_winlogbeat/D1_H19_2024-12-23T19_winlogbeat_F20.jsonl.bz2
+144498724  2025-02-02 04:53:22  daily_winlogbeat/D11_H9_2025-01-02T09_winlogbeat_F250.jsonl.bz2
+160261679  2025-02-02 05:36:28  daily_winlogbeat/D18_H12_2025-01-09T12_winlogbeat_F421.jsonl.bz2
+       14  2025-02-02 05:14:50  daily_winlogbeat/D16_H5_2025-01-07T05_winlogbeat_F366.jsonl.bz2
+  7363228  2025-02-02 06:31:28  daily_winlogbeat/D27_H12_2025-01-18T12_winlogbeat_F637.jsonl.bz2
+       14  2025-02-02 05:48:30  daily_winlogbeat/D19_H23_2025-01-10T23_winlogbeat_F456.jsonl.bz2
+       14  2025-02-02 04:21:38  daily_winlogbeat/D4_H21_2024-12-26T21_winlogbeat_F94.jsonl.bz2
+       14  2025-02-02 05:06:08  daily_winlogbeat/D13_H5_2025-01-04T05_winlogbeat_F294.jsonl.bz2
+  3403611  2025-02-02 06:32:50  daily_winlogbeat/D28_H17_2025-01-19T17_winlogbeat_F666.jsonl.bz2
+155243146  2025-02-02 06:14:04  daily_winlogbeat/D24_H17_2025-01-15T17_winlogbeat_F570.jsonl.bz2
+       14  2025-02-02 06:32:54  daily_winlogbeat/D28_H19_2025-01-19T19_winlogbeat_F668.jsonl.bz2
+ 92238042  2025-02-02 05:59:44  daily_winlogbeat/D23_H10_2025-01-14T10_winlogbeat_F539.jsonl.bz2
+       14  2025-02-02 05:57:24  daily_winlogbeat/D22_H23_2025-01-13T23_winlogbeat_F528.jsonl.bz2
+  4438653  2025-02-02 06:32:40  daily_winlogbeat/D28_H14_2025-01-19T14_winlogbeat_F663.jsonl.bz2
+       14  2025-02-02 05:40:34  daily_winlogbeat/D18_H20_2025-01-09T20_winlogbeat_F429.jsonl.bz2
+       14  2025-02-02 05:06:46  daily_winlogbeat/D14_H2_2025-01-05T02_winlogbeat_F315.jsonl.bz2
+ 86873994  2025-02-02 04:46:50  daily_winlogbeat/D10_H10_2025-01-01T10_winlogbeat_F227.jsonl.bz2
+       14  2025-02-02 05:14:46  daily_winlogbeat/D16_H0_2025-01-07T00_winlogbeat_F361.jsonl.bz2
+  6871520  2025-02-02 04:29:56  daily_winlogbeat/D7_H12_2024-12-29T12_winlogbeat_F157.jsonl.bz2
+       14  2025-02-02 05:25:04  daily_winlogbeat/D17_H5_2025-01-08T05_winlogbeat_F390.jsonl.bz2
+       14  2025-02-02 04:51:56  daily_winlogbeat/D10_H22_2025-01-01T22_winlogbeat_F239.jsonl.bz2
+       14  2025-02-02 05:57:32  daily_winlogbeat/D23_H6_2025-01-14T06_winlogbeat_F535.jsonl.bz2
+       14  2025-02-02 05:49:48  daily_winlogbeat/D22_H5_2025-01-13T05_winlogbeat_F510.jsonl.bz2
+       14  2025-02-02 05:24:54  daily_winlogbeat/D16_H19_2025-01-07T19_winlogbeat_F380.jsonl.bz2
+  2037115  2025-02-02 04:30:00  daily_winlogbeat/D7_H15_2024-12-29T15_winlogbeat_F160.jsonl.bz2
+ 92888861  2025-02-02 04:41:42  daily_winlogbeat/D9_H13_2024-12-31T13_winlogbeat_F206.jsonl.bz2
+       14  2025-02-02 04:29:42  daily_winlogbeat/D7_H5_2024-12-29T05_winlogbeat_F150.jsonl.bz2
+125337017  2025-02-02 06:13:18  daily_winlogbeat/D24_H16_2025-01-15T16_winlogbeat_F569.jsonl.bz2
+       14  2025-02-02 06:06:18  daily_winlogbeat/D24_H6_2025-01-15T06_winlogbeat_F559.jsonl.bz2
+105994194  2025-02-02 05:34:44  daily_winlogbeat/D18_H10_2025-01-09T10_winlogbeat_F419.jsonl.bz2
+       14  2025-02-02 05:06:00  daily_winlogbeat/D12_H23_2025-01-03T23_winlogbeat_F288.jsonl.bz2
+  4108507  2025-02-02 04:29:46  daily_winlogbeat/D7_H8_2024-12-29T08_winlogbeat_F153.jsonl.bz2
+142930660  2025-02-02 05:31:14  daily_winlogbeat/D17_H16_2025-01-08T16_winlogbeat_F401.jsonl.bz2
+ 20530983  2025-02-02 04:44:46  daily_winlogbeat/D9_H18_2024-12-31T18_winlogbeat_F211.jsonl.bz2
+ 90778395  2025-02-02 05:04:06  daily_winlogbeat/D12_H15_2025-01-03T15_winlogbeat_F280.jsonl.bz2
+       14  2025-02-02 05:48:26  daily_winlogbeat/D19_H19_2025-01-10T19_winlogbeat_F452.jsonl.bz2
+       14  2025-02-02 04:14:18  daily_winlogbeat/D3_H19_2024-12-25T19_winlogbeat_F68.jsonl.bz2
+       14  2025-02-02 04:44:52  daily_winlogbeat/D10_H0_2025-01-01T00_winlogbeat_F217.jsonl.bz2
+ 80047408  2025-02-02 06:27:22  daily_winlogbeat/D26_H13_2025-01-17T13_winlogbeat_F614.jsonl.bz2
+       14  2025-02-02 04:44:50  daily_winlogbeat/D9_H22_2024-12-31T22_winlogbeat_F215.jsonl.bz2
+       14  2025-02-02 06:14:20  daily_winlogbeat/D24_H19_2025-01-15T19_winlogbeat_F572.jsonl.bz2
+       14  2025-02-02 04:21:42  daily_winlogbeat/D4_H23_2024-12-26T23_winlogbeat_F96.jsonl.bz2
+154157532  2025-02-02 04:16:04  daily_winlogbeat/D4_H9_2024-12-26T09_winlogbeat_F82.jsonl.bz2
+  2287727  2025-02-02 05:48:58  daily_winlogbeat/D20_H16_2025-01-11T16_winlogbeat_F473.jsonl.bz2
+  4724062  2025-02-02 04:29:20  daily_winlogbeat/D6_H12_2024-12-28T12_winlogbeat_F133.jsonl.bz2
+       14  2025-02-02 04:06:46  daily_winlogbeat/D3_H5_2024-12-25T05_winlogbeat_F54.jsonl.bz2
+       14  2025-02-02 04:06:42  daily_winlogbeat/D3_H1_2024-12-25T01_winlogbeat_F50.jsonl.bz2
+159833380  2025-02-02 05:27:58  daily_winlogbeat/D17_H11_2025-01-08T11_winlogbeat_F396.jsonl.bz2
+       14  2025-02-02 05:25:06  daily_winlogbeat/D17_H6_2025-01-08T06_winlogbeat_F391.jsonl.bz2
+167825259  2025-02-02 06:09:30  daily_winlogbeat/D24_H11_2025-01-15T11_winlogbeat_F564.jsonl.bz2
+137798391  2025-02-02 04:07:36  daily_winlogbeat/D3_H8_2024-12-25T08_winlogbeat_F57.jsonl.bz2
+  3743525  2025-02-02 06:32:46  daily_winlogbeat/D28_H16_2025-01-19T16_winlogbeat_F665.jsonl.bz2
+       14  2025-02-02 06:30:56  daily_winlogbeat/D27_H0_2025-01-18T00_winlogbeat_F625.jsonl.bz2
+159249002  2025-02-02 06:07:54  daily_winlogbeat/D24_H9_2025-01-15T09_winlogbeat_F562.jsonl.bz2
+       14  2025-02-02 04:21:50  daily_winlogbeat/D5_H5_2024-12-27T05_winlogbeat_F102.jsonl.bz2
+       14  2025-02-02 04:37:46  daily_winlogbeat/D9_H7_2024-12-31T07_winlogbeat_F200.jsonl.bz2
+       14  2025-02-02 04:06:46  daily_winlogbeat/D3_H4_2024-12-25T04_winlogbeat_F53.jsonl.bz2
+  7096251  2025-02-02 06:32:30  daily_winlogbeat/D28_H11_2025-01-19T11_winlogbeat_F660.jsonl.bz2
+134459074  2025-02-02 05:57:12  daily_winlogbeat/D22_H17_2025-01-13T17_winlogbeat_F522.jsonl.bz2
+       14  2025-02-02 05:57:30  daily_winlogbeat/D23_H4_2025-01-14T04_winlogbeat_F533.jsonl.bz2
+  2983824  2025-02-02 05:06:16  daily_winlogbeat/D13_H10_2025-01-04T10_winlogbeat_F299.jsonl.bz2
+       14  2025-02-02 06:31:52  daily_winlogbeat/D27_H19_2025-01-18T19_winlogbeat_F644.jsonl.bz2
+       14  2025-02-02 05:49:40  daily_winlogbeat/D21_H21_2025-01-12T21_winlogbeat_F502.jsonl.bz2
+       14  2025-02-02 04:52:02  daily_winlogbeat/D11_H3_2025-01-02T03_winlogbeat_F244.jsonl.bz2
+  1262403  2025-02-02 05:49:22  daily_winlogbeat/D21_H10_2025-01-12T10_winlogbeat_F491.jsonl.bz2
+       14  2025-02-02 04:58:48  daily_winlogbeat/D12_H1_2025-01-03T01_winlogbeat_F266.jsonl.bz2
+       14  2025-02-02 04:30:14  daily_winlogbeat/D8_H2_2024-12-30T02_winlogbeat_F171.jsonl.bz2
+       14  2025-02-02 06:31:04  daily_winlogbeat/D27_H4_2025-01-18T04_winlogbeat_F629.jsonl.bz2
+       14  2025-02-02 05:49:04  daily_winlogbeat/D20_H21_2025-01-11T21_winlogbeat_F478.jsonl.bz2
+171847820  2025-02-02 05:42:26  daily_winlogbeat/D19_H9_2025-01-10T09_winlogbeat_F442.jsonl.bz2
+138023824  2025-02-02 04:41:10  daily_winlogbeat/D9_H12_2024-12-31T12_winlogbeat_F205.jsonl.bz2
+144099199  2025-02-02 05:56:20  daily_winlogbeat/D22_H16_2025-01-13T16_winlogbeat_F521.jsonl.bz2
+134080736  2025-02-02 05:50:30  daily_winlogbeat/D22_H8_2025-01-13T08_winlogbeat_F513.jsonl.bz2
+  2542265  2025-02-02 06:32:44  daily_winlogbeat/D28_H15_2025-01-19T15_winlogbeat_F664.jsonl.bz2
+147283741  2025-02-02 03:55:54  daily_winlogbeat/D1_H14_2024-12-23T14_winlogbeat_F15.jsonl.bz2
+       14  2025-02-02 05:49:08  daily_winlogbeat/D21_H1_2025-01-12T01_winlogbeat_F482.jsonl.bz2
+       14  2025-02-02 04:37:36  daily_winlogbeat/D9_H0_2024-12-31T00_winlogbeat_F193.jsonl.bz2
+146099673  2025-02-02 04:31:08  daily_winlogbeat/D8_H8_2024-12-30T08_winlogbeat_F177.jsonl.bz2
+       14  2025-02-02 05:06:08  daily_winlogbeat/D13_H6_2025-01-04T06_winlogbeat_F295.jsonl.bz2
+       14  2025-02-02 06:22:40  daily_winlogbeat/D25_H22_2025-01-16T22_winlogbeat_F599.jsonl.bz2
+       14  2025-02-02 05:57:24  daily_winlogbeat/D22_H22_2025-01-13T22_winlogbeat_F527.jsonl.bz2
+       14  2025-02-02 04:58:48  daily_winlogbeat/D12_H2_2025-01-03T02_winlogbeat_F267.jsonl.bz2
+ 79751478  2025-02-02 05:54:04  daily_winlogbeat/D22_H13_2025-01-13T13_winlogbeat_F518.jsonl.bz2
+148307206  2025-02-02 04:34:00  daily_winlogbeat/D8_H12_2024-12-30T12_winlogbeat_F181.jsonl.bz2
+151490139  2025-02-02 06:03:00  daily_winlogbeat/D23_H14_2025-01-14T14_winlogbeat_F543.jsonl.bz2
+       14  2025-02-02 03:51:10  daily_winlogbeat/D1_H4_2024-12-23T04_winlogbeat_F5.jsonl.bz2
+132963468  2025-02-02 04:35:16  daily_winlogbeat/D8_H14_2024-12-30T14_winlogbeat_F183.jsonl.bz2
+  6164570  2025-02-02 06:32:34  daily_winlogbeat/D28_H12_2025-01-19T12_winlogbeat_F661.jsonl.bz2
+       14  2025-02-02 05:49:04  daily_winlogbeat/D20_H20_2025-01-11T20_winlogbeat_F477.jsonl.bz2
+130675521  2025-02-02 04:57:48  daily_winlogbeat/D11_H16_2025-01-02T16_winlogbeat_F257.jsonl.bz2
+       14  2025-02-02 04:21:46  daily_winlogbeat/D5_H2_2024-12-27T02_winlogbeat_F99.jsonl.bz2
+       14  2025-02-02 05:48:38  daily_winlogbeat/D20_H7_2025-01-11T07_winlogbeat_F464.jsonl.bz2
+150547034  2025-02-02 04:08:20  daily_winlogbeat/D3_H9_2024-12-25T09_winlogbeat_F58.jsonl.bz2
+       14  2025-02-02 04:06:40  daily_winlogbeat/D2_H22_2024-12-24T22_winlogbeat_F47.jsonl.bz2
+       14  2025-02-02 04:21:42  daily_winlogbeat/D5_H0_2024-12-27T00_winlogbeat_F97.jsonl.bz2
+       14  2025-02-02 05:48:38  daily_winlogbeat/D20_H6_2025-01-11T06_winlogbeat_F463.jsonl.bz2
+  3610227  2025-02-02 06:31:42  daily_winlogbeat/D27_H16_2025-01-18T16_winlogbeat_F641.jsonl.bz2
+       14  2025-02-02 05:40:40  daily_winlogbeat/D19_H4_2025-01-10T04_winlogbeat_F437.jsonl.bz2
+       14  2025-02-02 05:49:44  daily_winlogbeat/D22_H2_2025-01-13T02_winlogbeat_F507.jsonl.bz2
+       14  2025-02-02 06:14:26  daily_winlogbeat/D25_H1_2025-01-16T01_winlogbeat_F578.jsonl.bz2
+       14  2025-02-02 05:06:50  daily_winlogbeat/D14_H6_2025-01-05T06_winlogbeat_F319.jsonl.bz2
+       14  2025-02-02 06:31:56  daily_winlogbeat/D27_H21_2025-01-18T21_winlogbeat_F646.jsonl.bz2
+  3853730  2025-02-02 06:32:20  daily_winlogbeat/D28_H8_2025-01-19T08_winlogbeat_F657.jsonl.bz2
+  5204921  2025-02-02 05:48:44  daily_winlogbeat/D20_H9_2025-01-11T09_winlogbeat_F466.jsonl.bz2
+       14  2025-02-02 04:30:12  daily_winlogbeat/D7_H23_2024-12-29T23_winlogbeat_F168.jsonl.bz2
+ 84827277  2025-02-02 06:08:38  daily_winlogbeat/D24_H10_2025-01-15T10_winlogbeat_F563.jsonl.bz2
+       14  2025-02-02 03:58:34  daily_winlogbeat/D1_H20_2024-12-23T20_winlogbeat_F21.jsonl.bz2
+       14  2025-02-02 05:48:34  daily_winlogbeat/D20_H2_2025-01-11T02_winlogbeat_F459.jsonl.bz2
+       14  2025-02-02 05:25:00  daily_winlogbeat/D17_H1_2025-01-08T01_winlogbeat_F386.jsonl.bz2
+       14  2025-02-02 05:32:22  daily_winlogbeat/D17_H23_2025-01-08T23_winlogbeat_F408.jsonl.bz2
+       14  2025-02-02 05:49:14  daily_winlogbeat/D21_H7_2025-01-12T07_winlogbeat_F488.jsonl.bz2
+       14  2025-02-02 05:06:10  daily_winlogbeat/D13_H7_2025-01-04T07_winlogbeat_F296.jsonl.bz2
+       14  2025-02-02 05:07:24  daily_winlogbeat/D14_H21_2025-01-05T21_winlogbeat_F334.jsonl.bz2
+  2585972  2025-02-02 04:29:52  daily_winlogbeat/D7_H11_2024-12-29T11_winlogbeat_F156.jsonl.bz2
+       14  2025-02-02 06:30:52  daily_winlogbeat/D26_H22_2025-01-17T22_winlogbeat_F623.jsonl.bz2
+150686274  2025-02-02 04:49:50  daily_winlogbeat/D10_H14_2025-01-01T14_winlogbeat_F231.jsonl.bz2
+       14  2025-02-02 04:21:40  daily_winlogbeat/D4_H22_2024-12-26T22_winlogbeat_F95.jsonl.bz2
+ 88768796  2025-02-02 04:11:04  daily_winlogbeat/D3_H13_2024-12-25T13_winlogbeat_F62.jsonl.bz2
+       14  2025-02-02 03:58:48  daily_winlogbeat/D2_H4_2024-12-24T04_winlogbeat_F29.jsonl.bz2
+  1791268  2025-02-02 04:29:16  daily_winlogbeat/D6_H10_2024-12-28T10_winlogbeat_F131.jsonl.bz2
+       14  2025-02-02 04:14:28  daily_winlogbeat/D4_H4_2024-12-26T04_winlogbeat_F77.jsonl.bz2
+106017793  2025-02-02 04:57:10  daily_winlogbeat/D11_H15_2025-01-02T15_winlogbeat_F256.jsonl.bz2
+       14  2025-02-02 04:29:04  daily_winlogbeat/D6_H1_2024-12-28T01_winlogbeat_F122.jsonl.bz2
+       14  2025-02-02 05:32:22  daily_winlogbeat/D18_H0_2025-01-09T00_winlogbeat_F409.jsonl.bz2
+146946357  2025-02-02 06:00:46  daily_winlogbeat/D23_H11_2025-01-14T11_winlogbeat_F540.jsonl.bz2
+       14  2025-02-02 05:14:52  daily_winlogbeat/D16_H6_2025-01-07T06_winlogbeat_F367.jsonl.bz2
+       14  2025-02-02 05:32:20  daily_winlogbeat/D17_H20_2025-01-08T20_winlogbeat_F405.jsonl.bz2
+130539822  2025-02-02 06:28:04  daily_winlogbeat/D26_H14_2025-01-17T14_winlogbeat_F615.jsonl.bz2
+       14  2025-02-02 04:29:06  daily_winlogbeat/D6_H4_2024-12-28T04_winlogbeat_F125.jsonl.bz2
+146811085  2025-02-02 05:43:38  daily_winlogbeat/D19_H11_2025-01-10T11_winlogbeat_F444.jsonl.bz2
+145981153  2025-02-02 04:51:48  daily_winlogbeat/D10_H17_2025-01-01T17_winlogbeat_F234.jsonl.bz2
+       14  2025-02-02 05:06:48  daily_winlogbeat/D14_H5_2025-01-05T05_winlogbeat_F318.jsonl.bz2
+       14  2025-02-02 05:32:24  daily_winlogbeat/D18_H1_2025-01-09T01_winlogbeat_F410.jsonl.bz2
+       14  2025-02-02 06:32:56  daily_winlogbeat/D28_H20_2025-01-19T20_winlogbeat_F669.jsonl.bz2
+162080017  2025-02-02 03:54:28  daily_winlogbeat/D1_H12_2024-12-23T12_winlogbeat_F13.jsonl.bz2
+139212744  2025-02-02 03:53:42  daily_winlogbeat/D1_H11_2024-12-23T11_winlogbeat_F12.jsonl.bz2
+ 92413417  2025-02-02 04:39:32  daily_winlogbeat/D9_H10_2024-12-31T10_winlogbeat_F203.jsonl.bz2
+       14  2025-02-02 05:06:06  daily_winlogbeat/D13_H4_2025-01-04T04_winlogbeat_F293.jsonl.bz2
+       14  2025-02-02 04:51:56  daily_winlogbeat/D10_H21_2025-01-01T21_winlogbeat_F238.jsonl.bz2
+109872769  2025-02-02 05:46:42  daily_winlogbeat/D19_H15_2025-01-10T15_winlogbeat_F448.jsonl.bz2
+133325068  2025-02-02 04:25:20  daily_winlogbeat/D5_H12_2024-12-27T12_winlogbeat_F109.jsonl.bz2
+       14  2025-02-02 04:06:38  daily_winlogbeat/D2_H21_2024-12-24T21_winlogbeat_F46.jsonl.bz2
+101214435  2025-02-02 05:30:22  daily_winlogbeat/D17_H15_2025-01-08T15_winlogbeat_F400.jsonl.bz2
+       14  2025-02-02 05:49:48  daily_winlogbeat/D22_H6_2025-01-13T06_winlogbeat_F511.jsonl.bz2
+158506171  2025-02-02 06:30:20  daily_winlogbeat/D26_H17_2025-01-17T17_winlogbeat_F618.jsonl.bz2
+149817247  2025-02-02 06:17:26  daily_winlogbeat/D25_H11_2025-01-16T11_winlogbeat_F588.jsonl.bz2
+       14  2025-02-02 06:31:00  daily_winlogbeat/D27_H2_2025-01-18T02_winlogbeat_F627.jsonl.bz2
+       14  2025-02-02 04:58:46  daily_winlogbeat/D11_H23_2025-01-02T23_winlogbeat_F264.jsonl.bz2
+       14  2025-02-02 05:14:48  daily_winlogbeat/D16_H3_2025-01-07T03_winlogbeat_F364.jsonl.bz2
+139461598  2025-02-02 05:02:22  daily_winlogbeat/D12_H12_2025-01-03T12_winlogbeat_F277.jsonl.bz2
+ 88322628  2025-02-02 04:56:02  daily_winlogbeat/D11_H13_2025-01-02T13_winlogbeat_F254.jsonl.bz2
+       14  2025-02-02 04:14:26  daily_winlogbeat/D4_H2_2024-12-26T02_winlogbeat_F75.jsonl.bz2
+  4352886  2025-02-02 05:48:54  daily_winlogbeat/D20_H14_2025-01-11T14_winlogbeat_F471.jsonl.bz2
+152088249  2025-02-02 04:02:02  daily_winlogbeat/D2_H11_2024-12-24T11_winlogbeat_F36.jsonl.bz2
+       14  2025-02-02 05:40:42  daily_winlogbeat/D19_H7_2025-01-10T07_winlogbeat_F440.jsonl.bz2
+       14  2025-02-02 05:49:06  daily_winlogbeat/D20_H22_2025-01-11T22_winlogbeat_F479.jsonl.bz2
+       14  2025-02-02 05:06:48  daily_winlogbeat/D14_H4_2025-01-05T04_winlogbeat_F317.jsonl.bz2
+       14  2025-02-02 04:29:00  daily_winlogbeat/D5_H22_2024-12-27T22_winlogbeat_F119.jsonl.bz2
+       14  2025-02-02 05:57:32  daily_winlogbeat/D23_H7_2025-01-14T07_winlogbeat_F536.jsonl.bz2
+       14  2025-02-02 04:29:08  daily_winlogbeat/D6_H6_2024-12-28T06_winlogbeat_F127.jsonl.bz2
+       14  2025-02-02 04:14:24  daily_winlogbeat/D4_H1_2024-12-26T01_winlogbeat_F74.jsonl.bz2
+       14  2025-02-02 05:49:06  daily_winlogbeat/D20_H23_2025-01-11T23_winlogbeat_F480.jsonl.bz2
+ 85181647  2025-02-02 05:27:06  daily_winlogbeat/D17_H10_2025-01-08T10_winlogbeat_F395.jsonl.bz2
+       14  2025-02-02 06:22:48  daily_winlogbeat/D26_H7_2025-01-17T07_winlogbeat_F608.jsonl.bz2
+       14  2025-02-02 04:21:50  daily_winlogbeat/D5_H6_2024-12-27T06_winlogbeat_F103.jsonl.bz2
+ 84502719  2025-02-02 05:51:42  daily_winlogbeat/D22_H10_2025-01-13T10_winlogbeat_F515.jsonl.bz2
+ 18778089  2025-02-02 05:48:24  daily_winlogbeat/D19_H18_2025-01-10T18_winlogbeat_F451.jsonl.bz2
+141850237  2025-02-02 05:59:14  daily_winlogbeat/D23_H9_2025-01-14T09_winlogbeat_F538.jsonl.bz2
+       14  2025-02-02 05:32:28  daily_winlogbeat/D18_H7_2025-01-09T07_winlogbeat_F416.jsonl.bz2
+       14  2025-02-02 04:30:14  daily_winlogbeat/D8_H3_2024-12-30T03_winlogbeat_F172.jsonl.bz2
+       14  2025-02-02 06:33:02  daily_winlogbeat/D28_H23_2025-01-19T23_winlogbeat_F672.jsonl.bz2
+       14  2025-02-02 05:32:28  daily_winlogbeat/D18_H5_2025-01-09T05_winlogbeat_F414.jsonl.bz2
+       14  2025-02-02 04:58:44  daily_winlogbeat/D11_H19_2025-01-02T19_winlogbeat_F260.jsonl.bz2
+       14  2025-02-02 04:44:54  daily_winlogbeat/D10_H3_2025-01-01T03_winlogbeat_F220.jsonl.bz2
+  3875737  2025-02-02 06:31:14  daily_winlogbeat/D27_H8_2025-01-18T08_winlogbeat_F633.jsonl.bz2
+165847501  2025-02-02 04:00:50  daily_winlogbeat/D2_H9_2024-12-24T09_winlogbeat_F34.jsonl.bz2
+       14  2025-02-02 05:57:20  daily_winlogbeat/D22_H19_2025-01-13T19_winlogbeat_F524.jsonl.bz2
+       14  2025-02-02 05:49:38  daily_winlogbeat/D21_H20_2025-01-12T20_winlogbeat_F501.jsonl.bz2
+       14  2025-02-02 04:44:56  daily_winlogbeat/D10_H6_2025-01-01T06_winlogbeat_F223.jsonl.bz2
+       14  2025-02-02 06:22:42  daily_winlogbeat/D26_H1_2025-01-17T01_winlogbeat_F602.jsonl.bz2
+  3714892  2025-02-02 06:31:18  daily_winlogbeat/D27_H9_2025-01-18T09_winlogbeat_F634.jsonl.bz2
+108762037  2025-02-02 04:19:58  daily_winlogbeat/D4_H15_2024-12-26T15_winlogbeat_F88.jsonl.bz2
+       14  2025-02-02 05:49:02  daily_winlogbeat/D20_H19_2025-01-11T19_winlogbeat_F476.jsonl.bz2
+       14  2025-02-02 04:52:00  daily_winlogbeat/D11_H2_2025-01-02T02_winlogbeat_F243.jsonl.bz2
+       14  2025-02-02 04:58:46  daily_winlogbeat/D11_H22_2025-01-02T22_winlogbeat_F263.jsonl.bz2
+160976450  2025-02-02 04:02:50  daily_winlogbeat/D2_H12_2024-12-24T12_winlogbeat_F37.jsonl.bz2
+  6283834  2025-02-02 04:29:14  daily_winlogbeat/D6_H9_2024-12-28T09_winlogbeat_F130.jsonl.bz2
+  3445118  2025-02-02 06:31:32  daily_winlogbeat/D27_H13_2025-01-18T13_winlogbeat_F638.jsonl.bz2
+       14  2025-02-02 06:22:44  daily_winlogbeat/D26_H3_2025-01-17T03_winlogbeat_F604.jsonl.bz2
+       14  2025-02-02 05:24:58  daily_winlogbeat/D16_H23_2025-01-07T23_winlogbeat_F384.jsonl.bz2
+110140317  2025-02-02 05:00:04  daily_winlogbeat/D12_H9_2025-01-03T09_winlogbeat_F274.jsonl.bz2
+109625819  2025-02-02 04:04:40  daily_winlogbeat/D2_H15_2024-12-24T15_winlogbeat_F40.jsonl.bz2
+       14  2025-02-02 06:06:10  daily_winlogbeat/D24_H0_2025-01-15T00_winlogbeat_F553.jsonl.bz2
+       14  2025-02-02 03:51:10  daily_winlogbeat/D1_H5_2024-12-23T05_winlogbeat_F6.jsonl.bz2
+142239235  2025-02-02 04:36:34  daily_winlogbeat/D8_H16_2024-12-30T16_winlogbeat_F185.jsonl.bz2
+  4282050  2025-02-02 05:06:14  daily_winlogbeat/D13_H9_2025-01-04T09_winlogbeat_F298.jsonl.bz2
+       14  2025-02-02 05:14:44  daily_winlogbeat/D15_H22_2025-01-06T22_winlogbeat_F359.jsonl.bz2
+       14  2025-02-02 06:06:14  daily_winlogbeat/D24_H3_2025-01-15T03_winlogbeat_F556.jsonl.bz2
+       14  2025-02-02 05:49:08  daily_winlogbeat/D21_H0_2025-01-12T00_winlogbeat_F481.jsonl.bz2
+       14  2025-02-02 06:30:50  daily_winlogbeat/D26_H21_2025-01-17T21_winlogbeat_F622.jsonl.bz2
+       14  2025-02-02 04:51:54  daily_winlogbeat/D10_H20_2025-01-01T20_winlogbeat_F237.jsonl.bz2
+173411631  2025-02-02 05:09:10  daily_winlogbeat/D15_H9_2025-01-06T09_winlogbeat_F346.jsonl.bz2
+       14  2025-02-02 04:29:38  daily_winlogbeat/D7_H1_2024-12-29T01_winlogbeat_F146.jsonl.bz2
+       14  2025-02-02 04:52:02  daily_winlogbeat/D11_H5_2025-01-02T05_winlogbeat_F246.jsonl.bz2
+  6109711  2025-02-02 04:29:28  daily_winlogbeat/D6_H16_2024-12-28T16_winlogbeat_F137.jsonl.bz2
+  1047637  2025-02-02 06:32:52  daily_winlogbeat/D28_H18_2025-01-19T18_winlogbeat_F667.jsonl.bz2
+       14  2025-02-02 05:06:42  daily_winlogbeat/D14_H0_2025-01-05T00_winlogbeat_F313.jsonl.bz2
+       14  2025-02-02 04:58:46  daily_winlogbeat/D12_H0_2025-01-03T00_winlogbeat_F265.jsonl.bz2
+ 88302461  2025-02-02 04:32:24  daily_winlogbeat/D8_H10_2024-12-30T10_winlogbeat_F179.jsonl.bz2
+  3859310  2025-02-02 05:06:12  daily_winlogbeat/D13_H8_2025-01-04T08_winlogbeat_F297.jsonl.bz2
+131890899  2025-02-02 04:48:42  daily_winlogbeat/D10_H12_2025-01-01T12_winlogbeat_F229.jsonl.bz2
+       14  2025-02-02 05:32:18  daily_winlogbeat/D17_H19_2025-01-08T19_winlogbeat_F404.jsonl.bz2
+       14  2025-02-02 04:29:38  daily_winlogbeat/D7_H0_2024-12-29T00_winlogbeat_F145.jsonl.bz2
+       14  2025-02-02 04:14:30  daily_winlogbeat/D4_H6_2024-12-26T06_winlogbeat_F79.jsonl.bz2
+       14  2025-02-02 05:49:44  daily_winlogbeat/D22_H1_2025-01-13T01_winlogbeat_F506.jsonl.bz2
+171788908  2025-02-02 05:51:18  daily_winlogbeat/D22_H9_2025-01-13T09_winlogbeat_F514.jsonl.bz2
+       14  2025-02-02 05:24:56  daily_winlogbeat/D16_H22_2025-01-07T22_winlogbeat_F383.jsonl.bz2
+       14  2025-02-02 04:29:02  daily_winlogbeat/D6_H0_2024-12-28T00_winlogbeat_F121.jsonl.bz2
+168447171  2025-02-02 06:21:36  daily_winlogbeat/D25_H16_2025-01-16T16_winlogbeat_F593.jsonl.bz2
+147546597  2025-02-02 04:46:24  daily_winlogbeat/D10_H9_2025-01-01T09_winlogbeat_F226.jsonl.bz2
+161058642  2025-02-02 06:01:32  daily_winlogbeat/D23_H12_2025-01-14T12_winlogbeat_F541.jsonl.bz2
+       14  2025-02-02 04:06:36  daily_winlogbeat/D2_H19_2024-12-24T19_winlogbeat_F44.jsonl.bz2
+       14  2025-02-02 04:06:44  daily_winlogbeat/D3_H3_2024-12-25T03_winlogbeat_F52.jsonl.bz2
+       14  2025-02-02 05:24:54  daily_winlogbeat/D16_H20_2025-01-07T20_winlogbeat_F381.jsonl.bz2
+       14  2025-02-02 06:06:12  daily_winlogbeat/D24_H1_2025-01-15T01_winlogbeat_F554.jsonl.bz2
+       14  2025-02-02 03:58:42  daily_winlogbeat/D2_H0_2024-12-24T00_winlogbeat_F25.jsonl.bz2
+       14  2025-02-02 05:40:42  daily_winlogbeat/D19_H6_2025-01-10T06_winlogbeat_F439.jsonl.bz2
+       14  2025-02-02 05:32:22  daily_winlogbeat/D17_H22_2025-01-08T22_winlogbeat_F407.jsonl.bz2
+153196329  2025-02-02 05:26:28  daily_winlogbeat/D17_H9_2025-01-08T09_winlogbeat_F394.jsonl.bz2
+       14  2025-02-02 05:06:04  daily_winlogbeat/D13_H2_2025-01-04T02_winlogbeat_F291.jsonl.bz2
+161318321  2025-02-02 06:18:16  daily_winlogbeat/D25_H12_2025-01-16T12_winlogbeat_F589.jsonl.bz2
+       14  2025-02-02 05:05:58  daily_winlogbeat/D12_H20_2025-01-03T20_winlogbeat_F285.jsonl.bz2
+       14  2025-02-02 05:06:50  daily_winlogbeat/D14_H7_2025-01-05T07_winlogbeat_F320.jsonl.bz2
+       14  2025-02-02 04:44:58  daily_winlogbeat/D10_H7_2025-01-01T07_winlogbeat_F224.jsonl.bz2
+ 16532610  2025-02-02 05:24:52  daily_winlogbeat/D16_H18_2025-01-07T18_winlogbeat_F379.jsonl.bz2
+       14  2025-02-02 05:07:28  daily_winlogbeat/D15_H1_2025-01-06T01_winlogbeat_F338.jsonl.bz2
+ 84041005  2025-02-02 05:29:10  daily_winlogbeat/D17_H13_2025-01-08T13_winlogbeat_F398.jsonl.bz2
+  3210927  2025-02-02 04:29:22  daily_winlogbeat/D6_H13_2024-12-28T13_winlogbeat_F134.jsonl.bz2
+       14  2025-02-02 05:14:42  daily_winlogbeat/D15_H19_2025-01-06T19_winlogbeat_F356.jsonl.bz2
+       14  2025-02-02 04:29:34  daily_winlogbeat/D6_H21_2024-12-28T21_winlogbeat_F142.jsonl.bz2
+       14  2025-02-02 05:06:44  daily_winlogbeat/D14_H1_2025-01-05T01_winlogbeat_F314.jsonl.bz2
+       14  2025-02-02 05:07:30  daily_winlogbeat/D15_H3_2025-01-06T03_winlogbeat_F340.jsonl.bz2
+133545942  2025-02-02 06:15:18  daily_winlogbeat/D25_H8_2025-01-16T08_winlogbeat_F585.jsonl.bz2
+       14  2025-02-02 04:37:32  daily_winlogbeat/D8_H20_2024-12-30T20_winlogbeat_F189.jsonl.bz2
+  2129285  2025-02-02 05:49:00  daily_winlogbeat/D20_H17_2025-01-11T17_winlogbeat_F474.jsonl.bz2
+       14  2025-02-02 05:07:26  daily_winlogbeat/D14_H23_2025-01-05T23_winlogbeat_F336.jsonl.bz2
+       14  2025-02-02 03:58:48  daily_winlogbeat/D2_H3_2024-12-24T03_winlogbeat_F28.jsonl.bz2
+ 25552110  2025-02-02 05:57:20  daily_winlogbeat/D22_H18_2025-01-13T18_winlogbeat_F523.jsonl.bz2
+       14  2025-02-02 06:14:30  daily_winlogbeat/D25_H4_2025-01-16T04_winlogbeat_F581.jsonl.bz2
+       14  2025-02-02 03:58:50  daily_winlogbeat/D2_H5_2024-12-24T05_winlogbeat_F30.jsonl.bz2
+140578584  2025-02-02 04:26:34  daily_winlogbeat/D5_H14_2024-12-27T14_winlogbeat_F111.jsonl.bz2
+153845052  2025-02-02 05:03:40  daily_winlogbeat/D12_H14_2025-01-03T14_winlogbeat_F279.jsonl.bz2
+189248185  2025-02-02 04:32:00  daily_winlogbeat/D8_H9_2024-12-30T09_winlogbeat_F178.jsonl.bz2
+  4373260  2025-02-02 04:29:30  daily_winlogbeat/D6_H17_2024-12-28T17_winlogbeat_F138.jsonl.bz2
+       14  2025-02-02 04:30:12  daily_winlogbeat/D8_H0_2024-12-30T00_winlogbeat_F169.jsonl.bz2
+165608944  2025-02-02 06:26:40  daily_winlogbeat/D26_H12_2025-01-17T12_winlogbeat_F613.jsonl.bz2
+138490469  2025-02-02 04:05:36  daily_winlogbeat/D2_H16_2024-12-24T16_winlogbeat_F41.jsonl.bz2
+       14  2025-02-02 04:30:12  daily_winlogbeat/D8_H1_2024-12-30T01_winlogbeat_F170.jsonl.bz2
+ 86205729  2025-02-02 06:19:04  daily_winlogbeat/D25_H13_2025-01-16T13_winlogbeat_F590.jsonl.bz2
+       14  2025-02-02 05:40:38  daily_winlogbeat/D19_H2_2025-01-10T02_winlogbeat_F435.jsonl.bz2
+       14  2025-02-02 04:14:28  daily_winlogbeat/D4_H5_2024-12-26T05_winlogbeat_F78.jsonl.bz2
+       14  2025-02-02 06:32:02  daily_winlogbeat/D28_H0_2025-01-19T00_winlogbeat_F649.jsonl.bz2
+       14  2025-02-02 06:22:46  daily_winlogbeat/D26_H4_2025-01-17T04_winlogbeat_F605.jsonl.bz2
+       14  2025-02-02 04:14:30  daily_winlogbeat/D4_H7_2024-12-26T07_winlogbeat_F80.jsonl.bz2
+       14  2025-02-02 04:29:02  daily_winlogbeat/D5_H23_2024-12-27T23_winlogbeat_F120.jsonl.bz2
+       14  2025-02-02 05:48:36  daily_winlogbeat/D20_H4_2025-01-11T04_winlogbeat_F461.jsonl.bz2
+       14  2025-02-02 05:25:02  daily_winlogbeat/D17_H3_2025-01-08T03_winlogbeat_F388.jsonl.bz2
+       14  2025-02-02 03:58:54  daily_winlogbeat/D2_H7_2024-12-24T07_winlogbeat_F32.jsonl.bz2
+       14  2025-02-02 05:32:24  daily_winlogbeat/D18_H2_2025-01-09T02_winlogbeat_F411.jsonl.bz2
+151577961  2025-02-02 04:13:14  daily_winlogbeat/D3_H16_2024-12-25T16_winlogbeat_F65.jsonl.bz2
+       14  2025-02-02 04:37:44  daily_winlogbeat/D9_H6_2024-12-31T06_winlogbeat_F199.jsonl.bz2
+  1965347  2025-02-02 05:48:52  daily_winlogbeat/D20_H13_2025-01-11T13_winlogbeat_F470.jsonl.bz2
+143565102  2025-02-02 05:28:44  daily_winlogbeat/D17_H12_2025-01-08T12_winlogbeat_F397.jsonl.bz2
+ 93987839  2025-02-02 05:09:36  daily_winlogbeat/D15_H10_2025-01-06T10_winlogbeat_F347.jsonl.bz2
+       14  2025-02-02 05:49:46  daily_winlogbeat/D22_H4_2025-01-13T04_winlogbeat_F509.jsonl.bz2
+       14  2025-02-02 05:48:28  daily_winlogbeat/D19_H20_2025-01-10T20_winlogbeat_F453.jsonl.bz2
+ 15416676  2025-02-02 04:14:16  daily_winlogbeat/D3_H18_2024-12-25T18_winlogbeat_F67.jsonl.bz2
+  1104817  2025-02-02 06:31:50  daily_winlogbeat/D27_H18_2025-01-18T18_winlogbeat_F643.jsonl.bz2
+  3553119  2025-02-02 05:06:52  daily_winlogbeat/D14_H8_2025-01-05T08_winlogbeat_F321.jsonl.bz2
+  3639442  2025-02-02 05:06:24  daily_winlogbeat/D13_H13_2025-01-04T13_winlogbeat_F302.jsonl.bz2
+       14  2025-02-02 04:44:54  daily_winlogbeat/D10_H4_2025-01-01T04_winlogbeat_F221.jsonl.bz2
+ 86344427  2025-02-02 05:42:54  daily_winlogbeat/D19_H10_2025-01-10T10_winlogbeat_F443.jsonl.bz2
+       14  2025-02-02 04:30:10  daily_winlogbeat/D7_H21_2024-12-29T21_winlogbeat_F166.jsonl.bz2
+  3988964  2025-02-02 05:07:08  daily_winlogbeat/D14_H14_2025-01-05T14_winlogbeat_F327.jsonl.bz2
+       14  2025-02-02 04:29:44  daily_winlogbeat/D7_H7_2024-12-29T07_winlogbeat_F152.jsonl.bz2
+144614846  2025-02-02 05:16:26  daily_winlogbeat/D16_H9_2025-01-07T09_winlogbeat_F370.jsonl.bz2
+       14  2025-02-02 04:44:48  daily_winlogbeat/D9_H20_2024-12-31T20_winlogbeat_F213.jsonl.bz2
+       14  2025-02-02 06:14:30  daily_winlogbeat/D25_H5_2025-01-16T05_winlogbeat_F582.jsonl.bz2
+160462215  2025-02-02 04:24:38  daily_winlogbeat/D5_H11_2024-12-27T11_winlogbeat_F108.jsonl.bz2
+       14  2025-02-02 06:32:12  daily_winlogbeat/D28_H5_2025-01-19T05_winlogbeat_F654.jsonl.bz2
+138579627  2025-02-02 06:24:36  daily_winlogbeat/D26_H9_2025-01-17T09_winlogbeat_F610.jsonl.bz2
+       14  2025-02-02 05:57:28  daily_winlogbeat/D23_H3_2025-01-14T03_winlogbeat_F532.jsonl.bz2
+       14  2025-02-02 06:06:06  daily_winlogbeat/D23_H20_2025-01-14T20_winlogbeat_F549.jsonl.bz2
+144620162  2025-02-02 06:25:50  daily_winlogbeat/D26_H11_2025-01-17T11_winlogbeat_F612.jsonl.bz2
+       14  2025-02-02 04:30:10  daily_winlogbeat/D7_H22_2024-12-29T22_winlogbeat_F167.jsonl.bz2
+       14  2025-02-02 04:29:00  daily_winlogbeat/D5_H20_2024-12-27T20_winlogbeat_F117.jsonl.bz2
+       14  2025-02-02 03:51:08  daily_winlogbeat/D1_H2_2024-12-23T02_winlogbeat_F3.jsonl.bz2
+       14  2025-02-02 06:30:48  daily_winlogbeat/D26_H20_2025-01-17T20_winlogbeat_F621.jsonl.bz2
+       14  2025-02-02 06:30:58  daily_winlogbeat/D27_H1_2025-01-18T01_winlogbeat_F626.jsonl.bz2
+       14  2025-02-02 05:06:06  daily_winlogbeat/D13_H3_2025-01-04T03_winlogbeat_F292.jsonl.bz2
+       14  2025-02-02 04:58:52  daily_winlogbeat/D12_H7_2025-01-03T07_winlogbeat_F272.jsonl.bz2
+       14  2025-02-02 06:31:02  daily_winlogbeat/D27_H3_2025-01-18T03_winlogbeat_F628.jsonl.bz2
+       14  2025-02-02 04:44:56  daily_winlogbeat/D10_H5_2025-01-01T05_winlogbeat_F222.jsonl.bz2
+       14  2025-02-02 03:58:52  daily_winlogbeat/D2_H6_2024-12-24T06_winlogbeat_F31.jsonl.bz2
+  3517207  2025-02-02 05:06:32  daily_winlogbeat/D13_H16_2025-01-04T16_winlogbeat_F305.jsonl.bz2
+  4188836  2025-02-02 06:32:22  daily_winlogbeat/D28_H9_2025-01-19T09_winlogbeat_F658.jsonl.bz2
+  2901298  2025-02-02 05:49:26  daily_winlogbeat/D21_H12_2025-01-12T12_winlogbeat_F493.jsonl.bz2
+       14  2025-02-02 06:32:58  daily_winlogbeat/D28_H21_2025-01-19T21_winlogbeat_F670.jsonl.bz2
+       14  2025-02-02 06:30:54  daily_winlogbeat/D26_H23_2025-01-17T23_winlogbeat_F624.jsonl.bz2
+       14  2025-02-02 04:58:48  daily_winlogbeat/D12_H3_2025-01-03T03_winlogbeat_F268.jsonl.bz2
+       14  2025-02-02 05:32:20  daily_winlogbeat/D17_H21_2025-01-08T21_winlogbeat_F406.jsonl.bz2
+       14  2025-02-02 05:07:24  daily_winlogbeat/D14_H22_2025-01-05T22_winlogbeat_F335.jsonl.bz2
+155537908  2025-02-02 04:23:24  daily_winlogbeat/D5_H9_2024-12-27T09_winlogbeat_F106.jsonl.bz2
+       14  2025-02-02 04:30:08  daily_winlogbeat/D7_H20_2024-12-29T20_winlogbeat_F165.jsonl.bz2
+       14  2025-02-02 05:49:12  daily_winlogbeat/D21_H5_2025-01-12T05_winlogbeat_F486.jsonl.bz2
+   209221  2025-02-02 05:07:20  daily_winlogbeat/D14_H18_2025-01-05T18_winlogbeat_F331.jsonl.bz2
+110336800  2025-02-02 05:23:02  daily_winlogbeat/D16_H15_2025-01-07T15_winlogbeat_F376.jsonl.bz2
+       14  2025-02-02 05:57:28  daily_winlogbeat/D23_H2_2025-01-14T02_winlogbeat_F531.jsonl.bz2
+       14  2025-02-02 04:37:36  daily_winlogbeat/D8_H23_2024-12-30T23_winlogbeat_F192.jsonl.bz2
+112741566  2025-02-02 04:59:28  daily_winlogbeat/D12_H8_2025-01-03T08_winlogbeat_F273.jsonl.bz2
+  1856261  2025-02-02 05:49:32  daily_winlogbeat/D21_H15_2025-01-12T15_winlogbeat_F496.jsonl.bz2
+131021118  2025-02-02 05:15:36  daily_winlogbeat/D16_H8_2025-01-07T08_winlogbeat_F369.jsonl.bz2
+       14  2025-02-02 03:51:12  daily_winlogbeat/D1_H6_2024-12-23T06_winlogbeat_F7.jsonl.bz2
+ 18226573  2025-02-02 05:05:54  daily_winlogbeat/D12_H18_2025-01-03T18_winlogbeat_F283.jsonl.bz2
+ 81077067  2025-02-02 04:53:44  daily_winlogbeat/D11_H10_2025-01-02T10_winlogbeat_F251.jsonl.bz2
+153144342  2025-02-02 05:53:30  daily_winlogbeat/D22_H12_2025-01-13T12_winlogbeat_F517.jsonl.bz2
+       14  2025-02-02 06:32:10  daily_winlogbeat/D28_H4_2025-01-19T04_winlogbeat_F653.jsonl.bz2
+160666489  2025-02-02 05:32:08  daily_winlogbeat/D17_H17_2025-01-08T17_winlogbeat_F402.jsonl.bz2
+       14  2025-02-02 06:06:20  daily_winlogbeat/D24_H7_2025-01-15T07_winlogbeat_F560.jsonl.bz2
+129378940  2025-02-02 04:22:34  daily_winlogbeat/D5_H8_2024-12-27T08_winlogbeat_F105.jsonl.bz2
+       14  2025-02-02 06:22:48  daily_winlogbeat/D26_H6_2025-01-17T06_winlogbeat_F607.jsonl.bz2
+  3964656  2025-02-02 05:48:40  daily_winlogbeat/D20_H8_2025-01-11T08_winlogbeat_F465.jsonl.bz2
+       14  2025-02-02 05:14:48  daily_winlogbeat/D16_H2_2025-01-07T02_winlogbeat_F363.jsonl.bz2
+  3081620  2025-02-02 06:31:24  daily_winlogbeat/D27_H11_2025-01-18T11_winlogbeat_F636.jsonl.bz2
+       14  2025-02-02 06:31:08  daily_winlogbeat/D27_H6_2025-01-18T06_winlogbeat_F631.jsonl.bz2
+152049611  2025-02-02 04:40:16  daily_winlogbeat/D9_H11_2024-12-31T11_winlogbeat_F204.jsonl.bz2
+   848838  2025-02-02 04:30:06  daily_winlogbeat/D7_H18_2024-12-29T18_winlogbeat_F163.jsonl.bz2
+       14  2025-02-02 04:06:44  daily_winlogbeat/D3_H2_2024-12-25T02_winlogbeat_F51.jsonl.bz2
+       14  2025-02-02 05:14:42  daily_winlogbeat/D15_H20_2025-01-06T20_winlogbeat_F357.jsonl.bz2
+166177100  2025-02-02 06:05:44  daily_winlogbeat/D23_H17_2025-01-14T17_winlogbeat_F546.jsonl.bz2
+129790745  2025-02-02 06:12:30  daily_winlogbeat/D24_H15_2025-01-15T15_winlogbeat_F568.jsonl.bz2
+       14  2025-02-02 05:48:28  daily_winlogbeat/D19_H21_2025-01-10T21_winlogbeat_F454.jsonl.bz2
+  3451997  2025-02-02 04:29:58  daily_winlogbeat/D7_H13_2024-12-29T13_winlogbeat_F158.jsonl.bz2
+123612318  2025-02-02 05:33:12  daily_winlogbeat/D18_H8_2025-01-09T08_winlogbeat_F417.jsonl.bz2
+       14  2025-02-02 05:49:46  daily_winlogbeat/D22_H3_2025-01-13T03_winlogbeat_F508.jsonl.bz2
+166613883  2025-02-02 04:06:24  daily_winlogbeat/D2_H17_2024-12-24T17_winlogbeat_F42.jsonl.bz2
+       14  2025-02-02 03:58:38  daily_winlogbeat/D1_H22_2024-12-23T22_winlogbeat_F23.jsonl.bz2
+       14  2025-02-02 06:14:26  daily_winlogbeat/D25_H0_2025-01-16T00_winlogbeat_F577.jsonl.bz2
+167629355  2025-02-02 04:47:58  daily_winlogbeat/D10_H11_2025-01-01T11_winlogbeat_F228.jsonl.bz2
+ 93532102  2025-02-02 06:10:56  daily_winlogbeat/D24_H13_2025-01-15T13_winlogbeat_F566.jsonl.bz2
+       14  2025-02-02 04:44:48  daily_winlogbeat/D9_H19_2024-12-31T19_winlogbeat_F212.jsonl.bz2
+       14  2025-02-02 03:51:06  daily_winlogbeat/D1_H1_2024-12-23T01_winlogbeat_F2.jsonl.bz2
+       14  2025-02-02 04:29:36  daily_winlogbeat/D6_H23_2024-12-28T23_winlogbeat_F144.jsonl.bz2
+  5081471  2025-02-02 06:31:46  daily_winlogbeat/D27_H17_2025-01-18T17_winlogbeat_F642.jsonl.bz2
+       14  2025-02-02 05:06:38  daily_winlogbeat/D13_H20_2025-01-04T20_winlogbeat_F309.jsonl.bz2
+       14  2025-02-02 04:30:18  daily_winlogbeat/D8_H7_2024-12-30T07_winlogbeat_F176.jsonl.bz2
+   120514  2025-02-03 01:06:22  daily_winlogbeat/winlogbeat_md5sum.sig
+159321308  2025-02-02 06:22:24  daily_winlogbeat/D25_H17_2025-01-16T17_winlogbeat_F594.jsonl.bz2
+       14  2025-02-02 05:06:40  daily_winlogbeat/D13_H22_2025-01-04T22_winlogbeat_F311.jsonl.bz2
+       14  2025-02-02 06:32:00  daily_winlogbeat/D27_H23_2025-01-18T23_winlogbeat_F648.jsonl.bz2
+148996182  2025-02-02 04:10:38  daily_winlogbeat/D3_H12_2024-12-25T12_winlogbeat_F61.jsonl.bz2
+  4758174  2025-02-02 04:30:02  daily_winlogbeat/D7_H16_2024-12-29T16_winlogbeat_F161.jsonl.bz2
+       14  2025-02-02 05:48:36  daily_winlogbeat/D20_H5_2025-01-11T05_winlogbeat_F462.jsonl.bz2
+       14  2025-02-02 04:06:48  daily_winlogbeat/D3_H6_2024-12-25T06_winlogbeat_F55.jsonl.bz2
+       14  2025-02-02 05:49:14  daily_winlogbeat/D21_H6_2025-01-12T06_winlogbeat_F487.jsonl.bz2
+       14  2025-02-02 04:14:22  daily_winlogbeat/D3_H23_2024-12-25T23_winlogbeat_F72.jsonl.bz2
+133451098  2025-02-02 05:29:50  daily_winlogbeat/D17_H14_2025-01-08T14_winlogbeat_F399.jsonl.bz2
+       14  2025-02-02 05:48:32  daily_winlogbeat/D20_H1_2025-01-11T01_winlogbeat_F458.jsonl.bz2
+  6619204  2025-02-02 05:07:14  daily_winlogbeat/D14_H16_2025-01-05T16_winlogbeat_F329.jsonl.bz2
+       14  2025-02-02 05:32:26  daily_winlogbeat/D18_H4_2025-01-09T04_winlogbeat_F413.jsonl.bz2
+       14  2025-02-02 05:07:30  daily_winlogbeat/D15_H4_2025-01-06T04_winlogbeat_F341.jsonl.bz2
+       14  2025-02-02 04:29:40  daily_winlogbeat/D7_H2_2024-12-29T02_winlogbeat_F147.jsonl.bz2
+       14  2025-02-02 05:48:32  daily_winlogbeat/D20_H0_2025-01-11T00_winlogbeat_F457.jsonl.bz2
+       14  2025-02-02 04:29:08  daily_winlogbeat/D6_H5_2024-12-28T05_winlogbeat_F126.jsonl.bz2
+142450097  2025-02-02 04:18:06  daily_winlogbeat/D4_H12_2024-12-26T12_winlogbeat_F85.jsonl.bz2
+  1720572  2025-02-02 06:32:38  daily_winlogbeat/D28_H13_2025-01-19T13_winlogbeat_F662.jsonl.bz2
+       14  2025-02-02 04:44:50  daily_winlogbeat/D9_H23_2024-12-31T23_winlogbeat_F216.jsonl.bz2
+143423675  2025-02-02 04:20:40  daily_winlogbeat/D4_H16_2024-12-26T16_winlogbeat_F89.jsonl.bz2
+       14  2025-02-02 04:37:34  daily_winlogbeat/D8_H22_2024-12-30T22_winlogbeat_F191.jsonl.bz2
+  3244351  2025-02-02 05:06:30  daily_winlogbeat/D13_H15_2025-01-04T15_winlogbeat_F304.jsonl.bz2
+       14  2025-02-02 04:29:34  daily_winlogbeat/D6_H19_2024-12-28T19_winlogbeat_F140.jsonl.bz2
+ 86419902  2025-02-02 04:08:44  daily_winlogbeat/D3_H10_2024-12-25T10_winlogbeat_F59.jsonl.bz2
+       14  2025-02-02 04:21:48  daily_winlogbeat/D5_H4_2024-12-27T04_winlogbeat_F101.jsonl.bz2
+151158081  2025-02-02 03:58:20  daily_winlogbeat/D1_H17_2024-12-23T17_winlogbeat_F18.jsonl.bz2
+140310818  2025-02-02 05:35:38  daily_winlogbeat/D18_H11_2025-01-09T11_winlogbeat_F420.jsonl.bz2
+  3628637  2025-02-02 05:49:18  daily_winlogbeat/D21_H8_2025-01-12T08_winlogbeat_F489.jsonl.bz2
+138248336  2025-02-02 05:08:24  daily_winlogbeat/D15_H8_2025-01-06T08_winlogbeat_F345.jsonl.bz2
+140330871  2025-02-02 05:52:44  daily_winlogbeat/D22_H11_2025-01-13T11_winlogbeat_F516.jsonl.bz2
+159611505  2025-02-02 03:57:28  daily_winlogbeat/D1_H16_2024-12-23T16_winlogbeat_F17.jsonl.bz2
+107202251  2025-02-02 04:18:36  daily_winlogbeat/D4_H13_2024-12-26T13_winlogbeat_F86.jsonl.bz2
+       14  2025-02-02 06:22:38  daily_winlogbeat/D25_H20_2025-01-16T20_winlogbeat_F597.jsonl.bz2
+       14  2025-02-02 04:06:42  daily_winlogbeat/D3_H0_2024-12-25T00_winlogbeat_F49.jsonl.bz2
+       14  2025-02-02 05:05:58  daily_winlogbeat/D12_H21_2025-01-03T21_winlogbeat_F286.jsonl.bz2
+  3247408  2025-02-02 06:32:26  daily_winlogbeat/D28_H10_2025-01-19T10_winlogbeat_F659.jsonl.bz2
+  2982821  2025-02-02 06:31:20  daily_winlogbeat/D27_H10_2025-01-18T10_winlogbeat_F635.jsonl.bz2
+  3161397  2025-02-02 05:06:56  daily_winlogbeat/D14_H9_2025-01-05T09_winlogbeat_F322.jsonl.bz2
+  1740127  2025-02-02 05:48:56  daily_winlogbeat/D20_H15_2025-01-11T15_winlogbeat_F472.jsonl.bz2
+       14  2025-02-02 05:14:46  daily_winlogbeat/D16_H1_2025-01-07T01_winlogbeat_F362.jsonl.bz2
+       14  2025-02-02 06:06:16  daily_winlogbeat/D24_H4_2025-01-15T04_winlogbeat_F557.jsonl.bz2
+ 94139079  2025-02-02 03:51:42  daily_winlogbeat/D1_H8_2024-12-23T08_winlogbeat_F9.jsonl.bz2
+       14  2025-02-02 05:07:20  daily_winlogbeat/D14_H19_2025-01-05T19_winlogbeat_F332.jsonl.bz2
+102863937  2025-02-02 04:03:22  daily_winlogbeat/D2_H13_2024-12-24T13_winlogbeat_F38.jsonl.bz2
+136142128  2025-02-02 04:19:26  daily_winlogbeat/D4_H14_2024-12-26T14_winlogbeat_F87.jsonl.bz2
+  2992386  2025-02-02 05:48:50  daily_winlogbeat/D20_H12_2025-01-11T12_winlogbeat_F469.jsonl.bz2
+       14  2025-02-02 04:29:06  daily_winlogbeat/D6_H3_2024-12-28T03_winlogbeat_F124.jsonl.bz2
+       14  2025-02-02 04:21:52  daily_winlogbeat/D5_H7_2024-12-27T07_winlogbeat_F104.jsonl.bz2
+       14  2025-02-02 04:29:40  daily_winlogbeat/D7_H3_2024-12-29T03_winlogbeat_F148.jsonl.bz2
+       14  2025-02-02 04:21:36  daily_winlogbeat/D4_H19_2024-12-26T19_winlogbeat_F92.jsonl.bz2
+       14  2025-02-02 04:52:00  daily_winlogbeat/D11_H1_2025-01-02T01_winlogbeat_F242.jsonl.bz2
+154725553  2025-02-02 05:40:22  daily_winlogbeat/D18_H17_2025-01-09T17_winlogbeat_F426.jsonl.bz2
+152053021  2025-02-02 05:45:58  daily_winlogbeat/D19_H14_2025-01-10T14_winlogbeat_F447.jsonl.bz2
+       14  2025-02-02 04:44:48  daily_winlogbeat/D9_H21_2024-12-31T21_winlogbeat_F214.jsonl.bz2
+ 93742083  2025-02-02 03:53:02  daily_winlogbeat/D1_H10_2024-12-23T10_winlogbeat_F11.jsonl.bz2
+132231169  2025-02-02 04:15:10  daily_winlogbeat/D4_H8_2024-12-26T08_winlogbeat_F81.jsonl.bz2
+146254945  2025-02-02 05:24:44  daily_winlogbeat/D16_H17_2025-01-07T17_winlogbeat_F378.jsonl.bz2
+       14  2025-02-02 04:30:08  daily_winlogbeat/D7_H19_2024-12-29T19_winlogbeat_F164.jsonl.bz2
+       14  2025-02-02 05:49:42  daily_winlogbeat/D21_H23_2025-01-12T23_winlogbeat_F504.jsonl.bz2
+134224317  2025-02-02 04:56:40  daily_winlogbeat/D11_H14_2025-01-02T14_winlogbeat_F255.jsonl.bz2
+123266068  2025-02-02 05:25:44  daily_winlogbeat/D17_H8_2025-01-08T08_winlogbeat_F393.jsonl.bz2
+       14  2025-02-02 04:37:30  daily_winlogbeat/D8_H19_2024-12-30T19_winlogbeat_F188.jsonl.bz2
+  4476860  2025-02-02 05:07:10  daily_winlogbeat/D14_H15_2025-01-05T15_winlogbeat_F328.jsonl.bz2
+146901071  2025-02-02 04:04:10  daily_winlogbeat/D2_H14_2024-12-24T14_winlogbeat_F39.jsonl.bz2
+       14  2025-02-02 04:21:46  daily_winlogbeat/D5_H3_2024-12-27T03_winlogbeat_F100.jsonl.bz2
+       14  2025-02-02 05:49:40  daily_winlogbeat/D21_H22_2025-01-12T22_winlogbeat_F503.jsonl.bz2
+100646607  2025-02-02 05:55:34  daily_winlogbeat/D22_H15_2025-01-13T15_winlogbeat_F520.jsonl.bz2
+       14  2025-02-02 04:21:38  daily_winlogbeat/D4_H20_2024-12-26T20_winlogbeat_F93.jsonl.bz2
+   540260  2025-02-02 05:06:36  daily_winlogbeat/D13_H18_2025-01-04T18_winlogbeat_F307.jsonl.bz2
+145707006  2025-02-02 06:10:26  daily_winlogbeat/D24_H12_2025-01-15T12_winlogbeat_F565.jsonl.bz2
+       14  2025-02-02 05:14:46  daily_winlogbeat/D15_H23_2025-01-06T23_winlogbeat_F360.jsonl.bz2
+   199132  2025-02-02 04:29:32  daily_winlogbeat/D6_H18_2024-12-28T18_winlogbeat_F139.jsonl.bz2
+       14  2025-02-02 05:40:34  daily_winlogbeat/D18_H21_2025-01-09T21_winlogbeat_F430.jsonl.bz2
+101033761  2025-02-02 04:27:02  daily_winlogbeat/D5_H15_2024-12-27T15_winlogbeat_F112.jsonl.bz2
+       14  2025-02-02 06:22:40  daily_winlogbeat/D25_H23_2025-01-16T23_winlogbeat_F600.jsonl.bz2
+  3596609  2025-02-02 05:49:36  daily_winlogbeat/D21_H17_2025-01-12T17_winlogbeat_F498.jsonl.bz2
+       14  2025-02-02 06:31:10  daily_winlogbeat/D27_H7_2025-01-18T07_winlogbeat_F632.jsonl.bz2
+       14  2025-02-02 06:32:16  daily_winlogbeat/D28_H7_2025-01-19T07_winlogbeat_F656.jsonl.bz2
+  3947940  2025-02-02 05:49:34  daily_winlogbeat/D21_H16_2025-01-12T16_winlogbeat_F497.jsonl.bz2
+       14  2025-02-02 06:14:28  daily_winlogbeat/D25_H3_2025-01-16T03_winlogbeat_F580.jsonl.bz2
+  4427080  2025-02-02 05:07:00  daily_winlogbeat/D14_H11_2025-01-05T11_winlogbeat_F324.jsonl.bz2
+ 84364725  2025-02-02 04:34:24  daily_winlogbeat/D8_H13_2024-12-30T13_winlogbeat_F182.jsonl.bz2
+   256501  2025-02-02 05:49:02  daily_winlogbeat/D20_H18_2025-01-11T18_winlogbeat_F475.jsonl.bz2
+       14  2025-02-02 05:49:38  daily_winlogbeat/D21_H19_2025-01-12T19_winlogbeat_F500.jsonl.bz2
+105296686  2025-02-02 06:28:50  daily_winlogbeat/D26_H15_2025-01-17T15_winlogbeat_F616.jsonl.bz2
+ 78771863  2025-02-02 05:11:42  daily_winlogbeat/D15_H13_2025-01-06T13_winlogbeat_F350.jsonl.bz2
+ 15377880  2025-02-02 04:58:42  daily_winlogbeat/D11_H18_2025-01-02T18_winlogbeat_F259.jsonl.bz2
+       14  2025-02-02 05:40:42  daily_winlogbeat/D19_H5_2025-01-10T05_winlogbeat_F438.jsonl.bz2
+       14  2025-02-02 05:48:30  daily_winlogbeat/D19_H22_2025-01-10T22_winlogbeat_F455.jsonl.bz2
+       14  2025-02-02 04:52:02  daily_winlogbeat/D11_H4_2025-01-02T04_winlogbeat_F245.jsonl.bz2
+210862290  2025-02-02 05:19:24  daily_winlogbeat/D16_H11_2025-01-07T11_winlogbeat_F372.jsonl.bz2
+123081516  2025-02-02 04:45:38  daily_winlogbeat/D10_H8_2025-01-01T08_winlogbeat_F225.jsonl.bz2
+       14  2025-02-02 04:52:04  daily_winlogbeat/D11_H7_2025-01-02T07_winlogbeat_F248.jsonl.bz2
+ 16166219  2025-02-02 03:58:30  daily_winlogbeat/D1_H18_2024-12-23T18_winlogbeat_F19.jsonl.bz2
+       14  2025-02-02 05:06:42  daily_winlogbeat/D13_H23_2025-01-04T23_winlogbeat_F312.jsonl.bz2
+       14  2025-02-02 04:28:58  daily_winlogbeat/D5_H19_2024-12-27T19_winlogbeat_F116.jsonl.bz2
+  6256827  2025-02-02 06:31:36  daily_winlogbeat/D27_H14_2025-01-18T14_winlogbeat_F639.jsonl.bz2
+       14  2025-02-02 06:22:46  daily_winlogbeat/D26_H5_2025-01-17T05_winlogbeat_F606.jsonl.bz2
+       14  2025-02-02 04:29:04  daily_winlogbeat/D6_H2_2024-12-28T02_winlogbeat_F123.jsonl.bz2
+127542688  2025-02-02 05:58:22  daily_winlogbeat/D23_H8_2025-01-14T08_winlogbeat_F537.jsonl.bz2
+       14  2025-02-02 04:58:50  daily_winlogbeat/D12_H4_2025-01-03T04_winlogbeat_F269.jsonl.bz2
+       14  2025-02-02 05:07:22  daily_winlogbeat/D14_H20_2025-01-05T20_winlogbeat_F333.jsonl.bz2
+       14  2025-02-02 05:14:50  daily_winlogbeat/D16_H4_2025-01-07T04_winlogbeat_F365.jsonl.bz2
+161039421  2025-02-02 06:11:52  daily_winlogbeat/D24_H14_2025-01-15T14_winlogbeat_F567.jsonl.bz2
+       14  2025-02-02 04:58:44  daily_winlogbeat/D11_H20_2025-01-02T20_winlogbeat_F261.jsonl.bz2
+147439380  2025-02-02 05:12:24  daily_winlogbeat/D15_H14_2025-01-06T14_winlogbeat_F351.jsonl.bz2
+  4859966  2025-02-02 05:07:04  daily_winlogbeat/D14_H13_2025-01-05T13_winlogbeat_F326.jsonl.bz2
+ 91970012  2025-02-02 03:54:56  daily_winlogbeat/D1_H13_2024-12-23T13_winlogbeat_F14.jsonl.bz2
+       14  2025-02-02 06:22:36  daily_winlogbeat/D25_H19_2025-01-16T19_winlogbeat_F596.jsonl.bz2
+       14  2025-02-02 06:31:06  daily_winlogbeat/D27_H5_2025-01-18T05_winlogbeat_F630.jsonl.bz2
+116588664  2025-02-02 03:56:26  daily_winlogbeat/D1_H15_2024-12-23T15_winlogbeat_F16.jsonl.bz2
+       14  2025-02-02 06:06:18  daily_winlogbeat/D24_H5_2025-01-15T05_winlogbeat_F558.jsonl.bz2
+       14  2025-02-02 03:58:40  daily_winlogbeat/D1_H23_2024-12-23T23_winlogbeat_F24.jsonl.bz2
+120764340  2025-02-02 06:06:56  daily_winlogbeat/D24_H8_2025-01-15T08_winlogbeat_F561.jsonl.bz2
+135181427  2025-02-02 05:22:28  daily_winlogbeat/D16_H14_2025-01-07T14_winlogbeat_F375.jsonl.bz2
+  3384944  2025-02-02 05:49:28  daily_winlogbeat/D21_H13_2025-01-12T13_winlogbeat_F494.jsonl.bz2
+       14  2025-02-02 04:29:10  daily_winlogbeat/D6_H7_2024-12-28T07_winlogbeat_F128.jsonl.bz2
+       14  2025-02-02 04:29:34  daily_winlogbeat/D6_H20_2024-12-28T20_winlogbeat_F141.jsonl.bz2
+       14  2025-02-02 06:06:14  daily_winlogbeat/D24_H2_2025-01-15T02_winlogbeat_F555.jsonl.bz2
+ 16186170  2025-02-02 04:21:34  daily_winlogbeat/D4_H18_2024-12-26T18_winlogbeat_F91.jsonl.bz2
+133791128  2025-02-02 04:55:34  daily_winlogbeat/D11_H12_2025-01-02T12_winlogbeat_F253.jsonl.bz2
+  5684547  2025-02-02 04:29:48  daily_winlogbeat/D7_H9_2024-12-29T09_winlogbeat_F154.jsonl.bz2
+       14  2025-02-02 04:29:44  daily_winlogbeat/D7_H6_2024-12-29T06_winlogbeat_F151.jsonl.bz2
+       14  2025-02-02 05:05:56  daily_winlogbeat/D12_H19_2025-01-03T19_winlogbeat_F284.jsonl.bz2
+217735144  2025-02-02 05:21:12  daily_winlogbeat/D16_H12_2025-01-07T12_winlogbeat_F373.jsonl.bz2
+       14  2025-02-02 05:14:44  daily_winlogbeat/D15_H21_2025-01-06T21_winlogbeat_F358.jsonl.bz2
+102056255  2025-02-02 04:23:56  daily_winlogbeat/D5_H10_2024-12-27T10_winlogbeat_F107.jsonl.bz2
+ 96915639  2025-02-02 05:16:54  daily_winlogbeat/D16_H10_2025-01-07T10_winlogbeat_F371.jsonl.bz2
+  3651756  2025-02-02 04:29:12  daily_winlogbeat/D6_H8_2024-12-28T08_winlogbeat_F129.jsonl.bz2
+ 93231976  2025-02-02 05:00:48  daily_winlogbeat/D12_H10_2025-01-03T10_winlogbeat_F275.jsonl.bz2
+       14  2025-02-02 06:14:32  daily_winlogbeat/D25_H6_2025-01-16T06_winlogbeat_F583.jsonl.bz2
+  4821012  2025-02-02 05:06:18  daily_winlogbeat/D13_H11_2025-01-04T11_winlogbeat_F300.jsonl.bz2
+147694757  2025-02-02 05:05:46  daily_winlogbeat/D12_H17_2025-01-03T17_winlogbeat_F282.jsonl.bz2
+       14  2025-02-02 04:37:38  daily_winlogbeat/D9_H1_2024-12-31T01_winlogbeat_F194.jsonl.bz2
+       14  2025-02-02 03:58:36  daily_winlogbeat/D1_H21_2024-12-23T21_winlogbeat_F22.jsonl.bz2
+       14  2025-02-02 04:21:44  daily_winlogbeat/D5_H1_2024-12-27T01_winlogbeat_F98.jsonl.bz2
+       14  2025-02-02 05:49:10  daily_winlogbeat/D21_H2_2025-01-12T02_winlogbeat_F483.jsonl.bz2
+100311082  2025-02-02 04:16:32  daily_winlogbeat/D4_H10_2024-12-26T10_winlogbeat_F83.jsonl.bz2
+105656888  2025-02-02 04:43:00  daily_winlogbeat/D9_H15_2024-12-31T15_winlogbeat_F208.jsonl.bz2
+       14  2025-02-02 05:07:28  daily_winlogbeat/D15_H2_2025-01-06T02_winlogbeat_F339.jsonl.bz2
+113591035  2025-02-02 04:38:18  daily_winlogbeat/D9_H8_2024-12-31T08_winlogbeat_F201.jsonl.bz2
+105343761  2025-02-02 04:35:46  daily_winlogbeat/D8_H15_2024-12-30T15_winlogbeat_F184.jsonl.bz2
+       14  2025-02-02 05:32:28  daily_winlogbeat/D18_H6_2025-01-09T06_winlogbeat_F415.jsonl.bz2
+       14  2025-02-02 05:49:10  daily_winlogbeat/D21_H3_2025-01-12T03_winlogbeat_F484.jsonl.bz2
+153407773  2025-02-02 04:21:26  daily_winlogbeat/D4_H17_2024-12-26T17_winlogbeat_F90.jsonl.bz2
+142504006  2025-02-02 04:43:48  daily_winlogbeat/D9_H16_2024-12-31T16_winlogbeat_F209.jsonl.bz2
+       14  2025-02-02 03:51:12  daily_winlogbeat/D1_H7_2024-12-23T07_winlogbeat_F8.jsonl.bz2
+   336771  2025-02-02 05:49:36  daily_winlogbeat/D21_H18_2025-01-12T18_winlogbeat_F499.jsonl.bz2
+139113526  2025-02-02 06:16:02  daily_winlogbeat/D25_H9_2025-01-16T09_winlogbeat_F586.jsonl.bz2
+       14  2025-02-02 05:40:38  daily_winlogbeat/D19_H1_2025-01-10T01_winlogbeat_F434.jsonl.bz2
+       14  2025-02-02 03:51:06  daily_winlogbeat/D1_H0_2024-12-23T00_winlogbeat_F1.jsonl.bz2
+141396605  2025-02-02 05:14:32  daily_winlogbeat/D15_H17_2025-01-06T17_winlogbeat_F354.jsonl.bz2
+ 19552088  2025-02-02 04:06:36  daily_winlogbeat/D2_H18_2024-12-24T18_winlogbeat_F43.jsonl.bz2
+       14  2025-02-02 06:06:10  daily_winlogbeat/D23_H23_2025-01-14T23_winlogbeat_F552.jsonl.bz2
+       14  2025-02-02 05:07:34  daily_winlogbeat/D15_H7_2025-01-06T07_winlogbeat_F344.jsonl.bz2
+       14  2025-02-02 04:58:50  daily_winlogbeat/D12_H5_2025-01-03T05_winlogbeat_F270.jsonl.bz2
+       14  2025-02-02 04:51:58  daily_winlogbeat/D11_H0_2025-01-02T00_winlogbeat_F241.jsonl.bz2
+ 17494056  2025-02-02 06:14:20  daily_winlogbeat/D24_H18_2025-01-15T18_winlogbeat_F571.jsonl.bz2
+100942490  2025-02-02 04:01:20  daily_winlogbeat/D2_H10_2024-12-24T10_winlogbeat_F35.jsonl.bz2
+       14  2025-02-02 05:40:36  daily_winlogbeat/D18_H23_2025-01-09T23_winlogbeat_F432.jsonl.bz2
+145755021  2025-02-02 04:33:04  daily_winlogbeat/D8_H11_2024-12-30T11_winlogbeat_F180.jsonl.bz2
+       14  2025-02-02 05:14:52  daily_winlogbeat/D16_H7_2025-01-07T07_winlogbeat_F368.jsonl.bz2
+  5147959  2025-02-02 04:30:06  daily_winlogbeat/D7_H17_2024-12-29T17_winlogbeat_F162.jsonl.bz2
+       14  2025-02-02 05:57:22  daily_winlogbeat/D22_H21_2025-01-13T21_winlogbeat_F526.jsonl.bz2
+148275452  2025-02-02 04:28:02  daily_winlogbeat/D5_H16_2024-12-27T16_winlogbeat_F113.jsonl.bz2
+  1338510  2025-02-02 04:29:26  daily_winlogbeat/D6_H15_2024-12-28T15_winlogbeat_F136.jsonl.bz2
+       14  2025-02-02 06:22:38  daily_winlogbeat/D25_H21_2025-01-16T21_winlogbeat_F598.jsonl.bz2
+       14  2025-02-02 06:22:44  daily_winlogbeat/D26_H2_2025-01-17T02_winlogbeat_F603.jsonl.bz2
+126682014  2025-02-02 04:50:56  daily_winlogbeat/D10_H16_2025-01-01T16_winlogbeat_F233.jsonl.bz2
+153072530  2025-02-02 05:11:18  daily_winlogbeat/D15_H12_2025-01-06T12_winlogbeat_F349.jsonl.bz2
+       14  2025-02-02 04:06:40  daily_winlogbeat/D2_H23_2024-12-24T23_winlogbeat_F48.jsonl.bz2
+       14  2025-02-02 06:31:58  daily_winlogbeat/D27_H22_2025-01-18T22_winlogbeat_F647.jsonl.bz2
+       14  2025-02-02 05:49:50  daily_winlogbeat/D22_H7_2025-01-13T07_winlogbeat_F512.jsonl.bz2
+       14  2025-02-02 05:24:58  daily_winlogbeat/D17_H0_2025-01-08T00_winlogbeat_F385.jsonl.bz2
+       14  2025-02-02 06:06:04  daily_winlogbeat/D23_H19_2025-01-14T19_winlogbeat_F548.jsonl.bz2
+142801350  2025-02-02 04:17:24  daily_winlogbeat/D4_H11_2024-12-26T11_winlogbeat_F84.jsonl.bz2
+       14  2025-02-02 06:14:32  daily_winlogbeat/D25_H7_2025-01-16T07_winlogbeat_F584.jsonl.bz2
+       14  2025-02-02 05:48:34  daily_winlogbeat/D20_H3_2025-01-11T03_winlogbeat_F460.jsonl.bz2
+       14  2025-02-02 05:57:22  daily_winlogbeat/D22_H20_2025-01-13T20_winlogbeat_F525.jsonl.bz2
+156621037  2025-02-02 05:47:32  daily_winlogbeat/D19_H16_2025-01-10T16_winlogbeat_F449.jsonl.bz2
+  5381495  2025-02-02 05:48:48  daily_winlogbeat/D20_H11_2025-01-11T11_winlogbeat_F468.jsonl.bz2
+       14  2025-02-02 04:29:36  daily_winlogbeat/D6_H22_2024-12-28T22_winlogbeat_F143.jsonl.bz2
+       14  2025-02-02 06:06:08  daily_winlogbeat/D23_H22_2025-01-14T22_winlogbeat_F551.jsonl.bz2
+       14  2025-02-02 04:14:22  daily_winlogbeat/D3_H22_2024-12-25T22_winlogbeat_F71.jsonl.bz2
+       14  2025-02-02 05:06:38  daily_winlogbeat/D13_H19_2025-01-04T19_winlogbeat_F308.jsonl.bz2
+       14  2025-02-02 06:14:22  daily_winlogbeat/D24_H20_2025-01-15T20_winlogbeat_F573.jsonl.bz2
+ 80802339  2025-02-02 04:49:08  daily_winlogbeat/D10_H13_2025-01-01T13_winlogbeat_F230.jsonl.bz2
+152672814  2025-02-02 04:42:28  daily_winlogbeat/D9_H14_2024-12-31T14_winlogbeat_F207.jsonl.bz2
+       14  2025-02-02 04:51:54  daily_winlogbeat/D10_H19_2025-01-01T19_winlogbeat_F236.jsonl.bz2
+  6415254  2025-02-02 05:49:20  daily_winlogbeat/D21_H9_2025-01-12T09_winlogbeat_F490.jsonl.bz2
+       14  2025-02-02 04:14:20  daily_winlogbeat/D3_H20_2024-12-25T20_winlogbeat_F69.jsonl.bz2
+140373371  2025-02-02 04:38:56  daily_winlogbeat/D9_H9_2024-12-31T09_winlogbeat_F202.jsonl.bz2
+       14  2025-02-02 04:14:24  daily_winlogbeat/D4_H0_2024-12-26T00_winlogbeat_F73.jsonl.bz2
+       14  2025-02-02 05:40:36  daily_winlogbeat/D18_H22_2025-01-09T22_winlogbeat_F431.jsonl.bz2
+ 19962796  2025-02-02 05:40:32  daily_winlogbeat/D18_H18_2025-01-09T18_winlogbeat_F427.jsonl.bz2
+       14  2025-02-02 04:30:18  daily_winlogbeat/D8_H6_2024-12-30T06_winlogbeat_F175.jsonl.bz2
+  3626054  2025-02-02 04:29:50  daily_winlogbeat/D7_H10_2024-12-29T10_winlogbeat_F155.jsonl.bz2
+141071382  2025-02-02 06:23:40  daily_winlogbeat/D26_H8_2025-01-17T08_winlogbeat_F609.jsonl.bz2
+       14  2025-02-02 06:32:04  daily_winlogbeat/D28_H1_2025-01-19T01_winlogbeat_F650.jsonl.bz2
+133554803  2025-02-02 04:58:26  daily_winlogbeat/D11_H17_2025-01-02T17_winlogbeat_F258.jsonl.bz2
+       14  2025-02-02 03:58:44  daily_winlogbeat/D2_H1_2024-12-24T01_winlogbeat_F26.jsonl.bz2
+ 96411038  2025-02-02 06:16:30  daily_winlogbeat/D25_H10_2025-01-16T10_winlogbeat_F587.jsonl.bz2
+ 14356021  2025-02-02 04:51:54  daily_winlogbeat/D10_H18_2025-01-01T18_winlogbeat_F235.jsonl.bz2
+       14  2025-02-02 06:14:28  daily_winlogbeat/D25_H2_2025-01-16T02_winlogbeat_F579.jsonl.bz2
+183793506  2025-02-02 03:59:58  daily_winlogbeat/D2_H8_2024-12-24T08_winlogbeat_F33.jsonl.bz2
+       14  2025-02-02 05:57:30  daily_winlogbeat/D23_H5_2025-01-14T05_winlogbeat_F534.jsonl.bz2
+       14  2025-02-02 05:57:26  daily_winlogbeat/D23_H1_2025-01-14T01_winlogbeat_F530.jsonl.bz2
+       14  2025-02-02 04:06:38  daily_winlogbeat/D2_H20_2024-12-24T20_winlogbeat_F45.jsonl.bz2
+       14  2025-02-02 05:07:32  daily_winlogbeat/D15_H6_2025-01-06T06_winlogbeat_F343.jsonl.bz2
+       14  2025-02-02 04:37:40  daily_winlogbeat/D9_H2_2024-12-31T02_winlogbeat_F195.jsonl.bz2
+  2171626  2025-02-02 05:48:46  daily_winlogbeat/D20_H10_2025-01-11T10_winlogbeat_F467.jsonl.bz2
+       14  2025-02-02 06:32:08  daily_winlogbeat/D28_H3_2025-01-19T03_winlogbeat_F652.jsonl.bz2
+  2624553  2025-02-02 04:29:58  daily_winlogbeat/D7_H14_2024-12-29T14_winlogbeat_F159.jsonl.bz2
+102556184  2025-02-02 06:25:06  daily_winlogbeat/D26_H10_2025-01-17T10_winlogbeat_F611.jsonl.bz2
+       14  2025-02-02 04:58:50  daily_winlogbeat/D12_H6_2025-01-03T06_winlogbeat_F271.jsonl.bz2
+ 17296155  2025-02-02 06:30:44  daily_winlogbeat/D26_H18_2025-01-17T18_winlogbeat_F619.jsonl.bz2
+119123577  2025-02-02 04:52:40  daily_winlogbeat/D11_H8_2025-01-02T08_winlogbeat_F249.jsonl.bz2
+       14  2025-02-02 05:25:04  daily_winlogbeat/D17_H4_2025-01-08T04_winlogbeat_F389.jsonl.bz2
+  4844903  2025-02-02 05:06:34  daily_winlogbeat/D13_H17_2025-01-04T17_winlogbeat_F306.jsonl.bz2
+       14  2025-02-02 05:06:02  daily_winlogbeat/D13_H0_2025-01-04T00_winlogbeat_F289.jsonl.bz2
+       14  2025-02-02 06:32:06  daily_winlogbeat/D28_H2_2025-01-19T02_winlogbeat_F651.jsonl.bz2
+170296549  2025-02-02 04:44:36  daily_winlogbeat/D9_H17_2024-12-31T17_winlogbeat_F210.jsonl.bz2
+       14  2025-02-02 05:40:36  daily_winlogbeat/D19_H0_2025-01-10T00_winlogbeat_F433.jsonl.bz2
+132417833  2025-02-02 05:04:58  daily_winlogbeat/D12_H16_2025-01-03T16_winlogbeat_F281.jsonl.bz2
+ 88156533  2025-02-02 05:02:52  daily_winlogbeat/D12_H13_2025-01-03T13_winlogbeat_F278.jsonl.bz2
+ 16311020  2025-02-02 05:14:40  daily_winlogbeat/D15_H18_2025-01-06T18_winlogbeat_F355.jsonl.bz2
+       14  2025-02-02 06:33:00  daily_winlogbeat/D28_H22_2025-01-19T22_winlogbeat_F671.jsonl.bz2
+       14  2025-02-02 05:40:40  daily_winlogbeat/D19_H3_2025-01-10T03_winlogbeat_F436.jsonl.bz2
+       14  2025-02-02 05:49:42  daily_winlogbeat/D22_H0_2025-01-13T00_winlogbeat_F505.jsonl.bz2
+       14  2025-02-02 04:37:32  daily_winlogbeat/D8_H21_2024-12-30T21_winlogbeat_F190.jsonl.bz2
+       14  2025-02-02 05:06:00  daily_winlogbeat/D12_H22_2025-01-03T22_winlogbeat_F287.jsonl.bz2
+163448642  2025-02-02 05:54:50  daily_winlogbeat/D22_H14_2025-01-13T14_winlogbeat_F519.jsonl.bz2
+ 87072577  2025-02-02 05:37:14  daily_winlogbeat/D18_H13_2025-01-09T13_winlogbeat_F422.jsonl.bz2
+ 23593731  2025-02-02 06:06:02  daily_winlogbeat/D23_H18_2025-01-14T18_winlogbeat_F547.jsonl.bz2
+187712053  2025-02-02 03:52:32  daily_winlogbeat/D1_H9_2024-12-23T09_winlogbeat_F10.jsonl.bz2
+ 10479413  2025-02-02 05:07:18  daily_winlogbeat/D14_H17_2025-01-05T17_winlogbeat_F330.jsonl.bz2
+       14  2025-02-02 06:14:24  daily_winlogbeat/D24_H23_2025-01-15T23_winlogbeat_F576.jsonl.bz2
+140580506  2025-02-02 05:10:16  daily_winlogbeat/D15_H11_2025-01-06T11_winlogbeat_F348.jsonl.bz2
+  4538018  2025-02-02 05:07:02  daily_winlogbeat/D14_H12_2025-01-05T12_winlogbeat_F325.jsonl.bz2
+       14  2025-02-02 03:58:46  daily_winlogbeat/D2_H2_2024-12-24T02_winlogbeat_F27.jsonl.bz2
+  3916408  2025-02-02 05:49:30  daily_winlogbeat/D21_H14_2025-01-12T14_winlogbeat_F495.jsonl.bz2
+       14  2025-02-02 04:37:44  daily_winlogbeat/D9_H5_2024-12-31T05_winlogbeat_F198.jsonl.bz2
+155892855  2025-02-02 05:13:52  daily_winlogbeat/D15_H16_2025-01-06T16_winlogbeat_F353.jsonl.bz2
+       14  2025-02-02 06:14:24  daily_winlogbeat/D24_H22_2025-01-15T22_winlogbeat_F575.jsonl.bz2
+138012893  2025-02-02 05:39:30  daily_winlogbeat/D18_H16_2025-01-09T16_winlogbeat_F425.jsonl.bz2
+ 84984865  2025-02-02 05:21:44  daily_winlogbeat/D16_H13_2025-01-07T13_winlogbeat_F374.jsonl.bz2
+       14  2025-02-02 05:06:46  daily_winlogbeat/D14_H3_2025-01-05T03_winlogbeat_F316.jsonl.bz2
+  6212121  2025-02-02 05:06:26  daily_winlogbeat/D13_H14_2025-01-04T14_winlogbeat_F303.jsonl.bz2
+150462986  2025-02-02 05:48:16  daily_winlogbeat/D19_H17_2025-01-10T17_winlogbeat_F450.jsonl.bz2
+       14  2025-02-02 04:51:58  daily_winlogbeat/D10_H23_2025-01-01T23_winlogbeat_F240.jsonl.bz2
+152881692  2025-02-02 04:09:36  daily_winlogbeat/D3_H11_2024-12-25T11_winlogbeat_F60.jsonl.bz2
+  4282196  2025-02-02 05:06:22  daily_winlogbeat/D13_H12_2025-01-04T12_winlogbeat_F301.jsonl.bz2
+       14  2025-02-02 05:07:26  daily_winlogbeat/D15_H0_2025-01-06T00_winlogbeat_F337.jsonl.bz2
+       14  2025-02-02 06:30:46  daily_winlogbeat/D26_H19_2025-01-17T19_winlogbeat_F620.jsonl.bz2
+ 18147456  2025-02-02 06:22:36  daily_winlogbeat/D25_H18_2025-01-16T18_winlogbeat_F595.jsonl.bz2
+       14  2025-02-02 04:30:16  daily_winlogbeat/D8_H5_2024-12-30T05_winlogbeat_F174.jsonl.bz2
+146771048  2025-02-02 05:23:54  daily_winlogbeat/D16_H16_2025-01-07T16_winlogbeat_F377.jsonl.bz2
+       14  2025-02-02 04:52:04  daily_winlogbeat/D11_H6_2025-01-02T06_winlogbeat_F247.jsonl.bz2
+       14  2025-02-02 06:14:22  daily_winlogbeat/D24_H21_2025-01-15T21_winlogbeat_F574.jsonl.bz2
+       14  2025-02-02 05:25:00  daily_winlogbeat/D17_H2_2025-01-08T02_winlogbeat_F387.jsonl.bz2
+       14  2025-02-02 05:57:26  daily_winlogbeat/D23_H0_2025-01-14T00_winlogbeat_F529.jsonl.bz2
+ 17801320  2025-02-02 05:32:18  daily_winlogbeat/D17_H18_2025-01-08T18_winlogbeat_F403.jsonl.bz2
+  2894273  2025-02-02 06:31:40  daily_winlogbeat/D27_H15_2025-01-18T15_winlogbeat_F640.jsonl.bz2
+153016143  2025-02-02 04:14:08  daily_winlogbeat/D3_H17_2024-12-25T17_winlogbeat_F66.jsonl.bz2
+       14  2025-02-02 05:40:32  daily_winlogbeat/D18_H19_2025-01-09T19_winlogbeat_F428.jsonl.bz2
+  2186419  2025-02-02 05:06:58  daily_winlogbeat/D14_H10_2025-01-05T10_winlogbeat_F323.jsonl.bz2
+146477733  2025-02-02 05:38:00  daily_winlogbeat/D18_H14_2025-01-09T14_winlogbeat_F423.jsonl.bz2
+  2292016  2025-02-02 04:29:18  daily_winlogbeat/D6_H11_2024-12-28T11_winlogbeat_F132.jsonl.bz2
+       14  2025-02-02 04:06:48  daily_winlogbeat/D3_H7_2024-12-25T07_winlogbeat_F56.jsonl.bz2
+       14  2025-02-02 06:22:42  daily_winlogbeat/D26_H0_2025-01-17T00_winlogbeat_F601.jsonl.bz2
+127167035  2025-02-02 05:41:28  daily_winlogbeat/D19_H8_2025-01-10T08_winlogbeat_F441.jsonl.bz2
+ 90242231  2025-02-02 04:50:16  daily_winlogbeat/D10_H15_2025-01-01T15_winlogbeat_F232.jsonl.bz2
+ 83344659  2025-02-02 05:45:10  daily_winlogbeat/D19_H13_2025-01-10T13_winlogbeat_F446.jsonl.bz2
+       14  2025-02-02 05:06:40  daily_winlogbeat/D13_H21_2025-01-04T21_winlogbeat_F310.jsonl.bz2
+152355778  2025-02-02 04:37:20  daily_winlogbeat/D8_H17_2024-12-30T17_winlogbeat_F186.jsonl.bz2
+       14  2025-02-02 04:37:40  daily_winlogbeat/D9_H3_2024-12-31T03_winlogbeat_F196.jsonl.bz2
+       14  2025-02-02 06:06:08  daily_winlogbeat/D23_H21_2025-01-14T21_winlogbeat_F550.jsonl.bz2
+       14  2025-02-02 04:37:42  daily_winlogbeat/D9_H4_2024-12-31T04_winlogbeat_F197.jsonl.bz2
+       14  2025-02-02 05:06:02  daily_winlogbeat/D13_H1_2025-01-04T01_winlogbeat_F290.jsonl.bz2
+161789950  2025-02-02 04:28:48  daily_winlogbeat/D5_H17_2024-12-27T17_winlogbeat_F114.jsonl.bz2
+138209402  2025-02-02 06:29:32  daily_winlogbeat/D26_H16_2025-01-17T16_winlogbeat_F617.jsonl.bz2
+       14  2025-02-02 04:44:52  daily_winlogbeat/D10_H2_2025-01-01T02_winlogbeat_F219.jsonl.bz2
+ 18160673  2025-02-02 04:37:28  daily_winlogbeat/D8_H18_2024-12-30T18_winlogbeat_F187.jsonl.bz2
+115081507  2025-02-02 06:20:40  daily_winlogbeat/D25_H15_2025-01-16T15_winlogbeat_F592.jsonl.bz2
+106367494  2025-02-02 05:12:56  daily_winlogbeat/D15_H15_2025-01-06T15_winlogbeat_F352.jsonl.bz2
+       14  2025-02-02 04:14:20  daily_winlogbeat/D3_H21_2024-12-25T21_winlogbeat_F70.jsonl.bz2
+ 94478728  2025-02-02 06:02:16  daily_winlogbeat/D23_H13_2025-01-14T13_winlogbeat_F542.jsonl.bz2
+156638242  2025-02-02 05:34:12  daily_winlogbeat/D18_H9_2025-01-09T09_winlogbeat_F418.jsonl.bz2
+  3564320  2025-02-02 05:49:24  daily_winlogbeat/D21_H11_2025-01-12T11_winlogbeat_F492.jsonl.bz2
+       14  2025-02-02 03:51:08  daily_winlogbeat/D1_H3_2024-12-23T03_winlogbeat_F4.jsonl.bz2
+164866539  2025-02-02 04:54:40  daily_winlogbeat/D11_H11_2025-01-02T11_winlogbeat_F252.jsonl.bz2
+       14  2025-02-02 05:32:26  daily_winlogbeat/D18_H3_2025-01-09T03_winlogbeat_F412.jsonl.bz2
+106461241  2025-02-02 05:38:46  daily_winlogbeat/D18_H15_2025-01-09T15_winlogbeat_F424.jsonl.bz2
+  4277064  2025-02-02 04:29:24  daily_winlogbeat/D6_H14_2024-12-28T14_winlogbeat_F135.jsonl.bz2
+       14  2025-02-02 04:58:44  daily_winlogbeat/D11_H21_2025-01-02T21_winlogbeat_F262.jsonl.bz2
+124697335  2025-02-02 06:04:08  daily_winlogbeat/D23_H15_2025-01-14T15_winlogbeat_F544.jsonl.bz2
+
